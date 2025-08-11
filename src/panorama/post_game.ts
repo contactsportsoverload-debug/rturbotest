@@ -4,12 +4,14 @@
  * Output: resources/scripts/custom_game/post_game.js
  */
 
+type Boolish = boolean | 0 | 1;
+
 interface PostgameKV {
   old?: number;
   new?: number;
   name?: string;
-  team?: DOTATeam_t;      // 2 Radiant, 3 Dire
-  doubledown?: boolean;
+  team?: DOTATeam_t;      // DOTA_TEAM_GOODGUYS / DOTA_TEAM_BADGUYS
+  doubledown?: Boolish;   // NetTables may send 0/1 instead of boolean
 }
 
 const root = $.GetContextPanel();
@@ -41,6 +43,22 @@ function colorizeDelta(delta: number): void {
   (p.style as any).color = color;
 }
 
+function toBool(v: Boolish | undefined): boolean {
+  return v === true || v === 1;
+}
+
+function normalizeKV(
+  v: CustomNetTableDeclarations["postgame"][string]
+): PostgameKV {
+  return {
+    old: v.old,
+    new: v.new,
+    name: v.name,
+    team: v.team,
+    doubledown: v.doubledown,
+  };
+}
+
 function renderFromKV(kv: PostgameKV, pid: PlayerID): void {
   const name = kv.name && kv.name.length > 0 ? kv.name : Players.GetPlayerName(pid) || "Player";
   const oldVal = typeof kv.old === "number" ? kv.old : undefined;
@@ -61,14 +79,14 @@ function renderFromKV(kv: PostgameKV, pid: PlayerID): void {
     setText("Delta", "");
   }
 
-  setVisible("DoubleDownFlag", !!kv.doubledown);
+  setVisible("DoubleDownFlag", toBool(kv.doubledown));
   setText("Status", "Final results loaded.");
 }
 
 function tryFetchAndRender(pid: PlayerID): boolean {
-  const kv = CustomNetTables.GetTableValue("postgame", String(pid)) as PostgameKV | undefined;
-  if (!kv) return false;
-  renderFromKV(kv, pid);
+  const raw = CustomNetTables.GetTableValue("postgame", String(pid)) as CustomNetTableDeclarations["postgame"][string] | undefined;
+  if (!raw) return false;
+  renderFromKV(normalizeKV(raw), pid);
   return true;
 }
 
@@ -88,8 +106,11 @@ function init(): void {
   };
   tick();
 
-  CustomNetTables.SubscribeNetTableListener("postgame", (_table, key, data: PostgameKV) => {
-    if (key === String(pid) && data) renderFromKV(data, pid);
+  // Listener value type matches CustomNetTableDeclarations["postgame"][string]
+  CustomNetTables.SubscribeNetTableListener("postgame", (_table, key, value) => {
+    if (key === String(pid) && value) {
+      renderFromKV(normalizeKV(value as CustomNetTableDeclarations["postgame"][string]), pid);
+    }
   });
 }
 
