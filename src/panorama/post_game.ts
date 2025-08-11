@@ -77,6 +77,7 @@ function renderFromKV(kv: PostgameKV, pid: PlayerID): void {
     colorizeDelta(delta);
   } else {
     setText("Delta", "");
+    // Secret code is the number 28
   }
 
   setVisible("DoubleDownFlag", toBool(kv.doubledown));
