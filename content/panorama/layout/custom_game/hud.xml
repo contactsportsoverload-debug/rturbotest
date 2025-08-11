@@ -1,31 +1,93 @@
+<!--
+  hud.xml 
+  HUD layout file.
+
+  This version:
+  - Keeps the always-on "mmr + icon" badge (bottom-right area).
+  - Keeps the left-edge "Double Down" panel (#DoubleDown).
+  - Adds a dedicated overlay panel with id="tempendmmr" (hidden by default).
+    You can show/hide this from your HUD script during end-of-game.
+-->
 <root>
     <scripts>
-        <!-- Included JS script files go here -->
+        <!-- Compiled scripts loaded for this HUD -->
         <include src="file://{resources}/scripts/custom_game/hud.js" />
+        <include src="file://{resources}/scripts/custom_game/end_screen.js" />
     </scripts>
 
     <styles>
-        <!-- Included css style files go here -->
+        <!-- Valve base styles -->
         <include src="s2r://panorama/styles/dotastyles.css" />
+        <!-- Our custom styles for Double Down + MMR badge -->
         <include src="file://{resources}/styles/custom_game/hud.css" />
     </styles>
 
-    <snippets>
-        <!-- Snippets go here -->
-    </snippets>
+    <snippets></snippets>
 
+    <!-- Root HUD container; doesn't intercept mouse -->
     <Panel hittest="false" class="MainHud">
+
+        <!-- ===== Double Down panel (left edge) ===== -->
+        <Panel id="DoubleDown">
+            <!-- Close 'X' -->
+            <Button id="DDClose" onactivate="OnDoubleDownCloseClicked()">
+                <Label text="X" />
+            </Button>
+
+            <!-- Icon -->
+            <Image id="DDIcon" src="file://{resources}/images/custom_game/immortal.png" />
+
+            <!-- Title text -->
+            <Label class="DDTitle" text="MMR DOUBLEDOWN TOKEN" />
+
+            <!-- Action button -->
+            <Button id="DDAction" onactivate="OnDoubleDownClicked()">
+                <Label text="PREDICT YOUR VICTORY!" />
+            </Button>
+        </Panel>
+        <!-- ===== /Double Down panel ===== -->
+
+        <!-- ===== Always-on MMR badge ("mmr + icon") ===== -->
+        <Panel id="MMRBadge" hittest="false">
+            <Label id="MMRLabel" text="MMR: ---" />
+            <Image id="MMRIcon" src="file://{resources}/images/custom_game/immortal.png" />
+        </Panel>
+        <!-- ===== /MMR badge ===== -->
+
+        <!-- ===== Temporary end-of-game overlay (HUD-based) =====
+             - Hidden by default.
+             - Toggle visibility from your HUD script when the match ends.
+             - This is distinct from the EndScreen post-game page. -->
+        <Panel id="tempendmmr"
+               hittest="true"
+               visible="false"
+               style="width:100%; height:100%; flow-children:none; background-color:#000a;">
+            <Panel style="horizontal-align:center; vertical-align:center; padding:24px;
+                          background-color:#1b1f24ee; border-radius:16px; flow-children:down;">
+                <Label text="Temporary End Screen (HUD)"
+                       style="font-size:26px; color:#fff; font-weight:bold; margin-bottom:8px;" />
+                <Label id="TempStatus"
+                       text="Awaiting final MMR…"
+                       style="font-size:16px; color:#9aa3ab; horizontal-align:center;" />
+            </Panel>
+        </Panel>
+        <!-- ===== /Temporary end-of-game overlay ===== -->
+
+        <!--
+        ========================================================================
+        PREVIOUS EXAMPLE PANEL (kept here as a comment for reference, unchanged)
+        ========================================================================
         <Panel id="ExamplePanel">
-
             <Image id="BannerImage" src="file://{resources}/images/custom_game/tstl.png" />
-
             <Label class="ExampleTitle" text="TypeScript Dota Addon template" />
-
-            <Label class="ExampleParagraph" text="This is an example text box! Close it to apply the 'panic' modifier to your hero. You can remove this panel in content/panorama/layout/custom_game/hud.xml" />
-
+            <Label class="ExampleParagraph"
+                   text="This is an example text box! Close it to apply the 'panic' modifier to your hero. You can remove this panel in content/panorama/layout/custom_game/hud.xml" />
             <Button id="CloseButton" onactivate="OnCloseButtonClicked()">
                 <Label text="Close" />
             </Button>
         </Panel>
+        ========================================================================
+        -->
+
     </Panel>
 </root>

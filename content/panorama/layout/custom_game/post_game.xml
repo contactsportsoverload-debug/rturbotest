@@ -1,0 +1,91 @@
+<!--
+  post_game.xml
+  Purpose: Custom End Screen shown after the match ends, fed by NetTable "postgame".
+  Location: panorama/layout/custom_game/post_game.xml
+  Notes:
+  - The compiled script post_game.js (from post_game.ts) initializes on load and reads NetTable data.
+  - IDs here are targets that the script will update with final MMR, delta, etc.
+  - Keep styling simple for now; we can split to post_game.css later if needed.
+-->
+<root>
+  <!-- Reuse any shared styles if you already have them; safe to remove if not used. -->
+  <styles>
+    <!-- <include src="file://{resources}/styles/custom_game/hud.css" /> -->
+  </styles>
+
+  <!-- Full-screen overlay container for the end screen. -->
+  <Panel id="PostGameRoot"
+         hittest="true"
+         style="width:100%; height:100%; flow-children:none; background-color:#000a;">
+
+    <!-- Center card with summary. -->
+    <Panel id="Card"
+           style="width:720px; flow-children:down; horizontal-align:center; vertical-align:center;
+                  padding:24px; border-radius:16px; background-color:#1b1f24ee;">
+
+      <!-- Header: icon + title -->
+      <Panel id="Header" style="flow-children:right; horizontal-align:center; margin-bottom:8px;">
+        <!-- Use the same icon as your HUD if available; placeholder path below. -->
+        <Image id="MMRIcon"
+               src="file://{resources}/images/custom_game/mmr.png"
+               scaling="stretch-to-fit-preserve-aspect"
+               style="width:28px; height:28px; wash-color:#fff; margin-right:8px;" />
+        <Label id="Title" text="Match Summary"
+               style="font-size:28px; color:#fff; font-weight:bold;" />
+      </Panel>
+
+      <!-- Player row -->
+      <Panel id="PlayerRow" style="flow-children:right; horizontal-align:center; margin:4px 0 12px 0;">
+        <Label id="PlayerName"
+               text="Player"
+               style="font-size:20px; color:#ccc; margin-right:8px;" />
+        <Label id="TeamName"
+               text=""
+               style="font-size:16px; color:#8aa; opacity:0.8;" />
+      </Panel>
+
+      <!-- MMR row: old → new (±Δ) -->
+      <Panel id="MMRRow" style="flow-children:right; horizontal-align:center; margin-bottom:12px;">
+        <Label id="OldMMR" text="—" style="font-size:40px; color:#aaa; font-weight:semi-bold;" />
+        <Label id="Arrow"  text="  →  " style="font-size:36px; color:#888; margin:0 6px;" />
+        <Label id="NewMMR" text="—" style="font-size:48px; color:#fff; font-weight:bold;" />
+        <Label id="Delta"  text=""
+               style="font-size:24px; margin-left:10px; color:#7fe07f;" />
+      </Panel>
+
+      <!-- Flags row: e.g., Doubled Down -->
+      <Panel id="FlagsRow" style="flow-children:right; horizontal-align:center; margin-bottom:16px;">
+        <Label id="DoubleDownFlag"
+               text="Doubled Down"
+               visible="false"
+               style="font-size:16px; color:#ffd479; background-color:#31280f; padding:4px 8px; border-radius:8px;" />
+      </Panel>
+
+      <!-- Actions -->
+      <Panel id="Actions" style="flow-children:right; horizontal-align:center;">
+        <!-- Wire these in post_game.ts (OnPlayAgain / OnExit). -->
+        <Button id="PlayAgainButton" onactivate="OnPlayAgain()"
+                style="margin-right:8px; padding:8px 16px; border-radius:12px;">
+          <Label text="Play Again" style="font-size:18px;" />
+        </Button>
+        <Button id="ExitButton" onactivate="OnExit()"
+                style="padding:8px 16px; border-radius:12px;">
+          <Label text="Exit" style="font-size:18px;" />
+        </Button>
+      </Panel>
+
+      <!-- Status + small print -->
+      <Label id="Status"
+             text=""
+             style="horizontal-align:center; margin-top:12px; font-size:14px; color:#9aa3ab;" />
+      <Label id="SmallPrint"
+             text="Values will update automatically once results are ready."
+             style="horizontal-align:center; margin-top:6px; font-size:12px; color:#7a8490; opacity:0.8;" />
+    </Panel>
+  </Panel>
+
+  <!-- Compiled script from post_game.ts. This runs immediately when the layout loads. -->
+  <scripts>
+    <include src="file://{resources}/scripts/custom_game/post_game.js" />
+  </scripts>
+</root>
