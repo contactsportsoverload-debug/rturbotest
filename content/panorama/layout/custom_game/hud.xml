@@ -12,7 +12,6 @@
     <scripts>
         <!-- Compiled scripts loaded for this HUD -->
         <include src="file://{resources}/scripts/custom_game/hud.js" />
-        <include src="file://{resources}/scripts/custom_game/end_screen.js" />
     </scripts>
 
     <styles>
