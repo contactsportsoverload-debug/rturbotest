@@ -1,4 +1,4 @@
-/** Testcomment
+/** 
  * post_game.ts
  * EndScreen logic: reads NetTable "postgame" and fills labels in post_game.xml.
  * Output: resources/scripts/custom_game/post_game.js
