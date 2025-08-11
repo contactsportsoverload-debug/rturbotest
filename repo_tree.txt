@@ -1,0 +1,5728 @@
+Folder PATH listing
+Volume serial number is E8AC-1FC1
+C:.
+¦   .editorconfig
+¦   .gitignore
+¦   autopush.bat
+¦   LICENSE
+¦   package-lock.json
+¦   package.json
+¦   README.md
+¦   repo_tree.txt
+¦   
++---.github
+¦   +---workflows
+¦           ci.yml
+¦           
++---.vscode
+¦       settings.json
+¦       tasks.json
+¦       
++---content
+¦   +---maps
+¦   ¦       7_39d.vmap
+¦   ¦       
+¦   +---materials
+¦   ¦   +---overviews
+¦   ¦           7_39d.tga
+¦   ¦           7_39d.txt
+¦   ¦           7_39d.vmat
+¦   ¦           
+¦   +---panorama
+¦       +---images
+¦       ¦   +---custom_game
+¦       ¦           immortal.png
+¦       ¦           tstl.png
+¦       ¦           
+¦       +---layout
+¦       ¦   +---custom_game
+¦       ¦           custom_ui_manifest.xml
+¦       ¦           hud.xml
+¦       ¦           post_game.xml
+¦       ¦           
+¦       +---scripts
+¦       ¦   +---custom_game
+¦       ¦           events.js
+¦       ¦           hud - Copy.js
+¦       ¦           hud.js
+¦       ¦           manifest.js
+¦       ¦           post_game.js
+¦       ¦           
+¦       +---styles
+¦           +---custom_game
+¦                   hud.css
+¦                   
++---game
+¦   ¦   tools_asset_info.bin
+¦   ¦   tools_thumbnail_cache.bin
+¦   ¦   
+¦   +---maps
+¦   ¦       7_39d.vpk
+¦   ¦       
+¦   +---materials
+¦   ¦   +---overviews
+¦   ¦           7_39d.vmat_c
+¦   ¦           7_39d_tga_441c3ae4.vtex_c
+¦   ¦           
+¦   +---panorama
+¦   ¦   +---images
+¦   ¦   ¦   +---custom_game
+¦   ¦   ¦           immortal_png.vtex_c
+¦   ¦   ¦           tstl_png.vtex_c
+¦   ¦   ¦           
+¦   ¦   +---layout
+¦   ¦   ¦   +---custom_game
+¦   ¦   ¦           custom_ui_manifest.vxml_c
+¦   ¦   ¦           hud.vxml_c
+¦   ¦   ¦           
+¦   ¦   +---scripts
+¦   ¦   ¦   +---custom_game
+¦   ¦   ¦           end_screen.vjs_c
+¦   ¦   ¦           hud.vjs_c
+¦   ¦   ¦           manifest.vjs_c
+¦   ¦   ¦           
+¦   ¦   +---styles
+¦   ¦       +---custom_game
+¦   ¦               hud.vcss_c
+¦   ¦               
+¦   +---resource
+¦   ¦   +---overviews
+¦   ¦           7_39d.txt
+¦   ¦           
+¦   +---scripts
+¦       ¦   custom_net_tables.txt
+¦       ¦   
+¦       +---npc
+¦       ¦   ¦   npc_abilities_custom.txt
+¦       ¦   ¦   
+¦       ¦   +---heroes
+¦       ¦           meepo.kv
+¦       ¦           
+¦       +---vscripts
+¦           ¦   addon_game_mode.lua
+¦           ¦   DoubleDown.lua
+¦           ¦   GameMode.lua
+¦           ¦   lualib_bundle.lua
+¦           ¦   MMRFlow.lua
+¦           ¦   mmr_manager.lua
+¦           ¦   ResultOnHeroDeath.lua
+¦           ¦   TurboRules.lua
+¦           ¦   
+¦           +---abilities
+¦           ¦   +---heroes
+¦           ¦       +---meepo
+¦           ¦               earthbind_ts_example.lua
+¦           ¦               
+¦           +---common
+¦           ¦       custom_net_tables.lua
+¦           ¦       events.d - Copy.lua
+¦           ¦       
+¦           +---lib
+¦           ¦       dota_ts_adapter.lua
+¦           ¦       timers.lua
+¦           ¦       tstl-utils.lua
+¦           ¦       
+¦           +---modifiers
+¦                   modifier_panic.lua
+¦                   
++---node_modules
+¦   ¦   .package-lock.json
+¦   ¦   
+¦   +---.bin
+¦   ¦       npm-run-all
+¦   ¦       npm-run-all.cmd
+¦   ¦       npm-run-all.ps1
+¦   ¦       pidtree
+¦   ¦       pidtree.cmd
+¦   ¦       pidtree.ps1
+¦   ¦       run-p
+¦   ¦       run-p.cmd
+¦   ¦       run-p.ps1
+¦   ¦       run-s
+¦   ¦       run-s.cmd
+¦   ¦       run-s.ps1
+¦   ¦       semver
+¦   ¦       semver.cmd
+¦   ¦       semver.ps1
+¦   ¦       tsc
+¦   ¦       tsc.cmd
+¦   ¦       tsc.ps1
+¦   ¦       tsserver
+¦   ¦       tsserver.cmd
+¦   ¦       tsserver.ps1
+¦   ¦       tstl
+¦   ¦       tstl.cmd
+¦   ¦       tstl.ps1
+¦   ¦       which
+¦   ¦       which.cmd
+¦   ¦       which.ps1
+¦   ¦       
+¦   +---@moddota
+¦   ¦   +---dota-lua-types
+¦   ¦   ¦   ¦   index.d.ts
+¦   ¦   ¦   ¦   normalized.d.ts
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---transformer
+¦   ¦   ¦   ¦       index.d.ts
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       mappings.json
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---types
+¦   ¦   ¦           api-types.generated.d.ts
+¦   ¦   ¦           api.generated.d.ts
+¦   ¦   ¦           common.d.ts
+¦   ¦   ¦           enums-normalized.generated.d.ts
+¦   ¦   ¦           enums.generated.d.ts
+¦   ¦   ¦           events.generated.d.ts
+¦   ¦   ¦           json.d.ts
+¦   ¦   ¦           
+¦   ¦   +---find-steam-app
+¦   ¦   ¦   ¦   LICENSE
+¦   ¦   ¦   ¦   package.json
+¦   ¦   ¦   ¦   README.md
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦       index.d.ts
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       libraries.d.ts
+¦   ¦   ¦   ¦       libraries.js
+¦   ¦   ¦   ¦       manifest.d.ts
+¦   ¦   ¦   ¦       manifest.js
+¦   ¦   ¦   ¦       steam.d.ts
+¦   ¦   ¦   ¦       steam.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦       +---fs-extra
+¦   ¦   ¦           ¦   CHANGELOG.md
+¦   ¦   ¦           ¦   LICENSE
+¦   ¦   ¦           ¦   package.json
+¦   ¦   ¦           ¦   README.md
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---lib
+¦   ¦   ¦               ¦   index.js
+¦   ¦   ¦               ¦   
+¦   ¦   ¦               +---copy
+¦   ¦   ¦               ¦       copy.js
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---copy-sync
+¦   ¦   ¦               ¦       copy-sync.js
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---empty
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---ensure
+¦   ¦   ¦               ¦       file.js
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       link.js
+¦   ¦   ¦               ¦       symlink-paths.js
+¦   ¦   ¦               ¦       symlink-type.js
+¦   ¦   ¦               ¦       symlink.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---fs
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---json
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       jsonfile.js
+¦   ¦   ¦               ¦       output-json-sync.js
+¦   ¦   ¦               ¦       output-json.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---mkdirs
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       mkdirs-sync.js
+¦   ¦   ¦               ¦       mkdirs.js
+¦   ¦   ¦               ¦       win32.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---move
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---move-sync
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---output
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---path-exists
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---remove
+¦   ¦   ¦               ¦       index.js
+¦   ¦   ¦               ¦       rimraf.js
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---util
+¦   ¦   ¦                       buffer.js
+¦   ¦   ¦                       utimes.js
+¦   ¦   ¦                       
+¦   ¦   +---panorama-types
+¦   ¦       ¦   index.d.ts
+¦   ¦       ¦   normalized.d.ts
+¦   ¦       ¦   package.json
+¦   ¦       ¦   README.md
+¦   ¦       ¦   
+¦   ¦       +---node_modules
+¦   ¦       ¦   +---tslib
+¦   ¦       ¦       ¦   CopyrightNotice.txt
+¦   ¦       ¦       ¦   LICENSE.txt
+¦   ¦       ¦       ¦   package.json
+¦   ¦       ¦       ¦   README.md
+¦   ¦       ¦       ¦   tslib.d.ts
+¦   ¦       ¦       ¦   tslib.es6.html
+¦   ¦       ¦       ¦   tslib.es6.js
+¦   ¦       ¦       ¦   tslib.html
+¦   ¦       ¦       ¦   tslib.js
+¦   ¦       ¦       ¦   
+¦   ¦       ¦       +---modules
+¦   ¦       ¦               index.js
+¦   ¦       ¦               package.json
+¦   ¦       ¦               
+¦   ¦       +---transformer
+¦   ¦       ¦       index.d.ts
+¦   ¦       ¦       index.js
+¦   ¦       ¦       mappings.json
+¦   ¦       ¦       
+¦   ¦       +---types
+¦   ¦               api.d.ts
+¦   ¦               common.d.ts
+¦   ¦               css.d.ts
+¦   ¦               enums-normalized.generated.d.ts
+¦   ¦               enums.generated.d.ts
+¦   ¦               events.generated.d.ts
+¦   ¦               panels.d.ts
+¦   ¦               stack-trace-api.d.ts
+¦   ¦               
+¦   +---@typescript-to-lua
+¦   ¦   +---language-extensions
+¦   ¦           index.d.ts
+¦   ¦           package.json
+¦   ¦           
+¦   +---ansi-styles
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---array-buffer-byte-length
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---at-least-node
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---available-typed-arrays
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---balanced-match
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE.md
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦           FUNDING.yml
+¦   ¦           
+¦   +---brace-expansion
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---call-bind
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   callBound.js
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           callBound.js
+¦   ¦           index.js
+¦   ¦           
+¦   +---chalk
+¦   ¦   ¦   index.js
+¦   ¦   ¦   index.js.flow
+¦   ¦   ¦   license
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.md
+¦   ¦   ¦   templates.js
+¦   ¦   ¦   
+¦   ¦   +---types
+¦   ¦           index.d.ts
+¦   ¦           
+¦   +---color-convert
+¦   ¦       CHANGELOG.md
+¦   ¦       conversions.js
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       route.js
+¦   ¦       
+¦   +---color-name
+¦   ¦       .eslintrc.json
+¦   ¦       .npmignore
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       test.js
+¦   ¦       
+¦   +---concat-map
+¦   ¦   ¦   .travis.yml
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.markdown
+¦   ¦   ¦   
+¦   ¦   +---example
+¦   ¦   ¦       map.js
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           map.js
+¦   ¦           
+¦   +---cross-spawn
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦       ¦   enoent.js
+¦   ¦       ¦   parse.js
+¦   ¦       ¦   
+¦   ¦       +---util
+¦   ¦               escape.js
+¦   ¦               readShebang.js
+¦   ¦               resolveCommand.js
+¦   ¦               
+¦   +---define-properties
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦           FUNDING.yml
+¦   ¦           
+¦   +---end-of-stream
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---enhanced-resolve
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   types.d.ts
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦       ¦   AliasFieldPlugin.js
+¦   ¦       ¦   AliasPlugin.js
+¦   ¦       ¦   AppendPlugin.js
+¦   ¦       ¦   CachedInputFileSystem.js
+¦   ¦       ¦   CloneBasenamePlugin.js
+¦   ¦       ¦   ConditionalPlugin.js
+¦   ¦       ¦   createInnerContext.js
+¦   ¦       ¦   DescriptionFilePlugin.js
+¦   ¦       ¦   DescriptionFileUtils.js
+¦   ¦       ¦   DirectoryExistsPlugin.js
+¦   ¦       ¦   ExportsFieldPlugin.js
+¦   ¦       ¦   FileExistsPlugin.js
+¦   ¦       ¦   forEachBail.js
+¦   ¦       ¦   getInnerRequest.js
+¦   ¦       ¦   getPaths.js
+¦   ¦       ¦   ImportsFieldPlugin.js
+¦   ¦       ¦   index.js
+¦   ¦       ¦   JoinRequestPartPlugin.js
+¦   ¦       ¦   JoinRequestPlugin.js
+¦   ¦       ¦   LogInfoPlugin.js
+¦   ¦       ¦   MainFieldPlugin.js
+¦   ¦       ¦   ModulesInHierachicDirectoriesPlugin.js
+¦   ¦       ¦   ModulesInRootPlugin.js
+¦   ¦       ¦   NextPlugin.js
+¦   ¦       ¦   ParsePlugin.js
+¦   ¦       ¦   PnpPlugin.js
+¦   ¦       ¦   Resolver.js
+¦   ¦       ¦   ResolverFactory.js
+¦   ¦       ¦   RestrictionsPlugin.js
+¦   ¦       ¦   ResultPlugin.js
+¦   ¦       ¦   RootsPlugin.js
+¦   ¦       ¦   SelfReferencePlugin.js
+¦   ¦       ¦   SymlinkPlugin.js
+¦   ¦       ¦   SyncAsyncFileSystemDecorator.js
+¦   ¦       ¦   TryNextPlugin.js
+¦   ¦       ¦   UnsafeCachePlugin.js
+¦   ¦       ¦   UseFilePlugin.js
+¦   ¦       ¦   
+¦   ¦       +---util
+¦   ¦               entrypoints.js
+¦   ¦               identifier.js
+¦   ¦               path.js
+¦   ¦               process-browser.js
+¦   ¦               
+¦   +---error-ex
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---es-abstract
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   es2015.js
+¦   ¦   ¦   es2016.js
+¦   ¦   ¦   es2017.js
+¦   ¦   ¦   es2018.js
+¦   ¦   ¦   es2019.js
+¦   ¦   ¦   es2020.js
+¦   ¦   ¦   es2021.js
+¦   ¦   ¦   es2022.js
+¦   ¦   ¦   es5.js
+¦   ¦   ¦   es6.js
+¦   ¦   ¦   es7.js
+¦   ¦   ¦   GetIntrinsic.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---2015
+¦   ¦   ¦       abs.js
+¦   ¦   ¦       AbstractEqualityComparison.js
+¦   ¦   ¦       AbstractRelationalComparison.js
+¦   ¦   ¦       AdvanceStringIndex.js
+¦   ¦   ¦       ArrayCreate.js
+¦   ¦   ¦       ArraySetLength.js
+¦   ¦   ¦       ArraySpeciesCreate.js
+¦   ¦   ¦       Call.js
+¦   ¦   ¦       CanonicalNumericIndexString.js
+¦   ¦   ¦       CharacterRange.js
+¦   ¦   ¦       CompletePropertyDescriptor.js
+¦   ¦   ¦       CompletionRecord.js
+¦   ¦   ¦       CreateDataProperty.js
+¦   ¦   ¦       CreateDataPropertyOrThrow.js
+¦   ¦   ¦       CreateHTML.js
+¦   ¦   ¦       CreateIterResultObject.js
+¦   ¦   ¦       CreateListFromArrayLike.js
+¦   ¦   ¦       CreateMethodProperty.js
+¦   ¦   ¦       DateFromTime.js
+¦   ¦   ¦       Day.js
+¦   ¦   ¦       DayFromYear.js
+¦   ¦   ¦       DaysInYear.js
+¦   ¦   ¦       DayWithinYear.js
+¦   ¦   ¦       DefinePropertyOrThrow.js
+¦   ¦   ¦       DeletePropertyOrThrow.js
+¦   ¦   ¦       DetachArrayBuffer.js
+¦   ¦   ¦       EnumerableOwnNames.js
+¦   ¦   ¦       floor.js
+¦   ¦   ¦       FromPropertyDescriptor.js
+¦   ¦   ¦       Get.js
+¦   ¦   ¦       GetGlobalObject.js
+¦   ¦   ¦       GetIterator.js
+¦   ¦   ¦       GetMethod.js
+¦   ¦   ¦       GetOwnPropertyKeys.js
+¦   ¦   ¦       GetPrototypeFromConstructor.js
+¦   ¦   ¦       GetSubstitution.js
+¦   ¦   ¦       GetV.js
+¦   ¦   ¦       HasOwnProperty.js
+¦   ¦   ¦       HasProperty.js
+¦   ¦   ¦       HourFromTime.js
+¦   ¦   ¦       InLeapYear.js
+¦   ¦   ¦       InstanceofOperator.js
+¦   ¦   ¦       Invoke.js
+¦   ¦   ¦       IsAccessorDescriptor.js
+¦   ¦   ¦       IsArray.js
+¦   ¦   ¦       IsCallable.js
+¦   ¦   ¦       IsCompatiblePropertyDescriptor.js
+¦   ¦   ¦       IsConcatSpreadable.js
+¦   ¦   ¦       IsConstructor.js
+¦   ¦   ¦       IsDataDescriptor.js
+¦   ¦   ¦       IsDetachedBuffer.js
+¦   ¦   ¦       IsExtensible.js
+¦   ¦   ¦       IsGenericDescriptor.js
+¦   ¦   ¦       IsInteger.js
+¦   ¦   ¦       IsPromise.js
+¦   ¦   ¦       IsPropertyDescriptor.js
+¦   ¦   ¦       IsPropertyKey.js
+¦   ¦   ¦       IsRegExp.js
+¦   ¦   ¦       IteratorClose.js
+¦   ¦   ¦       IteratorComplete.js
+¦   ¦   ¦       IteratorNext.js
+¦   ¦   ¦       IteratorStep.js
+¦   ¦   ¦       IteratorValue.js
+¦   ¦   ¦       MakeDate.js
+¦   ¦   ¦       MakeDay.js
+¦   ¦   ¦       MakeTime.js
+¦   ¦   ¦       max.js
+¦   ¦   ¦       min.js
+¦   ¦   ¦       MinFromTime.js
+¦   ¦   ¦       modulo.js
+¦   ¦   ¦       MonthFromTime.js
+¦   ¦   ¦       msFromTime.js
+¦   ¦   ¦       NormalCompletion.js
+¦   ¦   ¦       ObjectCreate.js
+¦   ¦   ¦       ObjectDefineProperties.js
+¦   ¦   ¦       OrdinaryCreateFromConstructor.js
+¦   ¦   ¦       OrdinaryDefineOwnProperty.js
+¦   ¦   ¦       OrdinaryGetOwnProperty.js
+¦   ¦   ¦       OrdinaryHasInstance.js
+¦   ¦   ¦       OrdinaryHasProperty.js
+¦   ¦   ¦       QuoteJSONString.js
+¦   ¦   ¦       RegExpCreate.js
+¦   ¦   ¦       RegExpExec.js
+¦   ¦   ¦       RequireObjectCoercible.js
+¦   ¦   ¦       SameValue.js
+¦   ¦   ¦       SameValueZero.js
+¦   ¦   ¦       SecFromTime.js
+¦   ¦   ¦       Set.js
+¦   ¦   ¦       SetFunctionName.js
+¦   ¦   ¦       SetIntegrityLevel.js
+¦   ¦   ¦       SpeciesConstructor.js
+¦   ¦   ¦       SplitMatch.js
+¦   ¦   ¦       StrictEqualityComparison.js
+¦   ¦   ¦       StringCreate.js
+¦   ¦   ¦       StringGetIndexProperty.js
+¦   ¦   ¦       SymbolDescriptiveString.js
+¦   ¦   ¦       TestIntegrityLevel.js
+¦   ¦   ¦       thisBooleanValue.js
+¦   ¦   ¦       thisNumberValue.js
+¦   ¦   ¦       thisStringValue.js
+¦   ¦   ¦       thisTimeValue.js
+¦   ¦   ¦       TimeClip.js
+¦   ¦   ¦       TimeFromYear.js
+¦   ¦   ¦       TimeWithinDay.js
+¦   ¦   ¦       ToBoolean.js
+¦   ¦   ¦       ToDateString.js
+¦   ¦   ¦       ToInt16.js
+¦   ¦   ¦       ToInt32.js
+¦   ¦   ¦       ToInt8.js
+¦   ¦   ¦       ToInteger.js
+¦   ¦   ¦       ToLength.js
+¦   ¦   ¦       ToNumber.js
+¦   ¦   ¦       ToObject.js
+¦   ¦   ¦       ToPrimitive.js
+¦   ¦   ¦       ToPropertyDescriptor.js
+¦   ¦   ¦       ToPropertyKey.js
+¦   ¦   ¦       ToString.js
+¦   ¦   ¦       ToUint16.js
+¦   ¦   ¦       ToUint32.js
+¦   ¦   ¦       ToUint8.js
+¦   ¦   ¦       ToUint8Clamp.js
+¦   ¦   ¦       Type.js
+¦   ¦   ¦       ValidateAndApplyPropertyDescriptor.js
+¦   ¦   ¦       ValidateTypedArray.js
+¦   ¦   ¦       WeekDay.js
+¦   ¦   ¦       YearFromTime.js
+¦   ¦   ¦       
+¦   ¦   +---2016
+¦   ¦   ¦       abs.js
+¦   ¦   ¦       AbstractEqualityComparison.js
+¦   ¦   ¦       AbstractRelationalComparison.js
+¦   ¦   ¦       AdvanceStringIndex.js
+¦   ¦   ¦       ArrayCreate.js
+¦   ¦   ¦       ArraySetLength.js
+¦   ¦   ¦       ArraySpeciesCreate.js
+¦   ¦   ¦       Call.js
+¦   ¦   ¦       CanonicalNumericIndexString.js
+¦   ¦   ¦       CharacterRange.js
+¦   ¦   ¦       CompletePropertyDescriptor.js
+¦   ¦   ¦       CompletionRecord.js
+¦   ¦   ¦       CreateDataProperty.js
+¦   ¦   ¦       CreateDataPropertyOrThrow.js
+¦   ¦   ¦       CreateHTML.js
+¦   ¦   ¦       CreateIterResultObject.js
+¦   ¦   ¦       CreateListFromArrayLike.js
+¦   ¦   ¦       CreateMethodProperty.js
+¦   ¦   ¦       DateFromTime.js
+¦   ¦   ¦       Day.js
+¦   ¦   ¦       DayFromYear.js
+¦   ¦   ¦       DaysInYear.js
+¦   ¦   ¦       DayWithinYear.js
+¦   ¦   ¦       DefinePropertyOrThrow.js
+¦   ¦   ¦       DeletePropertyOrThrow.js
+¦   ¦   ¦       DetachArrayBuffer.js
+¦   ¦   ¦       EnumerableOwnNames.js
+¦   ¦   ¦       floor.js
+¦   ¦   ¦       FromPropertyDescriptor.js
+¦   ¦   ¦       Get.js
+¦   ¦   ¦       GetGlobalObject.js
+¦   ¦   ¦       GetIterator.js
+¦   ¦   ¦       GetMethod.js
+¦   ¦   ¦       GetOwnPropertyKeys.js
+¦   ¦   ¦       GetPrototypeFromConstructor.js
+¦   ¦   ¦       GetSubstitution.js
+¦   ¦   ¦       GetV.js
+¦   ¦   ¦       HasOwnProperty.js
+¦   ¦   ¦       HasProperty.js
+¦   ¦   ¦       HourFromTime.js
+¦   ¦   ¦       InLeapYear.js
+¦   ¦   ¦       InstanceofOperator.js
+¦   ¦   ¦       Invoke.js
+¦   ¦   ¦       IsAccessorDescriptor.js
+¦   ¦   ¦       IsArray.js
+¦   ¦   ¦       IsCallable.js
+¦   ¦   ¦       IsCompatiblePropertyDescriptor.js
+¦   ¦   ¦       IsConcatSpreadable.js
+¦   ¦   ¦       IsConstructor.js
+¦   ¦   ¦       IsDataDescriptor.js
+¦   ¦   ¦       IsDetachedBuffer.js
+¦   ¦   ¦       IsExtensible.js
+¦   ¦   ¦       IsGenericDescriptor.js
+¦   ¦   ¦       IsInteger.js
+¦   ¦   ¦       IsPromise.js
+¦   ¦   ¦       IsPropertyDescriptor.js
+¦   ¦   ¦       IsPropertyKey.js
+¦   ¦   ¦       IsRegExp.js
+¦   ¦   ¦       IterableToArrayLike.js
+¦   ¦   ¦       IteratorClose.js
+¦   ¦   ¦       IteratorComplete.js
+¦   ¦   ¦       IteratorNext.js
+¦   ¦   ¦       IteratorStep.js
+¦   ¦   ¦       IteratorValue.js
+¦   ¦   ¦       MakeDate.js
+¦   ¦   ¦       MakeDay.js
+¦   ¦   ¦       MakeTime.js
+¦   ¦   ¦       max.js
+¦   ¦   ¦       min.js
+¦   ¦   ¦       MinFromTime.js
+¦   ¦   ¦       modulo.js
+¦   ¦   ¦       MonthFromTime.js
+¦   ¦   ¦       msFromTime.js
+¦   ¦   ¦       NormalCompletion.js
+¦   ¦   ¦       ObjectCreate.js
+¦   ¦   ¦       ObjectDefineProperties.js
+¦   ¦   ¦       OrdinaryCreateFromConstructor.js
+¦   ¦   ¦       OrdinaryDefineOwnProperty.js
+¦   ¦   ¦       OrdinaryGetOwnProperty.js
+¦   ¦   ¦       OrdinaryGetPrototypeOf.js
+¦   ¦   ¦       OrdinaryHasInstance.js
+¦   ¦   ¦       OrdinaryHasProperty.js
+¦   ¦   ¦       OrdinarySetPrototypeOf.js
+¦   ¦   ¦       QuoteJSONString.js
+¦   ¦   ¦       RegExpCreate.js
+¦   ¦   ¦       RegExpExec.js
+¦   ¦   ¦       RequireObjectCoercible.js
+¦   ¦   ¦       SameValue.js
+¦   ¦   ¦       SameValueNonNumber.js
+¦   ¦   ¦       SameValueZero.js
+¦   ¦   ¦       SecFromTime.js
+¦   ¦   ¦       Set.js
+¦   ¦   ¦       SetFunctionName.js
+¦   ¦   ¦       SetIntegrityLevel.js
+¦   ¦   ¦       SpeciesConstructor.js
+¦   ¦   ¦       SplitMatch.js
+¦   ¦   ¦       StrictEqualityComparison.js
+¦   ¦   ¦       StringCreate.js
+¦   ¦   ¦       SymbolDescriptiveString.js
+¦   ¦   ¦       TestIntegrityLevel.js
+¦   ¦   ¦       thisBooleanValue.js
+¦   ¦   ¦       thisNumberValue.js
+¦   ¦   ¦       thisStringValue.js
+¦   ¦   ¦       thisTimeValue.js
+¦   ¦   ¦       TimeClip.js
+¦   ¦   ¦       TimeFromYear.js
+¦   ¦   ¦       TimeWithinDay.js
+¦   ¦   ¦       ToBoolean.js
+¦   ¦   ¦       ToDateString.js
+¦   ¦   ¦       ToInt16.js
+¦   ¦   ¦       ToInt32.js
+¦   ¦   ¦       ToInt8.js
+¦   ¦   ¦       ToInteger.js
+¦   ¦   ¦       ToLength.js
+¦   ¦   ¦       ToNumber.js
+¦   ¦   ¦       ToObject.js
+¦   ¦   ¦       ToPrimitive.js
+¦   ¦   ¦       ToPropertyDescriptor.js
+¦   ¦   ¦       ToPropertyKey.js
+¦   ¦   ¦       ToString.js
+¦   ¦   ¦       ToUint16.js
+¦   ¦   ¦       ToUint32.js
+¦   ¦   ¦       ToUint8.js
+¦   ¦   ¦       ToUint8Clamp.js
+¦   ¦   ¦       Type.js
+¦   ¦   ¦       UTF16Decode.js
+¦   ¦   ¦       UTF16Encoding.js
+¦   ¦   ¦       ValidateAndApplyPropertyDescriptor.js
+¦   ¦   ¦       ValidateTypedArray.js
+¦   ¦   ¦       WeekDay.js
+¦   ¦   ¦       YearFromTime.js
+¦   ¦   ¦       
+¦   ¦   +---2017
+¦   ¦   ¦       abs.js
+¦   ¦   ¦       AbstractEqualityComparison.js
+¦   ¦   ¦       AbstractRelationalComparison.js
+¦   ¦   ¦       AdvanceStringIndex.js
+¦   ¦   ¦       ArrayCreate.js
+¦   ¦   ¦       ArraySetLength.js
+¦   ¦   ¦       ArraySpeciesCreate.js
+¦   ¦   ¦       Call.js
+¦   ¦   ¦       CanonicalNumericIndexString.js
+¦   ¦   ¦       CharacterRange.js
+¦   ¦   ¦       CompletePropertyDescriptor.js
+¦   ¦   ¦       CompletionRecord.js
+¦   ¦   ¦       CreateDataProperty.js
+¦   ¦   ¦       CreateDataPropertyOrThrow.js
+¦   ¦   ¦       CreateHTML.js
+¦   ¦   ¦       CreateIterResultObject.js
+¦   ¦   ¦       CreateListFromArrayLike.js
+¦   ¦   ¦       CreateMethodProperty.js
+¦   ¦   ¦       DateFromTime.js
+¦   ¦   ¦       Day.js
+¦   ¦   ¦       DayFromYear.js
+¦   ¦   ¦       DaysInYear.js
+¦   ¦   ¦       DayWithinYear.js
+¦   ¦   ¦       DefinePropertyOrThrow.js
+¦   ¦   ¦       DeletePropertyOrThrow.js
+¦   ¦   ¦       DetachArrayBuffer.js
+¦   ¦   ¦       EnumerableOwnProperties.js
+¦   ¦   ¦       floor.js
+¦   ¦   ¦       FromPropertyDescriptor.js
+¦   ¦   ¦       Get.js
+¦   ¦   ¦       GetGlobalObject.js
+¦   ¦   ¦       GetIterator.js
+¦   ¦   ¦       GetMethod.js
+¦   ¦   ¦       GetOwnPropertyKeys.js
+¦   ¦   ¦       GetPrototypeFromConstructor.js
+¦   ¦   ¦       GetSubstitution.js
+¦   ¦   ¦       GetV.js
+¦   ¦   ¦       HasOwnProperty.js
+¦   ¦   ¦       HasProperty.js
+¦   ¦   ¦       HourFromTime.js
+¦   ¦   ¦       InLeapYear.js
+¦   ¦   ¦       InstanceofOperator.js
+¦   ¦   ¦       Invoke.js
+¦   ¦   ¦       IsAccessorDescriptor.js
+¦   ¦   ¦       IsArray.js
+¦   ¦   ¦       IsCallable.js
+¦   ¦   ¦       IsCompatiblePropertyDescriptor.js
+¦   ¦   ¦       IsConcatSpreadable.js
+¦   ¦   ¦       IsConstructor.js
+¦   ¦   ¦       IsDataDescriptor.js
+¦   ¦   ¦       IsDetachedBuffer.js
+¦   ¦   ¦       IsExtensible.js
+¦   ¦   ¦       IsGenericDescriptor.js
+¦   ¦   ¦       IsInteger.js
+¦   ¦   ¦       IsPromise.js
+¦   ¦   ¦       IsPropertyDescriptor.js
+¦   ¦   ¦       IsPropertyKey.js
+¦   ¦   ¦       IsRegExp.js
+¦   ¦   ¦       IsSharedArrayBuffer.js
+¦   ¦   ¦       IterableToList.js
+¦   ¦   ¦       IteratorClose.js
+¦   ¦   ¦       IteratorComplete.js
+¦   ¦   ¦       IteratorNext.js
+¦   ¦   ¦       IteratorStep.js
+¦   ¦   ¦       IteratorValue.js
+¦   ¦   ¦       MakeDate.js
+¦   ¦   ¦       MakeDay.js
+¦   ¦   ¦       MakeTime.js
+¦   ¦   ¦       max.js
+¦   ¦   ¦       min.js
+¦   ¦   ¦       MinFromTime.js
+¦   ¦   ¦       modulo.js
+¦   ¦   ¦       MonthFromTime.js
+¦   ¦   ¦       msFromTime.js
+¦   ¦   ¦       NormalCompletion.js
+¦   ¦   ¦       NumberToRawBytes.js
+¦   ¦   ¦       ObjectCreate.js
+¦   ¦   ¦       ObjectDefineProperties.js
+¦   ¦   ¦       OrdinaryCreateFromConstructor.js
+¦   ¦   ¦       OrdinaryDefineOwnProperty.js
+¦   ¦   ¦       OrdinaryGetOwnProperty.js
+¦   ¦   ¦       OrdinaryGetPrototypeOf.js
+¦   ¦   ¦       OrdinaryHasInstance.js
+¦   ¦   ¦       OrdinaryHasProperty.js
+¦   ¦   ¦       OrdinarySetPrototypeOf.js
+¦   ¦   ¦       OrdinaryToPrimitive.js
+¦   ¦   ¦       QuoteJSONString.js
+¦   ¦   ¦       RawBytesToNumber.js
+¦   ¦   ¦       RegExpCreate.js
+¦   ¦   ¦       RegExpExec.js
+¦   ¦   ¦       RequireObjectCoercible.js
+¦   ¦   ¦       SameValue.js
+¦   ¦   ¦       SameValueNonNumber.js
+¦   ¦   ¦       SameValueZero.js
+¦   ¦   ¦       SecFromTime.js
+¦   ¦   ¦       Set.js
+¦   ¦   ¦       SetFunctionName.js
+¦   ¦   ¦       SetIntegrityLevel.js
+¦   ¦   ¦       SpeciesConstructor.js
+¦   ¦   ¦       SplitMatch.js
+¦   ¦   ¦       StrictEqualityComparison.js
+¦   ¦   ¦       StringCreate.js
+¦   ¦   ¦       StringGetOwnProperty.js
+¦   ¦   ¦       SymbolDescriptiveString.js
+¦   ¦   ¦       TestIntegrityLevel.js
+¦   ¦   ¦       thisBooleanValue.js
+¦   ¦   ¦       thisNumberValue.js
+¦   ¦   ¦       thisStringValue.js
+¦   ¦   ¦       thisTimeValue.js
+¦   ¦   ¦       TimeClip.js
+¦   ¦   ¦       TimeFromYear.js
+¦   ¦   ¦       TimeWithinDay.js
+¦   ¦   ¦       ToBoolean.js
+¦   ¦   ¦       ToDateString.js
+¦   ¦   ¦       ToIndex.js
+¦   ¦   ¦       ToInt16.js
+¦   ¦   ¦       ToInt32.js
+¦   ¦   ¦       ToInt8.js
+¦   ¦   ¦       ToInteger.js
+¦   ¦   ¦       ToLength.js
+¦   ¦   ¦       ToNumber.js
+¦   ¦   ¦       ToObject.js
+¦   ¦   ¦       ToPrimitive.js
+¦   ¦   ¦       ToPropertyDescriptor.js
+¦   ¦   ¦       ToPropertyKey.js
+¦   ¦   ¦       ToString.js
+¦   ¦   ¦       ToUint16.js
+¦   ¦   ¦       ToUint32.js
+¦   ¦   ¦       ToUint8.js
+¦   ¦   ¦       ToUint8Clamp.js
+¦   ¦   ¦       Type.js
+¦   ¦   ¦       UTF16Decode.js
+¦   ¦   ¦       UTF16Encoding.js
+¦   ¦   ¦       ValidateAndApplyPropertyDescriptor.js
+¦   ¦   ¦       ValidateAtomicAccess.js
+¦   ¦   ¦       ValidateTypedArray.js
+¦   ¦   ¦       WeekDay.js
+¦   ¦   ¦       YearFromTime.js
+¦   ¦   ¦       
+¦   ¦   +---2018
+¦   ¦   ¦       abs.js
+¦   ¦   ¦       AbstractEqualityComparison.js
+¦   ¦   ¦       AbstractRelationalComparison.js
+¦   ¦   ¦       AdvanceStringIndex.js
+¦   ¦   ¦       ArrayCreate.js
+¦   ¦   ¦       ArraySetLength.js
+¦   ¦   ¦       ArraySpeciesCreate.js
+¦   ¦   ¦       AsyncIteratorClose.js
+¦   ¦   ¦       Call.js
+¦   ¦   ¦       CanonicalNumericIndexString.js
+¦   ¦   ¦       CharacterRange.js
+¦   ¦   ¦       CompletePropertyDescriptor.js
+¦   ¦   ¦       CompletionRecord.js
+¦   ¦   ¦       CopyDataProperties.js
+¦   ¦   ¦       CreateAsyncFromSyncIterator.js
+¦   ¦   ¦       CreateDataProperty.js
+¦   ¦   ¦       CreateDataPropertyOrThrow.js
+¦   ¦   ¦       CreateHTML.js
+¦   ¦   ¦       CreateIterResultObject.js
+¦   ¦   ¦       CreateListFromArrayLike.js
+¦   ¦   ¦       CreateMethodProperty.js
+¦   ¦   ¦       DateFromTime.js
+¦   ¦   ¦       DateString.js
+¦   ¦   ¦       Day.js
+¦   ¦   ¦       DayFromYear.js
+¦   ¦   ¦       DaysInYear.js
+¦   ¦   ¦       DayWithinYear.js
+¦   ¦   ¦       DefinePropertyOrThrow.js
+¦   ¦   ¦       DeletePropertyOrThrow.js
+¦   ¦   ¦       DetachArrayBuffer.js
+¦   ¦   ¦       EnumerableOwnPropertyNames.js
+¦   ¦   ¦       floor.js
+¦   ¦   ¦       FromPropertyDescriptor.js
+¦   ¦   ¦       Get.js
+¦   ¦   ¦       GetGlobalObject.js
+¦   ¦   ¦       GetIterator.js
+¦   ¦   ¦       GetMethod.js
+¦   ¦   ¦       GetOwnPropertyKeys.js
+¦   ¦   ¦       GetPrototypeFromConstructor.js
+¦   ¦   ¦       GetSubstitution.js
+¦   ¦   ¦       GetV.js
+¦   ¦   ¦       HasOwnProperty.js
+¦   ¦   ¦       HasProperty.js
+¦   ¦   ¦       HourFromTime.js
+¦   ¦   ¦       InLeapYear.js
+¦   ¦   ¦       InstanceofOperator.js
+¦   ¦   ¦       Invoke.js
+¦   ¦   ¦       IsAccessorDescriptor.js
+¦   ¦   ¦       IsArray.js
+¦   ¦   ¦       IsCallable.js
+¦   ¦   ¦       IsCompatiblePropertyDescriptor.js
+¦   ¦   ¦       IsConcatSpreadable.js
+¦   ¦   ¦       IsConstructor.js
+¦   ¦   ¦       IsDataDescriptor.js
+¦   ¦   ¦       IsDetachedBuffer.js
+¦   ¦   ¦       IsExtensible.js
+¦   ¦   ¦       IsGenericDescriptor.js
+¦   ¦   ¦       IsInteger.js
+¦   ¦   ¦       IsPromise.js
+¦   ¦   ¦       IsPropertyKey.js
+¦   ¦   ¦       IsRegExp.js
+¦   ¦   ¦       IsSharedArrayBuffer.js
+¦   ¦   ¦       IsStringPrefix.js
+¦   ¦   ¦       IterableToList.js
+¦   ¦   ¦       IteratorClose.js
+¦   ¦   ¦       IteratorComplete.js
+¦   ¦   ¦       IteratorNext.js
+¦   ¦   ¦       IteratorStep.js
+¦   ¦   ¦       IteratorValue.js
+¦   ¦   ¦       MakeDate.js
+¦   ¦   ¦       MakeDay.js
+¦   ¦   ¦       MakeTime.js
+¦   ¦   ¦       max.js
+¦   ¦   ¦       min.js
+¦   ¦   ¦       MinFromTime.js
+¦   ¦   ¦       modulo.js
+¦   ¦   ¦       MonthFromTime.js
+¦   ¦   ¦       msFromTime.js
+¦   ¦   ¦       NormalCompletion.js
+¦   ¦   ¦       NumberToRawBytes.js
+¦   ¦   ¦       NumberToString.js
+¦   ¦   ¦       ObjectCreate.js
+¦   ¦   ¦       ObjectDefineProperties.js
+¦   ¦   ¦       OrdinaryCreateFromConstructor.js
+¦   ¦   ¦       OrdinaryDefineOwnProperty.js
+¦   ¦   ¦       OrdinaryGetOwnProperty.js
+¦   ¦   ¦       OrdinaryGetPrototypeOf.js
+¦   ¦   ¦       OrdinaryHasInstance.js
+¦   ¦   ¦       OrdinaryHasProperty.js
+¦   ¦   ¦       OrdinarySetPrototypeOf.js
+¦   ¦   ¦       OrdinaryToPrimitive.js
+¦   ¦   ¦       PromiseResolve.js
+¦   ¦   ¦       QuoteJSONString.js
+¦   ¦   ¦       RawBytesToNumber.js
+¦   ¦   ¦       RegExpCreate.js
+¦   ¦   ¦       RegExpExec.js
+¦   ¦   ¦       RequireObjectCoercible.js
+¦   ¦   ¦       SameValue.js
+¦   ¦   ¦       SameValueNonNumber.js
+¦   ¦   ¦       SameValueZero.js
+¦   ¦   ¦       SecFromTime.js
+¦   ¦   ¦       Set.js
+¦   ¦   ¦       SetFunctionLength.js
+¦   ¦   ¦       SetFunctionName.js
+¦   ¦   ¦       SetIntegrityLevel.js
+¦   ¦   ¦       SpeciesConstructor.js
+¦   ¦   ¦       SplitMatch.js
+¦   ¦   ¦       StrictEqualityComparison.js
+¦   ¦   ¦       StringCreate.js
+¦   ¦   ¦       StringGetOwnProperty.js
+¦   ¦   ¦       SymbolDescriptiveString.js
+¦   ¦   ¦       TestIntegrityLevel.js
+¦   ¦   ¦       thisBooleanValue.js
+¦   ¦   ¦       thisNumberValue.js
+¦   ¦   ¦       thisStringValue.js
+¦   ¦   ¦       thisSymbolValue.js
+¦   ¦   ¦       thisTimeValue.js
+¦   ¦   ¦       ThrowCompletion.js
+¦   ¦   ¦       TimeClip.js
+¦   ¦   ¦       TimeFromYear.js
+¦   ¦   ¦       TimeString.js
+¦   ¦   ¦       TimeWithinDay.js
+¦   ¦   ¦       ToBoolean.js
+¦   ¦   ¦       ToDateString.js
+¦   ¦   ¦       ToIndex.js
+¦   ¦   ¦       ToInt16.js
+¦   ¦   ¦       ToInt32.js
+¦   ¦   ¦       ToInt8.js
+¦   ¦   ¦       ToInteger.js
+¦   ¦   ¦       ToLength.js
+¦   ¦   ¦       ToNumber.js
+¦   ¦   ¦       ToObject.js
+¦   ¦   ¦       ToPrimitive.js
+¦   ¦   ¦       ToPropertyDescriptor.js
+¦   ¦   ¦       ToPropertyKey.js
+¦   ¦   ¦       ToString.js
+¦   ¦   ¦       ToUint16.js
+¦   ¦   ¦       ToUint32.js
+¦   ¦   ¦       ToUint8.js
+¦   ¦   ¦       ToUint8Clamp.js
+¦   ¦   ¦       Type.js
+¦   ¦   ¦       UnicodeEscape.js
+¦   ¦   ¦       UTF16Decode.js
+¦   ¦   ¦       UTF16Encoding.js
+¦   ¦   ¦       ValidateAndApplyPropertyDescriptor.js
+¦   ¦   ¦       ValidateAtomicAccess.js
+¦   ¦   ¦       ValidateTypedArray.js
+¦   ¦   ¦       WeekDay.js
+¦   ¦   ¦       YearFromTime.js
+¦   ¦   ¦       
+¦   ¦   +---2019
+¦   ¦   ¦       abs.js
+¦   ¦   ¦       AbstractEqualityComparison.js
+¦   ¦   ¦       AbstractRelationalComparison.js
+¦   ¦   ¦       AddEntriesFromIterable.js
+¦   ¦   ¦       AdvanceStringIndex.js
+¦   ¦   ¦       ArrayCreate.js
+¦   ¦   ¦       ArraySetLength.js
+¦   ¦   ¦       ArraySpeciesCreate.js
+¦   ¦   ¦       AsyncFromSyncIteratorContinuation.js
+¦   ¦   ¦       AsyncIteratorClose.js
+¦   ¦   ¦       Call.js
+¦   ¦   ¦       CanonicalNumericIndexString.js
+¦   ¦   ¦       CharacterRange.js
+¦   ¦   ¦       CompletePropertyDescriptor.js
+¦   ¦   ¦       CompletionRecord.js
+¦   ¦   ¦       CopyDataProperties.js
+¦   ¦   ¦       CreateAsyncFromSyncIterator.js
+¦   ¦   ¦       CreateDataProperty.js
+¦   ¦   ¦       CreateDataPropertyOrThrow.js
+¦   ¦   ¦       CreateHTML.js
+¦   ¦   ¦       CreateIterResultObject.js
+¦   ¦   ¦       CreateListFromArrayLike.js
+¦   ¦   ¦       CreateMethodProperty.js
+¦   ¦   ¦       DateFromTime.js
+¦   ¦   ¦       DateString.js
+¦   ¦   ¦       Day.js
+¦   ¦   ¦       DayFromYear.js
+¦   ¦   ¦       DaysInYear.js
+¦   ¦   ¦       DayWithinYear.js
+¦   ¦   ¦       DefinePropertyOrThrow.js
+¦   ¦   ¦       DeletePropertyOrThrow.js
+¦   ¦   ¦       DetachArrayBuffer.js
+¦   ¦   ¦       EnumerableOwnPropertyNames.js
+¦   ¦   ¦       FlattenIntoArray.js
+¦   ¦   ¦       floor.js
+¦   ¦   ¦       FromPropertyDescriptor.js
+¦   ¦   ¦       Get.js
+¦   ¦   ¦       GetGlobalObject.js
+¦   ¦   ¦       GetIterator.js
+¦   ¦   ¦       GetMethod.js
+¦   ¦   ¦       GetOwnPropertyKeys.js
+¦   ¦   ¦       GetPrototypeFromConstructor.js
+¦   ¦   ¦       GetSubstitution.js
+¦   ¦   ¦       GetV.js
+¦   ¦   ¦       HasOwnProperty.js
+¦   ¦   ¦       HasProperty.js
+¦   ¦   ¦       HourFromTime.js
+¦   ¦   ¦       InLeapYear.js
+¦   ¦   ¦       InstanceofOperator.js
+¦   ¦   ¦       Invoke.js
+¦   ¦   ¦       IsAccessorDescriptor.js
+¦   ¦   ¦       IsArray.js
+¦   ¦   ¦       IsCallable.js
+¦   ¦   ¦       IsCompatiblePropertyDescriptor.js
+¦   ¦   ¦       IsConcatSpreadable.js
+¦   ¦   ¦       IsConstructor.js
+¦   ¦   ¦       IsDataDescriptor.js
+¦   ¦   ¦       IsDetachedBuffer.js
+¦   ¦   ¦       IsExtensible.js
+¦   ¦   ¦       IsGenericDescriptor.js
+¦   ¦   ¦       IsInteger.js
+¦   ¦   ¦       IsPromise.js
+¦   ¦   ¦       IsPropertyKey.js
+¦   ¦   ¦       IsRegExp.js
+¦   ¦   ¦       IsSharedArrayBuffer.js
+¦   ¦   ¦       IsStringPrefix.js
+¦   ¦   ¦       IterableToList.js
+¦   ¦   ¦       IteratorClose.js
+¦   ¦   ¦       IteratorComplete.js
+¦   ¦   ¦       IteratorNext.js
+¦   ¦   ¦       IteratorStep.js
+¦   ¦   ¦       IteratorValue.js
+¦   ¦   ¦       MakeDate.js
+¦   ¦   ¦       MakeDay.js
+¦   ¦   ¦       MakeTime.js
+¦   ¦   ¦       max.js
+¦   ¦   ¦       min.js
+¦   ¦   ¦       MinFromTime.js
+¦   ¦   ¦       modulo.js
+¦   ¦   ¦       MonthFromTime.js
+¦   ¦   ¦       msFromTime.js
+¦   ¦   ¦       NormalCompletion.js
+¦   ¦   ¦       NumberToRawBytes.js
+¦   ¦   ¦       NumberToString.js
+¦   ¦   ¦       ObjectCreate.js
+¦   ¦   ¦       ObjectDefineProperties.js
+¦   ¦   ¦       OrdinaryCreateFromConstructor.js
+¦   ¦   ¦       OrdinaryDefineOwnProperty.js
+¦   ¦   ¦       OrdinaryGetOwnProperty.js
+¦   ¦   ¦       OrdinaryGetPrototypeOf.js
+¦   ¦   ¦       OrdinaryHasInstance.js
+¦   ¦   ¦       OrdinaryHasProperty.js
+¦   ¦   ¦       OrdinarySetPrototypeOf.js
+¦   ¦   ¦       OrdinaryToPrimitive.js
+¦   ¦   ¦       PromiseResolve.js
+¦   ¦   ¦       QuoteJSONString.js
+¦   ¦   ¦       RawBytesToNumber.js
+¦   ¦   ¦       RegExpCreate.js
+¦   ¦   ¦       RegExpExec.js
+¦   ¦   ¦       RequireObjectCoercible.js
+¦   ¦   ¦       SameValue.js
+¦   ¦   ¦       SameValueNonNumber.js
+¦   ¦   ¦       SameValueZero.js
+¦   ¦   ¦       SecFromTime.js
+¦   ¦   ¦       Set.js
+¦   ¦   ¦       SetFunctionLength.js
+¦   ¦   ¦       SetFunctionName.js
+¦   ¦   ¦       SetIntegrityLevel.js
+¦   ¦   ¦       SpeciesConstructor.js
+¦   ¦   ¦       SplitMatch.js
+¦   ¦   ¦       StrictEqualityComparison.js
+¦   ¦   ¦       StringCreate.js
+¦   ¦   ¦       StringGetOwnProperty.js
+¦   ¦   ¦       SymbolDescriptiveString.js
+¦   ¦   ¦       TestIntegrityLevel.js
+¦   ¦   ¦       thisBooleanValue.js
+¦   ¦   ¦       thisNumberValue.js
+¦   ¦   ¦       thisStringValue.js
+¦   ¦   ¦       thisSymbolValue.js
+¦   ¦   ¦       thisTimeValue.js
+¦   ¦   ¦       ThrowCompletion.js
+¦   ¦   ¦       TimeClip.js
+¦   ¦   ¦       TimeFromYear.js
+¦   ¦   ¦       TimeString.js
+¦   ¦   ¦       TimeWithinDay.js
+¦   ¦   ¦       ToBoolean.js
+¦   ¦   ¦       ToDateString.js
+¦   ¦   ¦       ToIndex.js
+¦   ¦   ¦       ToInt16.js
+¦   ¦   ¦       ToInt32.js
+¦   ¦   ¦       ToInt8.js
+¦   ¦   ¦       ToInteger.js
+¦   ¦   ¦       ToLength.js
+¦   ¦   ¦       ToNumber.js
+¦   ¦   ¦       ToObject.js
+¦   ¦   ¦       ToPrimitive.js
+¦   ¦   ¦       ToPropertyDescriptor.js
+¦   ¦   ¦       ToPropertyKey.js
+¦   ¦   ¦       ToString.js
+¦   ¦   ¦       ToUint16.js
+¦   ¦   ¦       ToUint32.js
+¦   ¦   ¦       ToUint8.js
+¦   ¦   ¦       ToUint8Clamp.js
+¦   ¦   ¦       TrimString.js
+¦   ¦   ¦       Type.js
+¦   ¦   ¦       UnicodeEscape.js
+¦   ¦   ¦       UTF16Decode.js
+¦   ¦   ¦       UTF16Encoding.js
+¦   ¦   ¦       ValidateAndApplyPropertyDescriptor.js
+¦   ¦   ¦       ValidateAtomicAccess.js
+¦   ¦   ¦       ValidateTypedArray.js
+¦   ¦   ¦       WeekDay.js
+¦   ¦   ¦       YearFromTime.js
+¦   ¦   ¦       
+¦   ¦   +---2020
+¦   ¦   ¦   ¦   abs.js
+¦   ¦   ¦   ¦   AbstractEqualityComparison.js
+¦   ¦   ¦   ¦   AbstractRelationalComparison.js
+¦   ¦   ¦   ¦   AddEntriesFromIterable.js
+¦   ¦   ¦   ¦   AdvanceStringIndex.js
+¦   ¦   ¦   ¦   ArrayCreate.js
+¦   ¦   ¦   ¦   ArraySetLength.js
+¦   ¦   ¦   ¦   ArraySpeciesCreate.js
+¦   ¦   ¦   ¦   AsyncFromSyncIteratorContinuation.js
+¦   ¦   ¦   ¦   AsyncIteratorClose.js
+¦   ¦   ¦   ¦   BigIntBitwiseOp.js
+¦   ¦   ¦   ¦   BinaryAnd.js
+¦   ¦   ¦   ¦   BinaryOr.js
+¦   ¦   ¦   ¦   BinaryXor.js
+¦   ¦   ¦   ¦   Call.js
+¦   ¦   ¦   ¦   CanonicalNumericIndexString.js
+¦   ¦   ¦   ¦   CharacterRange.js
+¦   ¦   ¦   ¦   CodePointAt.js
+¦   ¦   ¦   ¦   CompletePropertyDescriptor.js
+¦   ¦   ¦   ¦   CompletionRecord.js
+¦   ¦   ¦   ¦   CopyDataProperties.js
+¦   ¦   ¦   ¦   CreateAsyncFromSyncIterator.js
+¦   ¦   ¦   ¦   CreateDataProperty.js
+¦   ¦   ¦   ¦   CreateDataPropertyOrThrow.js
+¦   ¦   ¦   ¦   CreateHTML.js
+¦   ¦   ¦   ¦   CreateIterResultObject.js
+¦   ¦   ¦   ¦   CreateListFromArrayLike.js
+¦   ¦   ¦   ¦   CreateMethodProperty.js
+¦   ¦   ¦   ¦   CreateRegExpStringIterator.js
+¦   ¦   ¦   ¦   DateFromTime.js
+¦   ¦   ¦   ¦   DateString.js
+¦   ¦   ¦   ¦   Day.js
+¦   ¦   ¦   ¦   DayFromYear.js
+¦   ¦   ¦   ¦   DaysInYear.js
+¦   ¦   ¦   ¦   DayWithinYear.js
+¦   ¦   ¦   ¦   DefinePropertyOrThrow.js
+¦   ¦   ¦   ¦   DeletePropertyOrThrow.js
+¦   ¦   ¦   ¦   DetachArrayBuffer.js
+¦   ¦   ¦   ¦   EnumerableOwnPropertyNames.js
+¦   ¦   ¦   ¦   FlattenIntoArray.js
+¦   ¦   ¦   ¦   floor.js
+¦   ¦   ¦   ¦   FromPropertyDescriptor.js
+¦   ¦   ¦   ¦   Get.js
+¦   ¦   ¦   ¦   GetGlobalObject.js
+¦   ¦   ¦   ¦   GetIterator.js
+¦   ¦   ¦   ¦   GetMethod.js
+¦   ¦   ¦   ¦   GetOwnPropertyKeys.js
+¦   ¦   ¦   ¦   GetPrototypeFromConstructor.js
+¦   ¦   ¦   ¦   GetSubstitution.js
+¦   ¦   ¦   ¦   GetV.js
+¦   ¦   ¦   ¦   HasOwnProperty.js
+¦   ¦   ¦   ¦   HasProperty.js
+¦   ¦   ¦   ¦   HourFromTime.js
+¦   ¦   ¦   ¦   InLeapYear.js
+¦   ¦   ¦   ¦   InstanceofOperator.js
+¦   ¦   ¦   ¦   Invoke.js
+¦   ¦   ¦   ¦   IsAccessorDescriptor.js
+¦   ¦   ¦   ¦   IsArray.js
+¦   ¦   ¦   ¦   IsBigIntElementType.js
+¦   ¦   ¦   ¦   IsCallable.js
+¦   ¦   ¦   ¦   IsCompatiblePropertyDescriptor.js
+¦   ¦   ¦   ¦   IsConcatSpreadable.js
+¦   ¦   ¦   ¦   IsConstructor.js
+¦   ¦   ¦   ¦   IsDataDescriptor.js
+¦   ¦   ¦   ¦   IsDetachedBuffer.js
+¦   ¦   ¦   ¦   IsExtensible.js
+¦   ¦   ¦   ¦   IsGenericDescriptor.js
+¦   ¦   ¦   ¦   IsInteger.js
+¦   ¦   ¦   ¦   IsNonNegativeInteger.js
+¦   ¦   ¦   ¦   IsNoTearConfiguration.js
+¦   ¦   ¦   ¦   IsPromise.js
+¦   ¦   ¦   ¦   IsPropertyKey.js
+¦   ¦   ¦   ¦   IsRegExp.js
+¦   ¦   ¦   ¦   IsSharedArrayBuffer.js
+¦   ¦   ¦   ¦   IsStringPrefix.js
+¦   ¦   ¦   ¦   IsUnclampedIntegerElementType.js
+¦   ¦   ¦   ¦   IsUnsignedElementType.js
+¦   ¦   ¦   ¦   IterableToList.js
+¦   ¦   ¦   ¦   IteratorClose.js
+¦   ¦   ¦   ¦   IteratorComplete.js
+¦   ¦   ¦   ¦   IteratorNext.js
+¦   ¦   ¦   ¦   IteratorStep.js
+¦   ¦   ¦   ¦   IteratorValue.js
+¦   ¦   ¦   ¦   LengthOfArrayLike.js
+¦   ¦   ¦   ¦   MakeDate.js
+¦   ¦   ¦   ¦   MakeDay.js
+¦   ¦   ¦   ¦   MakeTime.js
+¦   ¦   ¦   ¦   max.js
+¦   ¦   ¦   ¦   min.js
+¦   ¦   ¦   ¦   MinFromTime.js
+¦   ¦   ¦   ¦   modulo.js
+¦   ¦   ¦   ¦   MonthFromTime.js
+¦   ¦   ¦   ¦   msFromTime.js
+¦   ¦   ¦   ¦   NormalCompletion.js
+¦   ¦   ¦   ¦   NumberBitwiseOp.js
+¦   ¦   ¦   ¦   NumberToBigInt.js
+¦   ¦   ¦   ¦   NumericToRawBytes.js
+¦   ¦   ¦   ¦   ObjectDefineProperties.js
+¦   ¦   ¦   ¦   OrdinaryCreateFromConstructor.js
+¦   ¦   ¦   ¦   OrdinaryDefineOwnProperty.js
+¦   ¦   ¦   ¦   OrdinaryGetOwnProperty.js
+¦   ¦   ¦   ¦   OrdinaryGetPrototypeOf.js
+¦   ¦   ¦   ¦   OrdinaryHasInstance.js
+¦   ¦   ¦   ¦   OrdinaryHasProperty.js
+¦   ¦   ¦   ¦   OrdinaryObjectCreate.js
+¦   ¦   ¦   ¦   OrdinarySetPrototypeOf.js
+¦   ¦   ¦   ¦   OrdinaryToPrimitive.js
+¦   ¦   ¦   ¦   PromiseResolve.js
+¦   ¦   ¦   ¦   QuoteJSONString.js
+¦   ¦   ¦   ¦   RawBytesToNumeric.js
+¦   ¦   ¦   ¦   RegExpCreate.js
+¦   ¦   ¦   ¦   RegExpExec.js
+¦   ¦   ¦   ¦   RequireObjectCoercible.js
+¦   ¦   ¦   ¦   SameValue.js
+¦   ¦   ¦   ¦   SameValueNonNumeric.js
+¦   ¦   ¦   ¦   SameValueZero.js
+¦   ¦   ¦   ¦   SecFromTime.js
+¦   ¦   ¦   ¦   Set.js
+¦   ¦   ¦   ¦   SetFunctionLength.js
+¦   ¦   ¦   ¦   SetFunctionName.js
+¦   ¦   ¦   ¦   SetIntegrityLevel.js
+¦   ¦   ¦   ¦   SpeciesConstructor.js
+¦   ¦   ¦   ¦   SplitMatch.js
+¦   ¦   ¦   ¦   StrictEqualityComparison.js
+¦   ¦   ¦   ¦   StringCreate.js
+¦   ¦   ¦   ¦   StringGetOwnProperty.js
+¦   ¦   ¦   ¦   StringPad.js
+¦   ¦   ¦   ¦   StringToBigInt.js
+¦   ¦   ¦   ¦   SymbolDescriptiveString.js
+¦   ¦   ¦   ¦   TestIntegrityLevel.js
+¦   ¦   ¦   ¦   thisBigIntValue.js
+¦   ¦   ¦   ¦   thisBooleanValue.js
+¦   ¦   ¦   ¦   thisNumberValue.js
+¦   ¦   ¦   ¦   thisStringValue.js
+¦   ¦   ¦   ¦   thisSymbolValue.js
+¦   ¦   ¦   ¦   thisTimeValue.js
+¦   ¦   ¦   ¦   ThrowCompletion.js
+¦   ¦   ¦   ¦   TimeClip.js
+¦   ¦   ¦   ¦   TimeFromYear.js
+¦   ¦   ¦   ¦   TimeString.js
+¦   ¦   ¦   ¦   TimeWithinDay.js
+¦   ¦   ¦   ¦   ToBigInt.js
+¦   ¦   ¦   ¦   ToBigInt64.js
+¦   ¦   ¦   ¦   ToBigUint64.js
+¦   ¦   ¦   ¦   ToBoolean.js
+¦   ¦   ¦   ¦   ToDateString.js
+¦   ¦   ¦   ¦   ToIndex.js
+¦   ¦   ¦   ¦   ToInt16.js
+¦   ¦   ¦   ¦   ToInt32.js
+¦   ¦   ¦   ¦   ToInt8.js
+¦   ¦   ¦   ¦   ToInteger.js
+¦   ¦   ¦   ¦   ToLength.js
+¦   ¦   ¦   ¦   ToNumber.js
+¦   ¦   ¦   ¦   ToNumeric.js
+¦   ¦   ¦   ¦   ToObject.js
+¦   ¦   ¦   ¦   ToPrimitive.js
+¦   ¦   ¦   ¦   ToPropertyDescriptor.js
+¦   ¦   ¦   ¦   ToPropertyKey.js
+¦   ¦   ¦   ¦   ToString.js
+¦   ¦   ¦   ¦   ToUint16.js
+¦   ¦   ¦   ¦   ToUint32.js
+¦   ¦   ¦   ¦   ToUint8.js
+¦   ¦   ¦   ¦   ToUint8Clamp.js
+¦   ¦   ¦   ¦   TrimString.js
+¦   ¦   ¦   ¦   Type.js
+¦   ¦   ¦   ¦   UnicodeEscape.js
+¦   ¦   ¦   ¦   UTF16DecodeString.js
+¦   ¦   ¦   ¦   UTF16DecodeSurrogatePair.js
+¦   ¦   ¦   ¦   UTF16Encoding.js
+¦   ¦   ¦   ¦   ValidateAndApplyPropertyDescriptor.js
+¦   ¦   ¦   ¦   ValidateAtomicAccess.js
+¦   ¦   ¦   ¦   ValidateTypedArray.js
+¦   ¦   ¦   ¦   WeekDay.js
+¦   ¦   ¦   ¦   YearFromTime.js
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---BigInt
+¦   ¦   ¦   ¦       add.js
+¦   ¦   ¦   ¦       bitwiseAND.js
+¦   ¦   ¦   ¦       bitwiseNOT.js
+¦   ¦   ¦   ¦       bitwiseOR.js
+¦   ¦   ¦   ¦       bitwiseXOR.js
+¦   ¦   ¦   ¦       divide.js
+¦   ¦   ¦   ¦       equal.js
+¦   ¦   ¦   ¦       exponentiate.js
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       leftShift.js
+¦   ¦   ¦   ¦       lessThan.js
+¦   ¦   ¦   ¦       multiply.js
+¦   ¦   ¦   ¦       remainder.js
+¦   ¦   ¦   ¦       sameValue.js
+¦   ¦   ¦   ¦       sameValueZero.js
+¦   ¦   ¦   ¦       signedRightShift.js
+¦   ¦   ¦   ¦       subtract.js
+¦   ¦   ¦   ¦       toString.js
+¦   ¦   ¦   ¦       unaryMinus.js
+¦   ¦   ¦   ¦       unsignedRightShift.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---Number
+¦   ¦   ¦           add.js
+¦   ¦   ¦           bitwiseAND.js
+¦   ¦   ¦           bitwiseNOT.js
+¦   ¦   ¦           bitwiseOR.js
+¦   ¦   ¦           bitwiseXOR.js
+¦   ¦   ¦           divide.js
+¦   ¦   ¦           equal.js
+¦   ¦   ¦           exponentiate.js
+¦   ¦   ¦           index.js
+¦   ¦   ¦           leftShift.js
+¦   ¦   ¦           lessThan.js
+¦   ¦   ¦           multiply.js
+¦   ¦   ¦           remainder.js
+¦   ¦   ¦           sameValue.js
+¦   ¦   ¦           sameValueZero.js
+¦   ¦   ¦           signedRightShift.js
+¦   ¦   ¦           subtract.js
+¦   ¦   ¦           toString.js
+¦   ¦   ¦           unaryMinus.js
+¦   ¦   ¦           unsignedRightShift.js
+¦   ¦   ¦           
+¦   ¦   +---2021
+¦   ¦   ¦   ¦   abs.js
+¦   ¦   ¦   ¦   AbstractEqualityComparison.js
+¦   ¦   ¦   ¦   AbstractRelationalComparison.js
+¦   ¦   ¦   ¦   AddEntriesFromIterable.js
+¦   ¦   ¦   ¦   AddToKeptObjects.js
+¦   ¦   ¦   ¦   AdvanceStringIndex.js
+¦   ¦   ¦   ¦   ApplyStringOrNumericBinaryOperator.js
+¦   ¦   ¦   ¦   ArrayCreate.js
+¦   ¦   ¦   ¦   ArraySetLength.js
+¦   ¦   ¦   ¦   ArraySpeciesCreate.js
+¦   ¦   ¦   ¦   AsyncFromSyncIteratorContinuation.js
+¦   ¦   ¦   ¦   AsyncIteratorClose.js
+¦   ¦   ¦   ¦   BigIntBitwiseOp.js
+¦   ¦   ¦   ¦   BinaryAnd.js
+¦   ¦   ¦   ¦   BinaryOr.js
+¦   ¦   ¦   ¦   BinaryXor.js
+¦   ¦   ¦   ¦   ByteListBitwiseOp.js
+¦   ¦   ¦   ¦   ByteListEqual.js
+¦   ¦   ¦   ¦   Call.js
+¦   ¦   ¦   ¦   CanonicalNumericIndexString.js
+¦   ¦   ¦   ¦   CharacterRange.js
+¦   ¦   ¦   ¦   clamp.js
+¦   ¦   ¦   ¦   ClearKeptObjects.js
+¦   ¦   ¦   ¦   CodePointAt.js
+¦   ¦   ¦   ¦   CodePointsToString.js
+¦   ¦   ¦   ¦   CompletePropertyDescriptor.js
+¦   ¦   ¦   ¦   CompletionRecord.js
+¦   ¦   ¦   ¦   CopyDataProperties.js
+¦   ¦   ¦   ¦   CreateAsyncFromSyncIterator.js
+¦   ¦   ¦   ¦   CreateDataProperty.js
+¦   ¦   ¦   ¦   CreateDataPropertyOrThrow.js
+¦   ¦   ¦   ¦   CreateHTML.js
+¦   ¦   ¦   ¦   CreateIterResultObject.js
+¦   ¦   ¦   ¦   CreateListFromArrayLike.js
+¦   ¦   ¦   ¦   CreateMethodProperty.js
+¦   ¦   ¦   ¦   CreateRegExpStringIterator.js
+¦   ¦   ¦   ¦   DateFromTime.js
+¦   ¦   ¦   ¦   DateString.js
+¦   ¦   ¦   ¦   Day.js
+¦   ¦   ¦   ¦   DayFromYear.js
+¦   ¦   ¦   ¦   DaysInYear.js
+¦   ¦   ¦   ¦   DayWithinYear.js
+¦   ¦   ¦   ¦   DefinePropertyOrThrow.js
+¦   ¦   ¦   ¦   DeletePropertyOrThrow.js
+¦   ¦   ¦   ¦   DetachArrayBuffer.js
+¦   ¦   ¦   ¦   EnumerableOwnPropertyNames.js
+¦   ¦   ¦   ¦   FlattenIntoArray.js
+¦   ¦   ¦   ¦   floor.js
+¦   ¦   ¦   ¦   FromPropertyDescriptor.js
+¦   ¦   ¦   ¦   Get.js
+¦   ¦   ¦   ¦   GetGlobalObject.js
+¦   ¦   ¦   ¦   GetIterator.js
+¦   ¦   ¦   ¦   GetMethod.js
+¦   ¦   ¦   ¦   GetOwnPropertyKeys.js
+¦   ¦   ¦   ¦   GetPromiseResolve.js
+¦   ¦   ¦   ¦   GetPrototypeFromConstructor.js
+¦   ¦   ¦   ¦   GetSubstitution.js
+¦   ¦   ¦   ¦   GetV.js
+¦   ¦   ¦   ¦   HasOwnProperty.js
+¦   ¦   ¦   ¦   HasProperty.js
+¦   ¦   ¦   ¦   HourFromTime.js
+¦   ¦   ¦   ¦   InLeapYear.js
+¦   ¦   ¦   ¦   InstanceofOperator.js
+¦   ¦   ¦   ¦   Invoke.js
+¦   ¦   ¦   ¦   IsAccessorDescriptor.js
+¦   ¦   ¦   ¦   IsArray.js
+¦   ¦   ¦   ¦   IsBigIntElementType.js
+¦   ¦   ¦   ¦   IsCallable.js
+¦   ¦   ¦   ¦   IsCompatiblePropertyDescriptor.js
+¦   ¦   ¦   ¦   IsConcatSpreadable.js
+¦   ¦   ¦   ¦   IsConstructor.js
+¦   ¦   ¦   ¦   IsDataDescriptor.js
+¦   ¦   ¦   ¦   IsDetachedBuffer.js
+¦   ¦   ¦   ¦   IsExtensible.js
+¦   ¦   ¦   ¦   IsGenericDescriptor.js
+¦   ¦   ¦   ¦   IsIntegralNumber.js
+¦   ¦   ¦   ¦   IsNoTearConfiguration.js
+¦   ¦   ¦   ¦   IsPromise.js
+¦   ¦   ¦   ¦   IsPropertyKey.js
+¦   ¦   ¦   ¦   IsRegExp.js
+¦   ¦   ¦   ¦   IsSharedArrayBuffer.js
+¦   ¦   ¦   ¦   IsStringPrefix.js
+¦   ¦   ¦   ¦   IsUnclampedIntegerElementType.js
+¦   ¦   ¦   ¦   IsUnsignedElementType.js
+¦   ¦   ¦   ¦   IterableToList.js
+¦   ¦   ¦   ¦   IteratorClose.js
+¦   ¦   ¦   ¦   IteratorComplete.js
+¦   ¦   ¦   ¦   IteratorNext.js
+¦   ¦   ¦   ¦   IteratorStep.js
+¦   ¦   ¦   ¦   IteratorValue.js
+¦   ¦   ¦   ¦   LengthOfArrayLike.js
+¦   ¦   ¦   ¦   MakeDate.js
+¦   ¦   ¦   ¦   MakeDay.js
+¦   ¦   ¦   ¦   MakeTime.js
+¦   ¦   ¦   ¦   max.js
+¦   ¦   ¦   ¦   min.js
+¦   ¦   ¦   ¦   MinFromTime.js
+¦   ¦   ¦   ¦   modulo.js
+¦   ¦   ¦   ¦   MonthFromTime.js
+¦   ¦   ¦   ¦   msFromTime.js
+¦   ¦   ¦   ¦   NormalCompletion.js
+¦   ¦   ¦   ¦   NumberBitwiseOp.js
+¦   ¦   ¦   ¦   NumberToBigInt.js
+¦   ¦   ¦   ¦   NumericToRawBytes.js
+¦   ¦   ¦   ¦   ObjectDefineProperties.js
+¦   ¦   ¦   ¦   OrdinaryCreateFromConstructor.js
+¦   ¦   ¦   ¦   OrdinaryDefineOwnProperty.js
+¦   ¦   ¦   ¦   OrdinaryGetOwnProperty.js
+¦   ¦   ¦   ¦   OrdinaryGetPrototypeOf.js
+¦   ¦   ¦   ¦   OrdinaryHasInstance.js
+¦   ¦   ¦   ¦   OrdinaryHasProperty.js
+¦   ¦   ¦   ¦   OrdinaryObjectCreate.js
+¦   ¦   ¦   ¦   OrdinarySetPrototypeOf.js
+¦   ¦   ¦   ¦   OrdinaryToPrimitive.js
+¦   ¦   ¦   ¦   PromiseResolve.js
+¦   ¦   ¦   ¦   QuoteJSONString.js
+¦   ¦   ¦   ¦   RawBytesToNumeric.js
+¦   ¦   ¦   ¦   RegExpCreate.js
+¦   ¦   ¦   ¦   RegExpExec.js
+¦   ¦   ¦   ¦   RequireObjectCoercible.js
+¦   ¦   ¦   ¦   SameValue.js
+¦   ¦   ¦   ¦   SameValueNonNumeric.js
+¦   ¦   ¦   ¦   SameValueZero.js
+¦   ¦   ¦   ¦   SecFromTime.js
+¦   ¦   ¦   ¦   Set.js
+¦   ¦   ¦   ¦   SetFunctionLength.js
+¦   ¦   ¦   ¦   SetFunctionName.js
+¦   ¦   ¦   ¦   SetIntegrityLevel.js
+¦   ¦   ¦   ¦   SpeciesConstructor.js
+¦   ¦   ¦   ¦   SplitMatch.js
+¦   ¦   ¦   ¦   StrictEqualityComparison.js
+¦   ¦   ¦   ¦   StringCreate.js
+¦   ¦   ¦   ¦   StringGetOwnProperty.js
+¦   ¦   ¦   ¦   StringIndexOf.js
+¦   ¦   ¦   ¦   StringPad.js
+¦   ¦   ¦   ¦   StringToBigInt.js
+¦   ¦   ¦   ¦   StringToCodePoints.js
+¦   ¦   ¦   ¦   substring.js
+¦   ¦   ¦   ¦   SymbolDescriptiveString.js
+¦   ¦   ¦   ¦   TestIntegrityLevel.js
+¦   ¦   ¦   ¦   thisBigIntValue.js
+¦   ¦   ¦   ¦   thisBooleanValue.js
+¦   ¦   ¦   ¦   thisNumberValue.js
+¦   ¦   ¦   ¦   thisStringValue.js
+¦   ¦   ¦   ¦   thisSymbolValue.js
+¦   ¦   ¦   ¦   thisTimeValue.js
+¦   ¦   ¦   ¦   ThrowCompletion.js
+¦   ¦   ¦   ¦   TimeClip.js
+¦   ¦   ¦   ¦   TimeFromYear.js
+¦   ¦   ¦   ¦   TimeString.js
+¦   ¦   ¦   ¦   TimeWithinDay.js
+¦   ¦   ¦   ¦   ToBigInt.js
+¦   ¦   ¦   ¦   ToBigInt64.js
+¦   ¦   ¦   ¦   ToBigUint64.js
+¦   ¦   ¦   ¦   ToBoolean.js
+¦   ¦   ¦   ¦   ToDateString.js
+¦   ¦   ¦   ¦   ToIndex.js
+¦   ¦   ¦   ¦   ToInt16.js
+¦   ¦   ¦   ¦   ToInt32.js
+¦   ¦   ¦   ¦   ToInt8.js
+¦   ¦   ¦   ¦   ToIntegerOrInfinity.js
+¦   ¦   ¦   ¦   ToLength.js
+¦   ¦   ¦   ¦   ToNumber.js
+¦   ¦   ¦   ¦   ToNumeric.js
+¦   ¦   ¦   ¦   ToObject.js
+¦   ¦   ¦   ¦   ToPrimitive.js
+¦   ¦   ¦   ¦   ToPropertyDescriptor.js
+¦   ¦   ¦   ¦   ToPropertyKey.js
+¦   ¦   ¦   ¦   ToString.js
+¦   ¦   ¦   ¦   ToUint16.js
+¦   ¦   ¦   ¦   ToUint32.js
+¦   ¦   ¦   ¦   ToUint8.js
+¦   ¦   ¦   ¦   ToUint8Clamp.js
+¦   ¦   ¦   ¦   TrimString.js
+¦   ¦   ¦   ¦   Type.js
+¦   ¦   ¦   ¦   UnicodeEscape.js
+¦   ¦   ¦   ¦   UTF16EncodeCodePoint.js
+¦   ¦   ¦   ¦   UTF16SurrogatePairToCodePoint.js
+¦   ¦   ¦   ¦   ValidateAndApplyPropertyDescriptor.js
+¦   ¦   ¦   ¦   ValidateAtomicAccess.js
+¦   ¦   ¦   ¦   ValidateIntegerTypedArray.js
+¦   ¦   ¦   ¦   ValidateTypedArray.js
+¦   ¦   ¦   ¦   WeakRefDeref.js
+¦   ¦   ¦   ¦   WeekDay.js
+¦   ¦   ¦   ¦   YearFromTime.js
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---BigInt
+¦   ¦   ¦   ¦       add.js
+¦   ¦   ¦   ¦       bitwiseAND.js
+¦   ¦   ¦   ¦       bitwiseNOT.js
+¦   ¦   ¦   ¦       bitwiseOR.js
+¦   ¦   ¦   ¦       bitwiseXOR.js
+¦   ¦   ¦   ¦       divide.js
+¦   ¦   ¦   ¦       equal.js
+¦   ¦   ¦   ¦       exponentiate.js
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       leftShift.js
+¦   ¦   ¦   ¦       lessThan.js
+¦   ¦   ¦   ¦       multiply.js
+¦   ¦   ¦   ¦       remainder.js
+¦   ¦   ¦   ¦       sameValue.js
+¦   ¦   ¦   ¦       sameValueZero.js
+¦   ¦   ¦   ¦       signedRightShift.js
+¦   ¦   ¦   ¦       subtract.js
+¦   ¦   ¦   ¦       toString.js
+¦   ¦   ¦   ¦       unaryMinus.js
+¦   ¦   ¦   ¦       unsignedRightShift.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---Number
+¦   ¦   ¦           add.js
+¦   ¦   ¦           bitwiseAND.js
+¦   ¦   ¦           bitwiseNOT.js
+¦   ¦   ¦           bitwiseOR.js
+¦   ¦   ¦           bitwiseXOR.js
+¦   ¦   ¦           divide.js
+¦   ¦   ¦           equal.js
+¦   ¦   ¦           exponentiate.js
+¦   ¦   ¦           index.js
+¦   ¦   ¦           leftShift.js
+¦   ¦   ¦           lessThan.js
+¦   ¦   ¦           multiply.js
+¦   ¦   ¦           remainder.js
+¦   ¦   ¦           sameValue.js
+¦   ¦   ¦           sameValueZero.js
+¦   ¦   ¦           signedRightShift.js
+¦   ¦   ¦           subtract.js
+¦   ¦   ¦           toString.js
+¦   ¦   ¦           unaryMinus.js
+¦   ¦   ¦           unsignedRightShift.js
+¦   ¦   ¦           
+¦   ¦   +---2022
+¦   ¦   ¦   ¦   abs.js
+¦   ¦   ¦   ¦   AddEntriesFromIterable.js
+¦   ¦   ¦   ¦   AddToKeptObjects.js
+¦   ¦   ¦   ¦   AdvanceStringIndex.js
+¦   ¦   ¦   ¦   ApplyStringOrNumericBinaryOperator.js
+¦   ¦   ¦   ¦   ArrayCreate.js
+¦   ¦   ¦   ¦   ArraySetLength.js
+¦   ¦   ¦   ¦   ArraySpeciesCreate.js
+¦   ¦   ¦   ¦   AsyncFromSyncIteratorContinuation.js
+¦   ¦   ¦   ¦   AsyncIteratorClose.js
+¦   ¦   ¦   ¦   BigIntBitwiseOp.js
+¦   ¦   ¦   ¦   BinaryAnd.js
+¦   ¦   ¦   ¦   BinaryOr.js
+¦   ¦   ¦   ¦   BinaryXor.js
+¦   ¦   ¦   ¦   ByteListBitwiseOp.js
+¦   ¦   ¦   ¦   ByteListEqual.js
+¦   ¦   ¦   ¦   Call.js
+¦   ¦   ¦   ¦   CanonicalNumericIndexString.js
+¦   ¦   ¦   ¦   CharacterRange.js
+¦   ¦   ¦   ¦   clamp.js
+¦   ¦   ¦   ¦   ClearKeptObjects.js
+¦   ¦   ¦   ¦   CodePointAt.js
+¦   ¦   ¦   ¦   CodePointsToString.js
+¦   ¦   ¦   ¦   CompletePropertyDescriptor.js
+¦   ¦   ¦   ¦   CompletionRecord.js
+¦   ¦   ¦   ¦   CopyDataProperties.js
+¦   ¦   ¦   ¦   CreateAsyncFromSyncIterator.js
+¦   ¦   ¦   ¦   CreateDataProperty.js
+¦   ¦   ¦   ¦   CreateDataPropertyOrThrow.js
+¦   ¦   ¦   ¦   CreateHTML.js
+¦   ¦   ¦   ¦   CreateIterResultObject.js
+¦   ¦   ¦   ¦   CreateListFromArrayLike.js
+¦   ¦   ¦   ¦   CreateMethodProperty.js
+¦   ¦   ¦   ¦   CreateNonEnumerableDataPropertyOrThrow.js
+¦   ¦   ¦   ¦   CreateRegExpStringIterator.js
+¦   ¦   ¦   ¦   DateFromTime.js
+¦   ¦   ¦   ¦   DateString.js
+¦   ¦   ¦   ¦   Day.js
+¦   ¦   ¦   ¦   DayFromYear.js
+¦   ¦   ¦   ¦   DaysInYear.js
+¦   ¦   ¦   ¦   DayWithinYear.js
+¦   ¦   ¦   ¦   DefinePropertyOrThrow.js
+¦   ¦   ¦   ¦   DeletePropertyOrThrow.js
+¦   ¦   ¦   ¦   DetachArrayBuffer.js
+¦   ¦   ¦   ¦   EnumerableOwnPropertyNames.js
+¦   ¦   ¦   ¦   FlattenIntoArray.js
+¦   ¦   ¦   ¦   floor.js
+¦   ¦   ¦   ¦   FromPropertyDescriptor.js
+¦   ¦   ¦   ¦   Get.js
+¦   ¦   ¦   ¦   GetGlobalObject.js
+¦   ¦   ¦   ¦   GetIterator.js
+¦   ¦   ¦   ¦   GetMatchIndexPair.js
+¦   ¦   ¦   ¦   GetMatchString.js
+¦   ¦   ¦   ¦   GetMethod.js
+¦   ¦   ¦   ¦   GetOwnPropertyKeys.js
+¦   ¦   ¦   ¦   GetPromiseResolve.js
+¦   ¦   ¦   ¦   GetPrototypeFromConstructor.js
+¦   ¦   ¦   ¦   GetStringIndex.js
+¦   ¦   ¦   ¦   GetSubstitution.js
+¦   ¦   ¦   ¦   GetV.js
+¦   ¦   ¦   ¦   HasOwnProperty.js
+¦   ¦   ¦   ¦   HasProperty.js
+¦   ¦   ¦   ¦   HourFromTime.js
+¦   ¦   ¦   ¦   InLeapYear.js
+¦   ¦   ¦   ¦   InstallErrorCause.js
+¦   ¦   ¦   ¦   InstanceofOperator.js
+¦   ¦   ¦   ¦   Invoke.js
+¦   ¦   ¦   ¦   IsAccessorDescriptor.js
+¦   ¦   ¦   ¦   IsArray.js
+¦   ¦   ¦   ¦   IsBigIntElementType.js
+¦   ¦   ¦   ¦   IsCallable.js
+¦   ¦   ¦   ¦   IsCompatiblePropertyDescriptor.js
+¦   ¦   ¦   ¦   IsConcatSpreadable.js
+¦   ¦   ¦   ¦   IsConstructor.js
+¦   ¦   ¦   ¦   IsDataDescriptor.js
+¦   ¦   ¦   ¦   IsDetachedBuffer.js
+¦   ¦   ¦   ¦   IsExtensible.js
+¦   ¦   ¦   ¦   IsGenericDescriptor.js
+¦   ¦   ¦   ¦   IsIntegralNumber.js
+¦   ¦   ¦   ¦   IsLessThan.js
+¦   ¦   ¦   ¦   IsLooselyEqual.js
+¦   ¦   ¦   ¦   IsNoTearConfiguration.js
+¦   ¦   ¦   ¦   IsPromise.js
+¦   ¦   ¦   ¦   IsPropertyKey.js
+¦   ¦   ¦   ¦   IsRegExp.js
+¦   ¦   ¦   ¦   IsSharedArrayBuffer.js
+¦   ¦   ¦   ¦   IsStrictlyEqual.js
+¦   ¦   ¦   ¦   IsStringPrefix.js
+¦   ¦   ¦   ¦   IsStringWellFormedUnicode.js
+¦   ¦   ¦   ¦   IsUnclampedIntegerElementType.js
+¦   ¦   ¦   ¦   IsUnsignedElementType.js
+¦   ¦   ¦   ¦   IterableToList.js
+¦   ¦   ¦   ¦   IteratorClose.js
+¦   ¦   ¦   ¦   IteratorComplete.js
+¦   ¦   ¦   ¦   IteratorNext.js
+¦   ¦   ¦   ¦   IteratorStep.js
+¦   ¦   ¦   ¦   IteratorValue.js
+¦   ¦   ¦   ¦   LengthOfArrayLike.js
+¦   ¦   ¦   ¦   MakeDate.js
+¦   ¦   ¦   ¦   MakeDay.js
+¦   ¦   ¦   ¦   MakeMatchIndicesIndexPairArray.js
+¦   ¦   ¦   ¦   MakeTime.js
+¦   ¦   ¦   ¦   max.js
+¦   ¦   ¦   ¦   min.js
+¦   ¦   ¦   ¦   MinFromTime.js
+¦   ¦   ¦   ¦   modulo.js
+¦   ¦   ¦   ¦   MonthFromTime.js
+¦   ¦   ¦   ¦   msFromTime.js
+¦   ¦   ¦   ¦   NormalCompletion.js
+¦   ¦   ¦   ¦   NumberBitwiseOp.js
+¦   ¦   ¦   ¦   NumberToBigInt.js
+¦   ¦   ¦   ¦   NumericToRawBytes.js
+¦   ¦   ¦   ¦   ObjectDefineProperties.js
+¦   ¦   ¦   ¦   OrdinaryCreateFromConstructor.js
+¦   ¦   ¦   ¦   OrdinaryDefineOwnProperty.js
+¦   ¦   ¦   ¦   OrdinaryGetOwnProperty.js
+¦   ¦   ¦   ¦   OrdinaryGetPrototypeOf.js
+¦   ¦   ¦   ¦   OrdinaryHasInstance.js
+¦   ¦   ¦   ¦   OrdinaryHasProperty.js
+¦   ¦   ¦   ¦   OrdinaryObjectCreate.js
+¦   ¦   ¦   ¦   OrdinarySetPrototypeOf.js
+¦   ¦   ¦   ¦   OrdinaryToPrimitive.js
+¦   ¦   ¦   ¦   PromiseResolve.js
+¦   ¦   ¦   ¦   QuoteJSONString.js
+¦   ¦   ¦   ¦   RawBytesToNumeric.js
+¦   ¦   ¦   ¦   RegExpCreate.js
+¦   ¦   ¦   ¦   RegExpExec.js
+¦   ¦   ¦   ¦   RegExpHasFlag.js
+¦   ¦   ¦   ¦   RequireObjectCoercible.js
+¦   ¦   ¦   ¦   SameValue.js
+¦   ¦   ¦   ¦   SameValueNonNumeric.js
+¦   ¦   ¦   ¦   SameValueZero.js
+¦   ¦   ¦   ¦   SecFromTime.js
+¦   ¦   ¦   ¦   Set.js
+¦   ¦   ¦   ¦   SetFunctionLength.js
+¦   ¦   ¦   ¦   SetFunctionName.js
+¦   ¦   ¦   ¦   SetIntegrityLevel.js
+¦   ¦   ¦   ¦   SortIndexedProperties.js
+¦   ¦   ¦   ¦   SpeciesConstructor.js
+¦   ¦   ¦   ¦   StringCreate.js
+¦   ¦   ¦   ¦   StringGetOwnProperty.js
+¦   ¦   ¦   ¦   StringIndexOf.js
+¦   ¦   ¦   ¦   StringPad.js
+¦   ¦   ¦   ¦   StringToBigInt.js
+¦   ¦   ¦   ¦   StringToCodePoints.js
+¦   ¦   ¦   ¦   StringToNumber.js
+¦   ¦   ¦   ¦   substring.js
+¦   ¦   ¦   ¦   SymbolDescriptiveString.js
+¦   ¦   ¦   ¦   TestIntegrityLevel.js
+¦   ¦   ¦   ¦   thisBigIntValue.js
+¦   ¦   ¦   ¦   thisBooleanValue.js
+¦   ¦   ¦   ¦   thisNumberValue.js
+¦   ¦   ¦   ¦   thisStringValue.js
+¦   ¦   ¦   ¦   thisSymbolValue.js
+¦   ¦   ¦   ¦   thisTimeValue.js
+¦   ¦   ¦   ¦   ThrowCompletion.js
+¦   ¦   ¦   ¦   TimeClip.js
+¦   ¦   ¦   ¦   TimeFromYear.js
+¦   ¦   ¦   ¦   TimeString.js
+¦   ¦   ¦   ¦   TimeWithinDay.js
+¦   ¦   ¦   ¦   ToBigInt.js
+¦   ¦   ¦   ¦   ToBigInt64.js
+¦   ¦   ¦   ¦   ToBigUint64.js
+¦   ¦   ¦   ¦   ToBoolean.js
+¦   ¦   ¦   ¦   ToDateString.js
+¦   ¦   ¦   ¦   ToIndex.js
+¦   ¦   ¦   ¦   ToInt16.js
+¦   ¦   ¦   ¦   ToInt32.js
+¦   ¦   ¦   ¦   ToInt8.js
+¦   ¦   ¦   ¦   ToIntegerOrInfinity.js
+¦   ¦   ¦   ¦   ToLength.js
+¦   ¦   ¦   ¦   ToNumber.js
+¦   ¦   ¦   ¦   ToNumeric.js
+¦   ¦   ¦   ¦   ToObject.js
+¦   ¦   ¦   ¦   ToPrimitive.js
+¦   ¦   ¦   ¦   ToPropertyDescriptor.js
+¦   ¦   ¦   ¦   ToPropertyKey.js
+¦   ¦   ¦   ¦   ToString.js
+¦   ¦   ¦   ¦   ToUint16.js
+¦   ¦   ¦   ¦   ToUint32.js
+¦   ¦   ¦   ¦   ToUint8.js
+¦   ¦   ¦   ¦   ToUint8Clamp.js
+¦   ¦   ¦   ¦   ToZeroPaddedDecimalString.js
+¦   ¦   ¦   ¦   TrimString.js
+¦   ¦   ¦   ¦   Type.js
+¦   ¦   ¦   ¦   TypedArrayElementSize.js
+¦   ¦   ¦   ¦   TypedArrayElementType.js
+¦   ¦   ¦   ¦   UnicodeEscape.js
+¦   ¦   ¦   ¦   UTF16EncodeCodePoint.js
+¦   ¦   ¦   ¦   UTF16SurrogatePairToCodePoint.js
+¦   ¦   ¦   ¦   ValidateAndApplyPropertyDescriptor.js
+¦   ¦   ¦   ¦   ValidateAtomicAccess.js
+¦   ¦   ¦   ¦   ValidateIntegerTypedArray.js
+¦   ¦   ¦   ¦   ValidateTypedArray.js
+¦   ¦   ¦   ¦   WeakRefDeref.js
+¦   ¦   ¦   ¦   WeekDay.js
+¦   ¦   ¦   ¦   YearFromTime.js
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---BigInt
+¦   ¦   ¦   ¦       add.js
+¦   ¦   ¦   ¦       bitwiseAND.js
+¦   ¦   ¦   ¦       bitwiseNOT.js
+¦   ¦   ¦   ¦       bitwiseOR.js
+¦   ¦   ¦   ¦       bitwiseXOR.js
+¦   ¦   ¦   ¦       divide.js
+¦   ¦   ¦   ¦       equal.js
+¦   ¦   ¦   ¦       exponentiate.js
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       leftShift.js
+¦   ¦   ¦   ¦       lessThan.js
+¦   ¦   ¦   ¦       multiply.js
+¦   ¦   ¦   ¦       remainder.js
+¦   ¦   ¦   ¦       sameValue.js
+¦   ¦   ¦   ¦       sameValueZero.js
+¦   ¦   ¦   ¦       signedRightShift.js
+¦   ¦   ¦   ¦       subtract.js
+¦   ¦   ¦   ¦       toString.js
+¦   ¦   ¦   ¦       unaryMinus.js
+¦   ¦   ¦   ¦       unsignedRightShift.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---Number
+¦   ¦   ¦           add.js
+¦   ¦   ¦           bitwiseAND.js
+¦   ¦   ¦           bitwiseNOT.js
+¦   ¦   ¦           bitwiseOR.js
+¦   ¦   ¦           bitwiseXOR.js
+¦   ¦   ¦           divide.js
+¦   ¦   ¦           equal.js
+¦   ¦   ¦           exponentiate.js
+¦   ¦   ¦           index.js
+¦   ¦   ¦           leftShift.js
+¦   ¦   ¦           lessThan.js
+¦   ¦   ¦           multiply.js
+¦   ¦   ¦           remainder.js
+¦   ¦   ¦           sameValue.js
+¦   ¦   ¦           sameValueZero.js
+¦   ¦   ¦           signedRightShift.js
+¦   ¦   ¦           subtract.js
+¦   ¦   ¦           toString.js
+¦   ¦   ¦           unaryMinus.js
+¦   ¦   ¦           unsignedRightShift.js
+¦   ¦   ¦           
+¦   ¦   +---5
+¦   ¦   ¦       abs.js
+¦   ¦   ¦       AbstractEqualityComparison.js
+¦   ¦   ¦       AbstractRelationalComparison.js
+¦   ¦   ¦       CheckObjectCoercible.js
+¦   ¦   ¦       DateFromTime.js
+¦   ¦   ¦       Day.js
+¦   ¦   ¦       DayFromYear.js
+¦   ¦   ¦       DaysInYear.js
+¦   ¦   ¦       DayWithinYear.js
+¦   ¦   ¦       floor.js
+¦   ¦   ¦       FromPropertyDescriptor.js
+¦   ¦   ¦       HourFromTime.js
+¦   ¦   ¦       InLeapYear.js
+¦   ¦   ¦       IsAccessorDescriptor.js
+¦   ¦   ¦       IsCallable.js
+¦   ¦   ¦       IsDataDescriptor.js
+¦   ¦   ¦       IsGenericDescriptor.js
+¦   ¦   ¦       IsPropertyDescriptor.js
+¦   ¦   ¦       MakeDate.js
+¦   ¦   ¦       MakeDay.js
+¦   ¦   ¦       MakeTime.js
+¦   ¦   ¦       MinFromTime.js
+¦   ¦   ¦       modulo.js
+¦   ¦   ¦       MonthFromTime.js
+¦   ¦   ¦       msFromTime.js
+¦   ¦   ¦       SameValue.js
+¦   ¦   ¦       SecFromTime.js
+¦   ¦   ¦       StrictEqualityComparison.js
+¦   ¦   ¦       TimeClip.js
+¦   ¦   ¦       TimeFromYear.js
+¦   ¦   ¦       TimeWithinDay.js
+¦   ¦   ¦       ToBoolean.js
+¦   ¦   ¦       ToInt32.js
+¦   ¦   ¦       ToInteger.js
+¦   ¦   ¦       ToNumber.js
+¦   ¦   ¦       ToObject.js
+¦   ¦   ¦       ToPrimitive.js
+¦   ¦   ¦       ToPropertyDescriptor.js
+¦   ¦   ¦       ToString.js
+¦   ¦   ¦       ToUint16.js
+¦   ¦   ¦       ToUint32.js
+¦   ¦   ¦       Type.js
+¦   ¦   ¦       WeekDay.js
+¦   ¦   ¦       YearFromTime.js
+¦   ¦   ¦       
+¦   ¦   +---helpers
+¦   ¦   ¦       assertRecord.js
+¦   ¦   ¦       assign.js
+¦   ¦   ¦       callBind.js
+¦   ¦   ¦       callBound.js
+¦   ¦   ¦       DefineOwnProperty.js
+¦   ¦   ¦       every.js
+¦   ¦   ¦       forEach.js
+¦   ¦   ¦       fromPropertyDescriptor.js
+¦   ¦   ¦       getInferredName.js
+¦   ¦   ¦       getIteratorMethod.js
+¦   ¦   ¦       getOwnPropertyDescriptor.js
+¦   ¦   ¦       getProto.js
+¦   ¦   ¦       getSymbolDescription.js
+¦   ¦   ¦       isAbstractClosure.js
+¦   ¦   ¦       IsArray.js
+¦   ¦   ¦       isByteValue.js
+¦   ¦   ¦       isCodePoint.js
+¦   ¦   ¦       isFinite.js
+¦   ¦   ¦       isFullyPopulatedPropertyDescriptor.js
+¦   ¦   ¦       isLeadingSurrogate.js
+¦   ¦   ¦       isMatchRecord.js
+¦   ¦   ¦       isNaN.js
+¦   ¦   ¦       isPrefixOf.js
+¦   ¦   ¦       isPrimitive.js
+¦   ¦   ¦       isPropertyDescriptor.js
+¦   ¦   ¦       isSamePropertyDescriptor.js
+¦   ¦   ¦       isTrailingSurrogate.js
+¦   ¦   ¦       maxSafeInteger.js
+¦   ¦   ¦       mod.js
+¦   ¦   ¦       modBigInt.js
+¦   ¦   ¦       OwnPropertyKeys.js
+¦   ¦   ¦       padTimeComponent.js
+¦   ¦   ¦       reduce.js
+¦   ¦   ¦       regexTester.js
+¦   ¦   ¦       setProto.js
+¦   ¦   ¦       sign.js
+¦   ¦   ¦       some.js
+¦   ¦   ¦       timeConstants.js
+¦   ¦   ¦       
+¦   ¦   +---operations
+¦   ¦           .eslintrc
+¦   ¦           2015.js
+¦   ¦           2016.js
+¦   ¦           2017.js
+¦   ¦           2018.js
+¦   ¦           2019.js
+¦   ¦           2020.js
+¦   ¦           2021.js
+¦   ¦           2022.js
+¦   ¦           
+¦   +---es-set-tostringtag
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---es-to-primitive
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .travis.yml
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   es2015.js
+¦   ¦   ¦   es5.js
+¦   ¦   ¦   es6.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   Makefile
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---helpers
+¦   ¦   ¦       isPrimitive.js
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           es2015.js
+¦   ¦           es5.js
+¦   ¦           es6.js
+¦   ¦           index.js
+¦   ¦           
+¦   +---escape-string-regexp
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---execa
+¦   ¦   ¦   index.js
+¦   ¦   ¦   license
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           errname.js
+¦   ¦           stdio.js
+¦   ¦           
+¦   +---for-each
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .travis.yml
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           .eslintrc
+¦   ¦           test.js
+¦   ¦           
+¦   +---fs-extra
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦   ¦   ¦   index.js
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---copy
+¦   ¦   ¦   ¦       copy.js
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---copy-sync
+¦   ¦   ¦   ¦       copy-sync.js
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---empty
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---ensure
+¦   ¦   ¦   ¦       file.js
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       link.js
+¦   ¦   ¦   ¦       symlink-paths.js
+¦   ¦   ¦   ¦       symlink-type.js
+¦   ¦   ¦   ¦       symlink.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---fs
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---json
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       jsonfile.js
+¦   ¦   ¦   ¦       output-json-sync.js
+¦   ¦   ¦   ¦       output-json.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---mkdirs
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       make-dir.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---move
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       move.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---move-sync
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       move-sync.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---output
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---path-exists
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---remove
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       rimraf.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---util
+¦   ¦   ¦           stat.js
+¦   ¦   ¦           utimes.js
+¦   ¦   ¦           
+¦   ¦   +---node_modules
+¦   ¦       +---jsonfile
+¦   ¦       ¦       CHANGELOG.md
+¦   ¦       ¦       index.js
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       package.json
+¦   ¦       ¦       README.md
+¦   ¦       ¦       utils.js
+¦   ¦       ¦       
+¦   ¦       +---universalify
+¦   ¦               index.js
+¦   ¦               LICENSE
+¦   ¦               package.json
+¦   ¦               README.md
+¦   ¦               
+¦   +---function-bind
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .jscs.json
+¦   ¦   ¦   .npmignore
+¦   ¦   ¦   .travis.yml
+¦   ¦   ¦   implementation.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           .eslintrc
+¦   ¦           index.js
+¦   ¦           
+¦   +---function.prototype.name
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   auto.js
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   implementation.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   polyfill.js
+¦   ¦   ¦   README.md
+¦   ¦   ¦   shim.js
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---helpers
+¦   ¦   ¦       functionsHaveNames.js
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           implementation.js
+¦   ¦           index.js
+¦   ¦           shimmed.js
+¦   ¦           tests.js
+¦   ¦           uglified.js
+¦   ¦           
+¦   +---functions-have-names
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---get-intrinsic
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           GetIntrinsic.js
+¦   ¦           
+¦   +---get-stream
+¦   ¦       buffer-stream.js
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---get-symbol-description
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   getInferredName.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---globalthis
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   auto.js
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   implementation.browser.js
+¦   ¦   ¦   implementation.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   polyfill.js
+¦   ¦   ¦   README.md
+¦   ¦   ¦   shim.js
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           implementation.js
+¦   ¦           index.js
+¦   ¦           native.js
+¦   ¦           shimmed.js
+¦   ¦           tests.js
+¦   ¦           
+¦   +---gopd
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---graceful-fs
+¦   ¦       clone.js
+¦   ¦       graceful-fs.js
+¦   ¦       legacy-streams.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       polyfills.js
+¦   ¦       README.md
+¦   ¦       
+¦   +---has
+¦   ¦   ¦   LICENSE-MIT
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---src
+¦   ¦   ¦       index.js
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---has-bigints
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---has-flag
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---has-property-descriptors
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---has-proto
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---has-symbols
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   shams.js
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦       ¦   index.js
+¦   ¦       ¦   tests.js
+¦   ¦       ¦   
+¦   ¦       +---shams
+¦   ¦               core-js.js
+¦   ¦               get-own-property-symbols.js
+¦   ¦               
+¦   +---has-tostringtag
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   shams.js
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦       ¦   index.js
+¦   ¦       ¦   tests.js
+¦   ¦       ¦   
+¦   ¦       +---shams
+¦   ¦               core-js.js
+¦   ¦               get-own-property-symbols.js
+¦   ¦               
+¦   +---hosted-git-info
+¦   ¦       CHANGELOG.md
+¦   ¦       git-host-info.js
+¦   ¦       git-host.js
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---internal-slot
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-array-buffer
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-arrayish
+¦   ¦       .editorconfig
+¦   ¦       .istanbul.yml
+¦   ¦       .npmignore
+¦   ¦       .travis.yml
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---is-bigint
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-boolean-object
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-callable
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-core-module
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   core.json
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-date-object
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-negative-zero
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-number-object
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-regex
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-shared-array-buffer
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-stream
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---is-string
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-symbol
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-typed-array
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---is-weakref
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---isexe
+¦   ¦   ¦   .npmignore
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   mode.js
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   windows.js
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           basic.js
+¦   ¦           
+¦   +---json-parse-better-errors
+¦   ¦       CHANGELOG.md
+¦   ¦       index.js
+¦   ¦       LICENSE.md
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---jsonfile
+¦   ¦       CHANGELOG.md
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---load-json-file
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---lodash
+¦   ¦   ¦   add.js
+¦   ¦   ¦   after.js
+¦   ¦   ¦   array.js
+¦   ¦   ¦   ary.js
+¦   ¦   ¦   assign.js
+¦   ¦   ¦   assignIn.js
+¦   ¦   ¦   assignInWith.js
+¦   ¦   ¦   assignWith.js
+¦   ¦   ¦   at.js
+¦   ¦   ¦   attempt.js
+¦   ¦   ¦   before.js
+¦   ¦   ¦   bind.js
+¦   ¦   ¦   bindAll.js
+¦   ¦   ¦   bindKey.js
+¦   ¦   ¦   camelCase.js
+¦   ¦   ¦   capitalize.js
+¦   ¦   ¦   castArray.js
+¦   ¦   ¦   ceil.js
+¦   ¦   ¦   chain.js
+¦   ¦   ¦   chunk.js
+¦   ¦   ¦   clamp.js
+¦   ¦   ¦   clone.js
+¦   ¦   ¦   cloneDeep.js
+¦   ¦   ¦   cloneDeepWith.js
+¦   ¦   ¦   cloneWith.js
+¦   ¦   ¦   collection.js
+¦   ¦   ¦   commit.js
+¦   ¦   ¦   compact.js
+¦   ¦   ¦   concat.js
+¦   ¦   ¦   cond.js
+¦   ¦   ¦   conforms.js
+¦   ¦   ¦   conformsTo.js
+¦   ¦   ¦   constant.js
+¦   ¦   ¦   core.js
+¦   ¦   ¦   core.min.js
+¦   ¦   ¦   countBy.js
+¦   ¦   ¦   create.js
+¦   ¦   ¦   curry.js
+¦   ¦   ¦   curryRight.js
+¦   ¦   ¦   date.js
+¦   ¦   ¦   debounce.js
+¦   ¦   ¦   deburr.js
+¦   ¦   ¦   defaults.js
+¦   ¦   ¦   defaultsDeep.js
+¦   ¦   ¦   defaultTo.js
+¦   ¦   ¦   defer.js
+¦   ¦   ¦   delay.js
+¦   ¦   ¦   difference.js
+¦   ¦   ¦   differenceBy.js
+¦   ¦   ¦   differenceWith.js
+¦   ¦   ¦   divide.js
+¦   ¦   ¦   drop.js
+¦   ¦   ¦   dropRight.js
+¦   ¦   ¦   dropRightWhile.js
+¦   ¦   ¦   dropWhile.js
+¦   ¦   ¦   each.js
+¦   ¦   ¦   eachRight.js
+¦   ¦   ¦   endsWith.js
+¦   ¦   ¦   entries.js
+¦   ¦   ¦   entriesIn.js
+¦   ¦   ¦   eq.js
+¦   ¦   ¦   escape.js
+¦   ¦   ¦   escapeRegExp.js
+¦   ¦   ¦   every.js
+¦   ¦   ¦   extend.js
+¦   ¦   ¦   extendWith.js
+¦   ¦   ¦   fill.js
+¦   ¦   ¦   filter.js
+¦   ¦   ¦   find.js
+¦   ¦   ¦   findIndex.js
+¦   ¦   ¦   findKey.js
+¦   ¦   ¦   findLast.js
+¦   ¦   ¦   findLastIndex.js
+¦   ¦   ¦   findLastKey.js
+¦   ¦   ¦   first.js
+¦   ¦   ¦   flake.lock
+¦   ¦   ¦   flake.nix
+¦   ¦   ¦   flatMap.js
+¦   ¦   ¦   flatMapDeep.js
+¦   ¦   ¦   flatMapDepth.js
+¦   ¦   ¦   flatten.js
+¦   ¦   ¦   flattenDeep.js
+¦   ¦   ¦   flattenDepth.js
+¦   ¦   ¦   flip.js
+¦   ¦   ¦   floor.js
+¦   ¦   ¦   flow.js
+¦   ¦   ¦   flowRight.js
+¦   ¦   ¦   forEach.js
+¦   ¦   ¦   forEachRight.js
+¦   ¦   ¦   forIn.js
+¦   ¦   ¦   forInRight.js
+¦   ¦   ¦   forOwn.js
+¦   ¦   ¦   forOwnRight.js
+¦   ¦   ¦   fp.js
+¦   ¦   ¦   fromPairs.js
+¦   ¦   ¦   function.js
+¦   ¦   ¦   functions.js
+¦   ¦   ¦   functionsIn.js
+¦   ¦   ¦   get.js
+¦   ¦   ¦   groupBy.js
+¦   ¦   ¦   gt.js
+¦   ¦   ¦   gte.js
+¦   ¦   ¦   has.js
+¦   ¦   ¦   hasIn.js
+¦   ¦   ¦   head.js
+¦   ¦   ¦   identity.js
+¦   ¦   ¦   includes.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   indexOf.js
+¦   ¦   ¦   initial.js
+¦   ¦   ¦   inRange.js
+¦   ¦   ¦   intersection.js
+¦   ¦   ¦   intersectionBy.js
+¦   ¦   ¦   intersectionWith.js
+¦   ¦   ¦   invert.js
+¦   ¦   ¦   invertBy.js
+¦   ¦   ¦   invoke.js
+¦   ¦   ¦   invokeMap.js
+¦   ¦   ¦   isArguments.js
+¦   ¦   ¦   isArray.js
+¦   ¦   ¦   isArrayBuffer.js
+¦   ¦   ¦   isArrayLike.js
+¦   ¦   ¦   isArrayLikeObject.js
+¦   ¦   ¦   isBoolean.js
+¦   ¦   ¦   isBuffer.js
+¦   ¦   ¦   isDate.js
+¦   ¦   ¦   isElement.js
+¦   ¦   ¦   isEmpty.js
+¦   ¦   ¦   isEqual.js
+¦   ¦   ¦   isEqualWith.js
+¦   ¦   ¦   isError.js
+¦   ¦   ¦   isFinite.js
+¦   ¦   ¦   isFunction.js
+¦   ¦   ¦   isInteger.js
+¦   ¦   ¦   isLength.js
+¦   ¦   ¦   isMap.js
+¦   ¦   ¦   isMatch.js
+¦   ¦   ¦   isMatchWith.js
+¦   ¦   ¦   isNaN.js
+¦   ¦   ¦   isNative.js
+¦   ¦   ¦   isNil.js
+¦   ¦   ¦   isNull.js
+¦   ¦   ¦   isNumber.js
+¦   ¦   ¦   isObject.js
+¦   ¦   ¦   isObjectLike.js
+¦   ¦   ¦   isPlainObject.js
+¦   ¦   ¦   isRegExp.js
+¦   ¦   ¦   isSafeInteger.js
+¦   ¦   ¦   isSet.js
+¦   ¦   ¦   isString.js
+¦   ¦   ¦   isSymbol.js
+¦   ¦   ¦   isTypedArray.js
+¦   ¦   ¦   isUndefined.js
+¦   ¦   ¦   isWeakMap.js
+¦   ¦   ¦   isWeakSet.js
+¦   ¦   ¦   iteratee.js
+¦   ¦   ¦   join.js
+¦   ¦   ¦   kebabCase.js
+¦   ¦   ¦   keyBy.js
+¦   ¦   ¦   keys.js
+¦   ¦   ¦   keysIn.js
+¦   ¦   ¦   lang.js
+¦   ¦   ¦   last.js
+¦   ¦   ¦   lastIndexOf.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   lodash.js
+¦   ¦   ¦   lodash.min.js
+¦   ¦   ¦   lowerCase.js
+¦   ¦   ¦   lowerFirst.js
+¦   ¦   ¦   lt.js
+¦   ¦   ¦   lte.js
+¦   ¦   ¦   map.js
+¦   ¦   ¦   mapKeys.js
+¦   ¦   ¦   mapValues.js
+¦   ¦   ¦   matches.js
+¦   ¦   ¦   matchesProperty.js
+¦   ¦   ¦   math.js
+¦   ¦   ¦   max.js
+¦   ¦   ¦   maxBy.js
+¦   ¦   ¦   mean.js
+¦   ¦   ¦   meanBy.js
+¦   ¦   ¦   memoize.js
+¦   ¦   ¦   merge.js
+¦   ¦   ¦   mergeWith.js
+¦   ¦   ¦   method.js
+¦   ¦   ¦   methodOf.js
+¦   ¦   ¦   min.js
+¦   ¦   ¦   minBy.js
+¦   ¦   ¦   mixin.js
+¦   ¦   ¦   multiply.js
+¦   ¦   ¦   negate.js
+¦   ¦   ¦   next.js
+¦   ¦   ¦   noop.js
+¦   ¦   ¦   now.js
+¦   ¦   ¦   nth.js
+¦   ¦   ¦   nthArg.js
+¦   ¦   ¦   number.js
+¦   ¦   ¦   object.js
+¦   ¦   ¦   omit.js
+¦   ¦   ¦   omitBy.js
+¦   ¦   ¦   once.js
+¦   ¦   ¦   orderBy.js
+¦   ¦   ¦   over.js
+¦   ¦   ¦   overArgs.js
+¦   ¦   ¦   overEvery.js
+¦   ¦   ¦   overSome.js
+¦   ¦   ¦   package.json
+¦   ¦   ¦   pad.js
+¦   ¦   ¦   padEnd.js
+¦   ¦   ¦   padStart.js
+¦   ¦   ¦   parseInt.js
+¦   ¦   ¦   partial.js
+¦   ¦   ¦   partialRight.js
+¦   ¦   ¦   partition.js
+¦   ¦   ¦   pick.js
+¦   ¦   ¦   pickBy.js
+¦   ¦   ¦   plant.js
+¦   ¦   ¦   property.js
+¦   ¦   ¦   propertyOf.js
+¦   ¦   ¦   pull.js
+¦   ¦   ¦   pullAll.js
+¦   ¦   ¦   pullAllBy.js
+¦   ¦   ¦   pullAllWith.js
+¦   ¦   ¦   pullAt.js
+¦   ¦   ¦   random.js
+¦   ¦   ¦   range.js
+¦   ¦   ¦   rangeRight.js
+¦   ¦   ¦   README.md
+¦   ¦   ¦   rearg.js
+¦   ¦   ¦   reduce.js
+¦   ¦   ¦   reduceRight.js
+¦   ¦   ¦   reject.js
+¦   ¦   ¦   release.md
+¦   ¦   ¦   remove.js
+¦   ¦   ¦   repeat.js
+¦   ¦   ¦   replace.js
+¦   ¦   ¦   rest.js
+¦   ¦   ¦   result.js
+¦   ¦   ¦   reverse.js
+¦   ¦   ¦   round.js
+¦   ¦   ¦   sample.js
+¦   ¦   ¦   sampleSize.js
+¦   ¦   ¦   seq.js
+¦   ¦   ¦   set.js
+¦   ¦   ¦   setWith.js
+¦   ¦   ¦   shuffle.js
+¦   ¦   ¦   size.js
+¦   ¦   ¦   slice.js
+¦   ¦   ¦   snakeCase.js
+¦   ¦   ¦   some.js
+¦   ¦   ¦   sortBy.js
+¦   ¦   ¦   sortedIndex.js
+¦   ¦   ¦   sortedIndexBy.js
+¦   ¦   ¦   sortedIndexOf.js
+¦   ¦   ¦   sortedLastIndex.js
+¦   ¦   ¦   sortedLastIndexBy.js
+¦   ¦   ¦   sortedLastIndexOf.js
+¦   ¦   ¦   sortedUniq.js
+¦   ¦   ¦   sortedUniqBy.js
+¦   ¦   ¦   split.js
+¦   ¦   ¦   spread.js
+¦   ¦   ¦   startCase.js
+¦   ¦   ¦   startsWith.js
+¦   ¦   ¦   string.js
+¦   ¦   ¦   stubArray.js
+¦   ¦   ¦   stubFalse.js
+¦   ¦   ¦   stubObject.js
+¦   ¦   ¦   stubString.js
+¦   ¦   ¦   stubTrue.js
+¦   ¦   ¦   subtract.js
+¦   ¦   ¦   sum.js
+¦   ¦   ¦   sumBy.js
+¦   ¦   ¦   tail.js
+¦   ¦   ¦   take.js
+¦   ¦   ¦   takeRight.js
+¦   ¦   ¦   takeRightWhile.js
+¦   ¦   ¦   takeWhile.js
+¦   ¦   ¦   tap.js
+¦   ¦   ¦   template.js
+¦   ¦   ¦   templateSettings.js
+¦   ¦   ¦   throttle.js
+¦   ¦   ¦   thru.js
+¦   ¦   ¦   times.js
+¦   ¦   ¦   toArray.js
+¦   ¦   ¦   toFinite.js
+¦   ¦   ¦   toInteger.js
+¦   ¦   ¦   toIterator.js
+¦   ¦   ¦   toJSON.js
+¦   ¦   ¦   toLength.js
+¦   ¦   ¦   toLower.js
+¦   ¦   ¦   toNumber.js
+¦   ¦   ¦   toPairs.js
+¦   ¦   ¦   toPairsIn.js
+¦   ¦   ¦   toPath.js
+¦   ¦   ¦   toPlainObject.js
+¦   ¦   ¦   toSafeInteger.js
+¦   ¦   ¦   toString.js
+¦   ¦   ¦   toUpper.js
+¦   ¦   ¦   transform.js
+¦   ¦   ¦   trim.js
+¦   ¦   ¦   trimEnd.js
+¦   ¦   ¦   trimStart.js
+¦   ¦   ¦   truncate.js
+¦   ¦   ¦   unary.js
+¦   ¦   ¦   unescape.js
+¦   ¦   ¦   union.js
+¦   ¦   ¦   unionBy.js
+¦   ¦   ¦   unionWith.js
+¦   ¦   ¦   uniq.js
+¦   ¦   ¦   uniqBy.js
+¦   ¦   ¦   uniqueId.js
+¦   ¦   ¦   uniqWith.js
+¦   ¦   ¦   unset.js
+¦   ¦   ¦   unzip.js
+¦   ¦   ¦   unzipWith.js
+¦   ¦   ¦   update.js
+¦   ¦   ¦   updateWith.js
+¦   ¦   ¦   upperCase.js
+¦   ¦   ¦   upperFirst.js
+¦   ¦   ¦   util.js
+¦   ¦   ¦   value.js
+¦   ¦   ¦   valueOf.js
+¦   ¦   ¦   values.js
+¦   ¦   ¦   valuesIn.js
+¦   ¦   ¦   without.js
+¦   ¦   ¦   words.js
+¦   ¦   ¦   wrap.js
+¦   ¦   ¦   wrapperAt.js
+¦   ¦   ¦   wrapperChain.js
+¦   ¦   ¦   wrapperLodash.js
+¦   ¦   ¦   wrapperReverse.js
+¦   ¦   ¦   wrapperValue.js
+¦   ¦   ¦   xor.js
+¦   ¦   ¦   xorBy.js
+¦   ¦   ¦   xorWith.js
+¦   ¦   ¦   zip.js
+¦   ¦   ¦   zipObject.js
+¦   ¦   ¦   zipObjectDeep.js
+¦   ¦   ¦   zipWith.js
+¦   ¦   ¦   _apply.js
+¦   ¦   ¦   _arrayAggregator.js
+¦   ¦   ¦   _arrayEach.js
+¦   ¦   ¦   _arrayEachRight.js
+¦   ¦   ¦   _arrayEvery.js
+¦   ¦   ¦   _arrayFilter.js
+¦   ¦   ¦   _arrayIncludes.js
+¦   ¦   ¦   _arrayIncludesWith.js
+¦   ¦   ¦   _arrayLikeKeys.js
+¦   ¦   ¦   _arrayMap.js
+¦   ¦   ¦   _arrayPush.js
+¦   ¦   ¦   _arrayReduce.js
+¦   ¦   ¦   _arrayReduceRight.js
+¦   ¦   ¦   _arraySample.js
+¦   ¦   ¦   _arraySampleSize.js
+¦   ¦   ¦   _arrayShuffle.js
+¦   ¦   ¦   _arraySome.js
+¦   ¦   ¦   _asciiSize.js
+¦   ¦   ¦   _asciiToArray.js
+¦   ¦   ¦   _asciiWords.js
+¦   ¦   ¦   _assignMergeValue.js
+¦   ¦   ¦   _assignValue.js
+¦   ¦   ¦   _assocIndexOf.js
+¦   ¦   ¦   _baseAggregator.js
+¦   ¦   ¦   _baseAssign.js
+¦   ¦   ¦   _baseAssignIn.js
+¦   ¦   ¦   _baseAssignValue.js
+¦   ¦   ¦   _baseAt.js
+¦   ¦   ¦   _baseClamp.js
+¦   ¦   ¦   _baseClone.js
+¦   ¦   ¦   _baseConforms.js
+¦   ¦   ¦   _baseConformsTo.js
+¦   ¦   ¦   _baseCreate.js
+¦   ¦   ¦   _baseDelay.js
+¦   ¦   ¦   _baseDifference.js
+¦   ¦   ¦   _baseEach.js
+¦   ¦   ¦   _baseEachRight.js
+¦   ¦   ¦   _baseEvery.js
+¦   ¦   ¦   _baseExtremum.js
+¦   ¦   ¦   _baseFill.js
+¦   ¦   ¦   _baseFilter.js
+¦   ¦   ¦   _baseFindIndex.js
+¦   ¦   ¦   _baseFindKey.js
+¦   ¦   ¦   _baseFlatten.js
+¦   ¦   ¦   _baseFor.js
+¦   ¦   ¦   _baseForOwn.js
+¦   ¦   ¦   _baseForOwnRight.js
+¦   ¦   ¦   _baseForRight.js
+¦   ¦   ¦   _baseFunctions.js
+¦   ¦   ¦   _baseGet.js
+¦   ¦   ¦   _baseGetAllKeys.js
+¦   ¦   ¦   _baseGetTag.js
+¦   ¦   ¦   _baseGt.js
+¦   ¦   ¦   _baseHas.js
+¦   ¦   ¦   _baseHasIn.js
+¦   ¦   ¦   _baseIndexOf.js
+¦   ¦   ¦   _baseIndexOfWith.js
+¦   ¦   ¦   _baseInRange.js
+¦   ¦   ¦   _baseIntersection.js
+¦   ¦   ¦   _baseInverter.js
+¦   ¦   ¦   _baseInvoke.js
+¦   ¦   ¦   _baseIsArguments.js
+¦   ¦   ¦   _baseIsArrayBuffer.js
+¦   ¦   ¦   _baseIsDate.js
+¦   ¦   ¦   _baseIsEqual.js
+¦   ¦   ¦   _baseIsEqualDeep.js
+¦   ¦   ¦   _baseIsMap.js
+¦   ¦   ¦   _baseIsMatch.js
+¦   ¦   ¦   _baseIsNaN.js
+¦   ¦   ¦   _baseIsNative.js
+¦   ¦   ¦   _baseIsRegExp.js
+¦   ¦   ¦   _baseIsSet.js
+¦   ¦   ¦   _baseIsTypedArray.js
+¦   ¦   ¦   _baseIteratee.js
+¦   ¦   ¦   _baseKeys.js
+¦   ¦   ¦   _baseKeysIn.js
+¦   ¦   ¦   _baseLodash.js
+¦   ¦   ¦   _baseLt.js
+¦   ¦   ¦   _baseMap.js
+¦   ¦   ¦   _baseMatches.js
+¦   ¦   ¦   _baseMatchesProperty.js
+¦   ¦   ¦   _baseMean.js
+¦   ¦   ¦   _baseMerge.js
+¦   ¦   ¦   _baseMergeDeep.js
+¦   ¦   ¦   _baseNth.js
+¦   ¦   ¦   _baseOrderBy.js
+¦   ¦   ¦   _basePick.js
+¦   ¦   ¦   _basePickBy.js
+¦   ¦   ¦   _baseProperty.js
+¦   ¦   ¦   _basePropertyDeep.js
+¦   ¦   ¦   _basePropertyOf.js
+¦   ¦   ¦   _basePullAll.js
+¦   ¦   ¦   _basePullAt.js
+¦   ¦   ¦   _baseRandom.js
+¦   ¦   ¦   _baseRange.js
+¦   ¦   ¦   _baseReduce.js
+¦   ¦   ¦   _baseRepeat.js
+¦   ¦   ¦   _baseRest.js
+¦   ¦   ¦   _baseSample.js
+¦   ¦   ¦   _baseSampleSize.js
+¦   ¦   ¦   _baseSet.js
+¦   ¦   ¦   _baseSetData.js
+¦   ¦   ¦   _baseSetToString.js
+¦   ¦   ¦   _baseShuffle.js
+¦   ¦   ¦   _baseSlice.js
+¦   ¦   ¦   _baseSome.js
+¦   ¦   ¦   _baseSortBy.js
+¦   ¦   ¦   _baseSortedIndex.js
+¦   ¦   ¦   _baseSortedIndexBy.js
+¦   ¦   ¦   _baseSortedUniq.js
+¦   ¦   ¦   _baseSum.js
+¦   ¦   ¦   _baseTimes.js
+¦   ¦   ¦   _baseToNumber.js
+¦   ¦   ¦   _baseToPairs.js
+¦   ¦   ¦   _baseToString.js
+¦   ¦   ¦   _baseTrim.js
+¦   ¦   ¦   _baseUnary.js
+¦   ¦   ¦   _baseUniq.js
+¦   ¦   ¦   _baseUnset.js
+¦   ¦   ¦   _baseUpdate.js
+¦   ¦   ¦   _baseValues.js
+¦   ¦   ¦   _baseWhile.js
+¦   ¦   ¦   _baseWrapperValue.js
+¦   ¦   ¦   _baseXor.js
+¦   ¦   ¦   _baseZipObject.js
+¦   ¦   ¦   _cacheHas.js
+¦   ¦   ¦   _castArrayLikeObject.js
+¦   ¦   ¦   _castFunction.js
+¦   ¦   ¦   _castPath.js
+¦   ¦   ¦   _castRest.js
+¦   ¦   ¦   _castSlice.js
+¦   ¦   ¦   _charsEndIndex.js
+¦   ¦   ¦   _charsStartIndex.js
+¦   ¦   ¦   _cloneArrayBuffer.js
+¦   ¦   ¦   _cloneBuffer.js
+¦   ¦   ¦   _cloneDataView.js
+¦   ¦   ¦   _cloneRegExp.js
+¦   ¦   ¦   _cloneSymbol.js
+¦   ¦   ¦   _cloneTypedArray.js
+¦   ¦   ¦   _compareAscending.js
+¦   ¦   ¦   _compareMultiple.js
+¦   ¦   ¦   _composeArgs.js
+¦   ¦   ¦   _composeArgsRight.js
+¦   ¦   ¦   _copyArray.js
+¦   ¦   ¦   _copyObject.js
+¦   ¦   ¦   _copySymbols.js
+¦   ¦   ¦   _copySymbolsIn.js
+¦   ¦   ¦   _coreJsData.js
+¦   ¦   ¦   _countHolders.js
+¦   ¦   ¦   _createAggregator.js
+¦   ¦   ¦   _createAssigner.js
+¦   ¦   ¦   _createBaseEach.js
+¦   ¦   ¦   _createBaseFor.js
+¦   ¦   ¦   _createBind.js
+¦   ¦   ¦   _createCaseFirst.js
+¦   ¦   ¦   _createCompounder.js
+¦   ¦   ¦   _createCtor.js
+¦   ¦   ¦   _createCurry.js
+¦   ¦   ¦   _createFind.js
+¦   ¦   ¦   _createFlow.js
+¦   ¦   ¦   _createHybrid.js
+¦   ¦   ¦   _createInverter.js
+¦   ¦   ¦   _createMathOperation.js
+¦   ¦   ¦   _createOver.js
+¦   ¦   ¦   _createPadding.js
+¦   ¦   ¦   _createPartial.js
+¦   ¦   ¦   _createRange.js
+¦   ¦   ¦   _createRecurry.js
+¦   ¦   ¦   _createRelationalOperation.js
+¦   ¦   ¦   _createRound.js
+¦   ¦   ¦   _createSet.js
+¦   ¦   ¦   _createToPairs.js
+¦   ¦   ¦   _createWrap.js
+¦   ¦   ¦   _customDefaultsAssignIn.js
+¦   ¦   ¦   _customDefaultsMerge.js
+¦   ¦   ¦   _customOmitClone.js
+¦   ¦   ¦   _DataView.js
+¦   ¦   ¦   _deburrLetter.js
+¦   ¦   ¦   _defineProperty.js
+¦   ¦   ¦   _equalArrays.js
+¦   ¦   ¦   _equalByTag.js
+¦   ¦   ¦   _equalObjects.js
+¦   ¦   ¦   _escapeHtmlChar.js
+¦   ¦   ¦   _escapeStringChar.js
+¦   ¦   ¦   _flatRest.js
+¦   ¦   ¦   _freeGlobal.js
+¦   ¦   ¦   _getAllKeys.js
+¦   ¦   ¦   _getAllKeysIn.js
+¦   ¦   ¦   _getData.js
+¦   ¦   ¦   _getFuncName.js
+¦   ¦   ¦   _getHolder.js
+¦   ¦   ¦   _getMapData.js
+¦   ¦   ¦   _getMatchData.js
+¦   ¦   ¦   _getNative.js
+¦   ¦   ¦   _getPrototype.js
+¦   ¦   ¦   _getRawTag.js
+¦   ¦   ¦   _getSymbols.js
+¦   ¦   ¦   _getSymbolsIn.js
+¦   ¦   ¦   _getTag.js
+¦   ¦   ¦   _getValue.js
+¦   ¦   ¦   _getView.js
+¦   ¦   ¦   _getWrapDetails.js
+¦   ¦   ¦   _Hash.js
+¦   ¦   ¦   _hashClear.js
+¦   ¦   ¦   _hashDelete.js
+¦   ¦   ¦   _hashGet.js
+¦   ¦   ¦   _hashHas.js
+¦   ¦   ¦   _hashSet.js
+¦   ¦   ¦   _hasPath.js
+¦   ¦   ¦   _hasUnicode.js
+¦   ¦   ¦   _hasUnicodeWord.js
+¦   ¦   ¦   _initCloneArray.js
+¦   ¦   ¦   _initCloneByTag.js
+¦   ¦   ¦   _initCloneObject.js
+¦   ¦   ¦   _insertWrapDetails.js
+¦   ¦   ¦   _isFlattenable.js
+¦   ¦   ¦   _isIndex.js
+¦   ¦   ¦   _isIterateeCall.js
+¦   ¦   ¦   _isKey.js
+¦   ¦   ¦   _isKeyable.js
+¦   ¦   ¦   _isLaziable.js
+¦   ¦   ¦   _isMaskable.js
+¦   ¦   ¦   _isMasked.js
+¦   ¦   ¦   _isPrototype.js
+¦   ¦   ¦   _isStrictComparable.js
+¦   ¦   ¦   _iteratorToArray.js
+¦   ¦   ¦   _lazyClone.js
+¦   ¦   ¦   _lazyReverse.js
+¦   ¦   ¦   _lazyValue.js
+¦   ¦   ¦   _LazyWrapper.js
+¦   ¦   ¦   _ListCache.js
+¦   ¦   ¦   _listCacheClear.js
+¦   ¦   ¦   _listCacheDelete.js
+¦   ¦   ¦   _listCacheGet.js
+¦   ¦   ¦   _listCacheHas.js
+¦   ¦   ¦   _listCacheSet.js
+¦   ¦   ¦   _LodashWrapper.js
+¦   ¦   ¦   _Map.js
+¦   ¦   ¦   _MapCache.js
+¦   ¦   ¦   _mapCacheClear.js
+¦   ¦   ¦   _mapCacheDelete.js
+¦   ¦   ¦   _mapCacheGet.js
+¦   ¦   ¦   _mapCacheHas.js
+¦   ¦   ¦   _mapCacheSet.js
+¦   ¦   ¦   _mapToArray.js
+¦   ¦   ¦   _matchesStrictComparable.js
+¦   ¦   ¦   _memoizeCapped.js
+¦   ¦   ¦   _mergeData.js
+¦   ¦   ¦   _metaMap.js
+¦   ¦   ¦   _nativeCreate.js
+¦   ¦   ¦   _nativeKeys.js
+¦   ¦   ¦   _nativeKeysIn.js
+¦   ¦   ¦   _nodeUtil.js
+¦   ¦   ¦   _objectToString.js
+¦   ¦   ¦   _overArg.js
+¦   ¦   ¦   _overRest.js
+¦   ¦   ¦   _parent.js
+¦   ¦   ¦   _Promise.js
+¦   ¦   ¦   _realNames.js
+¦   ¦   ¦   _reEscape.js
+¦   ¦   ¦   _reEvaluate.js
+¦   ¦   ¦   _reInterpolate.js
+¦   ¦   ¦   _reorder.js
+¦   ¦   ¦   _replaceHolders.js
+¦   ¦   ¦   _root.js
+¦   ¦   ¦   _safeGet.js
+¦   ¦   ¦   _Set.js
+¦   ¦   ¦   _SetCache.js
+¦   ¦   ¦   _setCacheAdd.js
+¦   ¦   ¦   _setCacheHas.js
+¦   ¦   ¦   _setData.js
+¦   ¦   ¦   _setToArray.js
+¦   ¦   ¦   _setToPairs.js
+¦   ¦   ¦   _setToString.js
+¦   ¦   ¦   _setWrapToString.js
+¦   ¦   ¦   _shortOut.js
+¦   ¦   ¦   _shuffleSelf.js
+¦   ¦   ¦   _Stack.js
+¦   ¦   ¦   _stackClear.js
+¦   ¦   ¦   _stackDelete.js
+¦   ¦   ¦   _stackGet.js
+¦   ¦   ¦   _stackHas.js
+¦   ¦   ¦   _stackSet.js
+¦   ¦   ¦   _strictIndexOf.js
+¦   ¦   ¦   _strictLastIndexOf.js
+¦   ¦   ¦   _stringSize.js
+¦   ¦   ¦   _stringToArray.js
+¦   ¦   ¦   _stringToPath.js
+¦   ¦   ¦   _Symbol.js
+¦   ¦   ¦   _toKey.js
+¦   ¦   ¦   _toSource.js
+¦   ¦   ¦   _trimmedEndIndex.js
+¦   ¦   ¦   _Uint8Array.js
+¦   ¦   ¦   _unescapeHtmlChar.js
+¦   ¦   ¦   _unicodeSize.js
+¦   ¦   ¦   _unicodeToArray.js
+¦   ¦   ¦   _unicodeWords.js
+¦   ¦   ¦   _updateWrapDetails.js
+¦   ¦   ¦   _WeakMap.js
+¦   ¦   ¦   _wrapperClone.js
+¦   ¦   ¦   
+¦   ¦   +---fp
+¦   ¦           add.js
+¦   ¦           after.js
+¦   ¦           all.js
+¦   ¦           allPass.js
+¦   ¦           always.js
+¦   ¦           any.js
+¦   ¦           anyPass.js
+¦   ¦           apply.js
+¦   ¦           array.js
+¦   ¦           ary.js
+¦   ¦           assign.js
+¦   ¦           assignAll.js
+¦   ¦           assignAllWith.js
+¦   ¦           assignIn.js
+¦   ¦           assignInAll.js
+¦   ¦           assignInAllWith.js
+¦   ¦           assignInWith.js
+¦   ¦           assignWith.js
+¦   ¦           assoc.js
+¦   ¦           assocPath.js
+¦   ¦           at.js
+¦   ¦           attempt.js
+¦   ¦           before.js
+¦   ¦           bind.js
+¦   ¦           bindAll.js
+¦   ¦           bindKey.js
+¦   ¦           camelCase.js
+¦   ¦           capitalize.js
+¦   ¦           castArray.js
+¦   ¦           ceil.js
+¦   ¦           chain.js
+¦   ¦           chunk.js
+¦   ¦           clamp.js
+¦   ¦           clone.js
+¦   ¦           cloneDeep.js
+¦   ¦           cloneDeepWith.js
+¦   ¦           cloneWith.js
+¦   ¦           collection.js
+¦   ¦           commit.js
+¦   ¦           compact.js
+¦   ¦           complement.js
+¦   ¦           compose.js
+¦   ¦           concat.js
+¦   ¦           cond.js
+¦   ¦           conforms.js
+¦   ¦           conformsTo.js
+¦   ¦           constant.js
+¦   ¦           contains.js
+¦   ¦           convert.js
+¦   ¦           countBy.js
+¦   ¦           create.js
+¦   ¦           curry.js
+¦   ¦           curryN.js
+¦   ¦           curryRight.js
+¦   ¦           curryRightN.js
+¦   ¦           date.js
+¦   ¦           debounce.js
+¦   ¦           deburr.js
+¦   ¦           defaults.js
+¦   ¦           defaultsAll.js
+¦   ¦           defaultsDeep.js
+¦   ¦           defaultsDeepAll.js
+¦   ¦           defaultTo.js
+¦   ¦           defer.js
+¦   ¦           delay.js
+¦   ¦           difference.js
+¦   ¦           differenceBy.js
+¦   ¦           differenceWith.js
+¦   ¦           dissoc.js
+¦   ¦           dissocPath.js
+¦   ¦           divide.js
+¦   ¦           drop.js
+¦   ¦           dropLast.js
+¦   ¦           dropLastWhile.js
+¦   ¦           dropRight.js
+¦   ¦           dropRightWhile.js
+¦   ¦           dropWhile.js
+¦   ¦           each.js
+¦   ¦           eachRight.js
+¦   ¦           endsWith.js
+¦   ¦           entries.js
+¦   ¦           entriesIn.js
+¦   ¦           eq.js
+¦   ¦           equals.js
+¦   ¦           escape.js
+¦   ¦           escapeRegExp.js
+¦   ¦           every.js
+¦   ¦           extend.js
+¦   ¦           extendAll.js
+¦   ¦           extendAllWith.js
+¦   ¦           extendWith.js
+¦   ¦           F.js
+¦   ¦           fill.js
+¦   ¦           filter.js
+¦   ¦           find.js
+¦   ¦           findFrom.js
+¦   ¦           findIndex.js
+¦   ¦           findIndexFrom.js
+¦   ¦           findKey.js
+¦   ¦           findLast.js
+¦   ¦           findLastFrom.js
+¦   ¦           findLastIndex.js
+¦   ¦           findLastIndexFrom.js
+¦   ¦           findLastKey.js
+¦   ¦           first.js
+¦   ¦           flatMap.js
+¦   ¦           flatMapDeep.js
+¦   ¦           flatMapDepth.js
+¦   ¦           flatten.js
+¦   ¦           flattenDeep.js
+¦   ¦           flattenDepth.js
+¦   ¦           flip.js
+¦   ¦           floor.js
+¦   ¦           flow.js
+¦   ¦           flowRight.js
+¦   ¦           forEach.js
+¦   ¦           forEachRight.js
+¦   ¦           forIn.js
+¦   ¦           forInRight.js
+¦   ¦           forOwn.js
+¦   ¦           forOwnRight.js
+¦   ¦           fromPairs.js
+¦   ¦           function.js
+¦   ¦           functions.js
+¦   ¦           functionsIn.js
+¦   ¦           get.js
+¦   ¦           getOr.js
+¦   ¦           groupBy.js
+¦   ¦           gt.js
+¦   ¦           gte.js
+¦   ¦           has.js
+¦   ¦           hasIn.js
+¦   ¦           head.js
+¦   ¦           identical.js
+¦   ¦           identity.js
+¦   ¦           includes.js
+¦   ¦           includesFrom.js
+¦   ¦           indexBy.js
+¦   ¦           indexOf.js
+¦   ¦           indexOfFrom.js
+¦   ¦           init.js
+¦   ¦           initial.js
+¦   ¦           inRange.js
+¦   ¦           intersection.js
+¦   ¦           intersectionBy.js
+¦   ¦           intersectionWith.js
+¦   ¦           invert.js
+¦   ¦           invertBy.js
+¦   ¦           invertObj.js
+¦   ¦           invoke.js
+¦   ¦           invokeArgs.js
+¦   ¦           invokeArgsMap.js
+¦   ¦           invokeMap.js
+¦   ¦           isArguments.js
+¦   ¦           isArray.js
+¦   ¦           isArrayBuffer.js
+¦   ¦           isArrayLike.js
+¦   ¦           isArrayLikeObject.js
+¦   ¦           isBoolean.js
+¦   ¦           isBuffer.js
+¦   ¦           isDate.js
+¦   ¦           isElement.js
+¦   ¦           isEmpty.js
+¦   ¦           isEqual.js
+¦   ¦           isEqualWith.js
+¦   ¦           isError.js
+¦   ¦           isFinite.js
+¦   ¦           isFunction.js
+¦   ¦           isInteger.js
+¦   ¦           isLength.js
+¦   ¦           isMap.js
+¦   ¦           isMatch.js
+¦   ¦           isMatchWith.js
+¦   ¦           isNaN.js
+¦   ¦           isNative.js
+¦   ¦           isNil.js
+¦   ¦           isNull.js
+¦   ¦           isNumber.js
+¦   ¦           isObject.js
+¦   ¦           isObjectLike.js
+¦   ¦           isPlainObject.js
+¦   ¦           isRegExp.js
+¦   ¦           isSafeInteger.js
+¦   ¦           isSet.js
+¦   ¦           isString.js
+¦   ¦           isSymbol.js
+¦   ¦           isTypedArray.js
+¦   ¦           isUndefined.js
+¦   ¦           isWeakMap.js
+¦   ¦           isWeakSet.js
+¦   ¦           iteratee.js
+¦   ¦           join.js
+¦   ¦           juxt.js
+¦   ¦           kebabCase.js
+¦   ¦           keyBy.js
+¦   ¦           keys.js
+¦   ¦           keysIn.js
+¦   ¦           lang.js
+¦   ¦           last.js
+¦   ¦           lastIndexOf.js
+¦   ¦           lastIndexOfFrom.js
+¦   ¦           lowerCase.js
+¦   ¦           lowerFirst.js
+¦   ¦           lt.js
+¦   ¦           lte.js
+¦   ¦           map.js
+¦   ¦           mapKeys.js
+¦   ¦           mapValues.js
+¦   ¦           matches.js
+¦   ¦           matchesProperty.js
+¦   ¦           math.js
+¦   ¦           max.js
+¦   ¦           maxBy.js
+¦   ¦           mean.js
+¦   ¦           meanBy.js
+¦   ¦           memoize.js
+¦   ¦           merge.js
+¦   ¦           mergeAll.js
+¦   ¦           mergeAllWith.js
+¦   ¦           mergeWith.js
+¦   ¦           method.js
+¦   ¦           methodOf.js
+¦   ¦           min.js
+¦   ¦           minBy.js
+¦   ¦           mixin.js
+¦   ¦           multiply.js
+¦   ¦           nAry.js
+¦   ¦           negate.js
+¦   ¦           next.js
+¦   ¦           noop.js
+¦   ¦           now.js
+¦   ¦           nth.js
+¦   ¦           nthArg.js
+¦   ¦           number.js
+¦   ¦           object.js
+¦   ¦           omit.js
+¦   ¦           omitAll.js
+¦   ¦           omitBy.js
+¦   ¦           once.js
+¦   ¦           orderBy.js
+¦   ¦           over.js
+¦   ¦           overArgs.js
+¦   ¦           overEvery.js
+¦   ¦           overSome.js
+¦   ¦           pad.js
+¦   ¦           padChars.js
+¦   ¦           padCharsEnd.js
+¦   ¦           padCharsStart.js
+¦   ¦           padEnd.js
+¦   ¦           padStart.js
+¦   ¦           parseInt.js
+¦   ¦           partial.js
+¦   ¦           partialRight.js
+¦   ¦           partition.js
+¦   ¦           path.js
+¦   ¦           pathEq.js
+¦   ¦           pathOr.js
+¦   ¦           paths.js
+¦   ¦           pick.js
+¦   ¦           pickAll.js
+¦   ¦           pickBy.js
+¦   ¦           pipe.js
+¦   ¦           placeholder.js
+¦   ¦           plant.js
+¦   ¦           pluck.js
+¦   ¦           prop.js
+¦   ¦           propEq.js
+¦   ¦           property.js
+¦   ¦           propertyOf.js
+¦   ¦           propOr.js
+¦   ¦           props.js
+¦   ¦           pull.js
+¦   ¦           pullAll.js
+¦   ¦           pullAllBy.js
+¦   ¦           pullAllWith.js
+¦   ¦           pullAt.js
+¦   ¦           random.js
+¦   ¦           range.js
+¦   ¦           rangeRight.js
+¦   ¦           rangeStep.js
+¦   ¦           rangeStepRight.js
+¦   ¦           rearg.js
+¦   ¦           reduce.js
+¦   ¦           reduceRight.js
+¦   ¦           reject.js
+¦   ¦           remove.js
+¦   ¦           repeat.js
+¦   ¦           replace.js
+¦   ¦           rest.js
+¦   ¦           restFrom.js
+¦   ¦           result.js
+¦   ¦           reverse.js
+¦   ¦           round.js
+¦   ¦           sample.js
+¦   ¦           sampleSize.js
+¦   ¦           seq.js
+¦   ¦           set.js
+¦   ¦           setWith.js
+¦   ¦           shuffle.js
+¦   ¦           size.js
+¦   ¦           slice.js
+¦   ¦           snakeCase.js
+¦   ¦           some.js
+¦   ¦           sortBy.js
+¦   ¦           sortedIndex.js
+¦   ¦           sortedIndexBy.js
+¦   ¦           sortedIndexOf.js
+¦   ¦           sortedLastIndex.js
+¦   ¦           sortedLastIndexBy.js
+¦   ¦           sortedLastIndexOf.js
+¦   ¦           sortedUniq.js
+¦   ¦           sortedUniqBy.js
+¦   ¦           split.js
+¦   ¦           spread.js
+¦   ¦           spreadFrom.js
+¦   ¦           startCase.js
+¦   ¦           startsWith.js
+¦   ¦           string.js
+¦   ¦           stubArray.js
+¦   ¦           stubFalse.js
+¦   ¦           stubObject.js
+¦   ¦           stubString.js
+¦   ¦           stubTrue.js
+¦   ¦           subtract.js
+¦   ¦           sum.js
+¦   ¦           sumBy.js
+¦   ¦           symmetricDifference.js
+¦   ¦           symmetricDifferenceBy.js
+¦   ¦           symmetricDifferenceWith.js
+¦   ¦           T.js
+¦   ¦           tail.js
+¦   ¦           take.js
+¦   ¦           takeLast.js
+¦   ¦           takeLastWhile.js
+¦   ¦           takeRight.js
+¦   ¦           takeRightWhile.js
+¦   ¦           takeWhile.js
+¦   ¦           tap.js
+¦   ¦           template.js
+¦   ¦           templateSettings.js
+¦   ¦           throttle.js
+¦   ¦           thru.js
+¦   ¦           times.js
+¦   ¦           toArray.js
+¦   ¦           toFinite.js
+¦   ¦           toInteger.js
+¦   ¦           toIterator.js
+¦   ¦           toJSON.js
+¦   ¦           toLength.js
+¦   ¦           toLower.js
+¦   ¦           toNumber.js
+¦   ¦           toPairs.js
+¦   ¦           toPairsIn.js
+¦   ¦           toPath.js
+¦   ¦           toPlainObject.js
+¦   ¦           toSafeInteger.js
+¦   ¦           toString.js
+¦   ¦           toUpper.js
+¦   ¦           transform.js
+¦   ¦           trim.js
+¦   ¦           trimChars.js
+¦   ¦           trimCharsEnd.js
+¦   ¦           trimCharsStart.js
+¦   ¦           trimEnd.js
+¦   ¦           trimStart.js
+¦   ¦           truncate.js
+¦   ¦           unapply.js
+¦   ¦           unary.js
+¦   ¦           unescape.js
+¦   ¦           union.js
+¦   ¦           unionBy.js
+¦   ¦           unionWith.js
+¦   ¦           uniq.js
+¦   ¦           uniqBy.js
+¦   ¦           uniqueId.js
+¦   ¦           uniqWith.js
+¦   ¦           unnest.js
+¦   ¦           unset.js
+¦   ¦           unzip.js
+¦   ¦           unzipWith.js
+¦   ¦           update.js
+¦   ¦           updateWith.js
+¦   ¦           upperCase.js
+¦   ¦           upperFirst.js
+¦   ¦           useWith.js
+¦   ¦           util.js
+¦   ¦           value.js
+¦   ¦           valueOf.js
+¦   ¦           values.js
+¦   ¦           valuesIn.js
+¦   ¦           where.js
+¦   ¦           whereEq.js
+¦   ¦           without.js
+¦   ¦           words.js
+¦   ¦           wrap.js
+¦   ¦           wrapperAt.js
+¦   ¦           wrapperChain.js
+¦   ¦           wrapperLodash.js
+¦   ¦           wrapperReverse.js
+¦   ¦           wrapperValue.js
+¦   ¦           xor.js
+¦   ¦           xorBy.js
+¦   ¦           xorWith.js
+¦   ¦           zip.js
+¦   ¦           zipAll.js
+¦   ¦           zipObj.js
+¦   ¦           zipObject.js
+¦   ¦           zipObjectDeep.js
+¦   ¦           zipWith.js
+¦   ¦           _baseConvert.js
+¦   ¦           _convertBrowser.js
+¦   ¦           _falseOptions.js
+¦   ¦           _mapping.js
+¦   ¦           _util.js
+¦   ¦           __.js
+¦   ¦           
+¦   +---lua-types
+¦   ¦   ¦   5.0.d.ts
+¦   ¦   ¦   5.1.d.ts
+¦   ¦   ¦   5.2.d.ts
+¦   ¦   ¦   5.3.d.ts
+¦   ¦   ¦   5.4.d.ts
+¦   ¦   ¦   jit.d.ts
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---core
+¦   ¦   ¦   ¦   coroutine.d.ts
+¦   ¦   ¦   ¦   debug.d.ts
+¦   ¦   ¦   ¦   global.d.ts
+¦   ¦   ¦   ¦   index-5.0.d.ts
+¦   ¦   ¦   ¦   index.d.ts
+¦   ¦   ¦   ¦   io.d.ts
+¦   ¦   ¦   ¦   math.d.ts
+¦   ¦   ¦   ¦   metatable.d.ts
+¦   ¦   ¦   ¦   modules.d.ts
+¦   ¦   ¦   ¦   os.d.ts
+¦   ¦   ¦   ¦   string.d.ts
+¦   ¦   ¦   ¦   table.d.ts
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---5.0
+¦   ¦   ¦           debug.d.ts
+¦   ¦   ¦           global.d.ts
+¦   ¦   ¦           io.d.ts
+¦   ¦   ¦           math.d.ts
+¦   ¦   ¦           metatable.d.ts
+¦   ¦   ¦           modules.d.ts
+¦   ¦   ¦           os.d.ts
+¦   ¦   ¦           string.d.ts
+¦   ¦   ¦           table.d.ts
+¦   ¦   ¦           
+¦   ¦   +---special
+¦   ¦   ¦       5.0.d.ts
+¦   ¦   ¦       5.1-only.d.ts
+¦   ¦   ¦       5.1-or-jit.d.ts
+¦   ¦   ¦       5.1.d.ts
+¦   ¦   ¦       5.2-only.d.ts
+¦   ¦   ¦       5.2-or-jit.d.ts
+¦   ¦   ¦       5.2-plus-or-jit.d.ts
+¦   ¦   ¦       5.2-plus.d.ts
+¦   ¦   ¦       5.2.d.ts
+¦   ¦   ¦       5.3-plus.d.ts
+¦   ¦   ¦       5.3-pre.d.ts
+¦   ¦   ¦       5.3.d.ts
+¦   ¦   ¦       5.4-only.d.ts
+¦   ¦   ¦       5.4-pre.d.ts
+¦   ¦   ¦       5.4.d.ts
+¦   ¦   ¦       jit-only.d.ts
+¦   ¦   ¦       jit.d.ts
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦       +---testproject
+¦   ¦           +---node_modules
+¦   ¦               +---enhanced-resolve
+¦   ¦               ¦       types.d.ts
+¦   ¦               ¦       
+¦   ¦               +---lua-types
+¦   ¦               ¦       5.0.d.ts
+¦   ¦               ¦       5.1.d.ts
+¦   ¦               ¦       5.2.d.ts
+¦   ¦               ¦       5.3.d.ts
+¦   ¦               ¦       5.4.d.ts
+¦   ¦               ¦       jit.d.ts
+¦   ¦               ¦       
+¦   ¦               +---source-map
+¦   ¦               ¦       source-map.d.ts
+¦   ¦               ¦       
+¦   ¦               +---tapable
+¦   ¦               ¦       tapable.d.ts
+¦   ¦               ¦       
+¦   ¦               +---typescript
+¦   ¦               ¦   +---lib
+¦   ¦               ¦           lib.d.ts
+¦   ¦               ¦           lib.dom.d.ts
+¦   ¦               ¦           lib.dom.iterable.d.ts
+¦   ¦               ¦           lib.es2015.collection.d.ts
+¦   ¦               ¦           lib.es2015.core.d.ts
+¦   ¦               ¦           lib.es2015.d.ts
+¦   ¦               ¦           lib.es2015.generator.d.ts
+¦   ¦               ¦           lib.es2015.iterable.d.ts
+¦   ¦               ¦           lib.es2015.promise.d.ts
+¦   ¦               ¦           lib.es2015.proxy.d.ts
+¦   ¦               ¦           lib.es2015.reflect.d.ts
+¦   ¦               ¦           lib.es2015.symbol.d.ts
+¦   ¦               ¦           lib.es2015.symbol.wellknown.d.ts
+¦   ¦               ¦           lib.es2016.array.include.d.ts
+¦   ¦               ¦           lib.es2016.d.ts
+¦   ¦               ¦           lib.es2016.full.d.ts
+¦   ¦               ¦           lib.es2017.d.ts
+¦   ¦               ¦           lib.es2017.full.d.ts
+¦   ¦               ¦           lib.es2017.intl.d.ts
+¦   ¦               ¦           lib.es2017.object.d.ts
+¦   ¦               ¦           lib.es2017.sharedmemory.d.ts
+¦   ¦               ¦           lib.es2017.string.d.ts
+¦   ¦               ¦           lib.es2017.typedarrays.d.ts
+¦   ¦               ¦           lib.es2018.asyncgenerator.d.ts
+¦   ¦               ¦           lib.es2018.asynciterable.d.ts
+¦   ¦               ¦           lib.es2018.d.ts
+¦   ¦               ¦           lib.es2018.full.d.ts
+¦   ¦               ¦           lib.es2018.intl.d.ts
+¦   ¦               ¦           lib.es2018.promise.d.ts
+¦   ¦               ¦           lib.es2018.regexp.d.ts
+¦   ¦               ¦           lib.es2019.array.d.ts
+¦   ¦               ¦           lib.es2019.d.ts
+¦   ¦               ¦           lib.es2019.full.d.ts
+¦   ¦               ¦           lib.es2019.object.d.ts
+¦   ¦               ¦           lib.es2019.string.d.ts
+¦   ¦               ¦           lib.es2019.symbol.d.ts
+¦   ¦               ¦           lib.es2020.bigint.d.ts
+¦   ¦               ¦           lib.es2020.d.ts
+¦   ¦               ¦           lib.es2020.date.d.ts
+¦   ¦               ¦           lib.es2020.full.d.ts
+¦   ¦               ¦           lib.es2020.intl.d.ts
+¦   ¦               ¦           lib.es2020.number.d.ts
+¦   ¦               ¦           lib.es2020.promise.d.ts
+¦   ¦               ¦           lib.es2020.sharedmemory.d.ts
+¦   ¦               ¦           lib.es2020.string.d.ts
+¦   ¦               ¦           lib.es2020.symbol.wellknown.d.ts
+¦   ¦               ¦           lib.es2021.d.ts
+¦   ¦               ¦           lib.es2021.full.d.ts
+¦   ¦               ¦           lib.es2021.intl.d.ts
+¦   ¦               ¦           lib.es2021.promise.d.ts
+¦   ¦               ¦           lib.es2021.string.d.ts
+¦   ¦               ¦           lib.es2021.weakref.d.ts
+¦   ¦               ¦           lib.es2022.array.d.ts
+¦   ¦               ¦           lib.es2022.d.ts
+¦   ¦               ¦           lib.es2022.error.d.ts
+¦   ¦               ¦           lib.es2022.full.d.ts
+¦   ¦               ¦           lib.es2022.intl.d.ts
+¦   ¦               ¦           lib.es2022.object.d.ts
+¦   ¦               ¦           lib.es2022.string.d.ts
+¦   ¦               ¦           lib.es5.d.ts
+¦   ¦               ¦           lib.es6.d.ts
+¦   ¦               ¦           lib.esnext.d.ts
+¦   ¦               ¦           lib.esnext.full.d.ts
+¦   ¦               ¦           lib.esnext.intl.d.ts
+¦   ¦               ¦           lib.esnext.promise.d.ts
+¦   ¦               ¦           lib.esnext.string.d.ts
+¦   ¦               ¦           lib.esnext.weakref.d.ts
+¦   ¦               ¦           lib.scripthost.d.ts
+¦   ¦               ¦           lib.webworker.d.ts
+¦   ¦               ¦           lib.webworker.importscripts.d.ts
+¦   ¦               ¦           lib.webworker.iterable.d.ts
+¦   ¦               ¦           protocol.d.ts
+¦   ¦               ¦           tsserverlibrary.d.ts
+¦   ¦               ¦           typescript.d.ts
+¦   ¦               ¦           typescriptServices.d.ts
+¦   ¦               ¦           
+¦   ¦               +---typescript-to-lua
+¦   ¦                   +---dist
+¦   ¦                   ¦   ¦   CompilerOptions.d.ts
+¦   ¦                   ¦   ¦   index.d.ts
+¦   ¦                   ¦   ¦   LuaAST.d.ts
+¦   ¦                   ¦   ¦   LuaLib.d.ts
+¦   ¦                   ¦   ¦   LuaPrinter.d.ts
+¦   ¦                   ¦   ¦   measure-performance.d.ts
+¦   ¦                   ¦   ¦   tstl.d.ts
+¦   ¦                   ¦   ¦   utils.d.ts
+¦   ¦                   ¦   ¦   
+¦   ¦                   ¦   +---cli
+¦   ¦                   ¦   ¦       diagnostics.d.ts
+¦   ¦                   ¦   ¦       information.d.ts
+¦   ¦                   ¦   ¦       parse.d.ts
+¦   ¦                   ¦   ¦       report.d.ts
+¦   ¦                   ¦   ¦       tsconfig.d.ts
+¦   ¦                   ¦   ¦       
+¦   ¦                   ¦   +---lualib-build
+¦   ¦                   ¦   ¦       plugin.d.ts
+¦   ¦                   ¦   ¦       util.d.ts
+¦   ¦                   ¦   ¦       
+¦   ¦                   ¦   +---transformation
+¦   ¦                   ¦   ¦   ¦   index.d.ts
+¦   ¦                   ¦   ¦   ¦   
+¦   ¦                   ¦   ¦   +---builtins
+¦   ¦                   ¦   ¦   ¦       array.d.ts
+¦   ¦                   ¦   ¦   ¦       console.d.ts
+¦   ¦                   ¦   ¦   ¦       function.d.ts
+¦   ¦                   ¦   ¦   ¦       global.d.ts
+¦   ¦                   ¦   ¦   ¦       index.d.ts
+¦   ¦                   ¦   ¦   ¦       math.d.ts
+¦   ¦                   ¦   ¦   ¦       number.d.ts
+¦   ¦                   ¦   ¦   ¦       object.d.ts
+¦   ¦                   ¦   ¦   ¦       promise.d.ts
+¦   ¦                   ¦   ¦   ¦       string.d.ts
+¦   ¦                   ¦   ¦   ¦       symbol.d.ts
+¦   ¦                   ¦   ¦   ¦       
+¦   ¦                   ¦   ¦   +---context
+¦   ¦                   ¦   ¦   ¦       context.d.ts
+¦   ¦                   ¦   ¦   ¦       index.d.ts
+¦   ¦                   ¦   ¦   ¦       visitors.d.ts
+¦   ¦                   ¦   ¦   ¦       
+¦   ¦                   ¦   ¦   +---utils
+¦   ¦                   ¦   ¦   ¦   ¦   annotations.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   assignment-validation.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   diagnostics.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   export.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   function-context.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   language-extensions.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   lua-ast.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   lualib.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   preceding-statements.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   safe-names.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   scope.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   symbols.d.ts
+¦   ¦                   ¦   ¦   ¦   ¦   
+¦   ¦                   ¦   ¦   ¦   +---typescript
+¦   ¦                   ¦   ¦   ¦           index.d.ts
+¦   ¦                   ¦   ¦   ¦           nodes.d.ts
+¦   ¦                   ¦   ¦   ¦           types.d.ts
+¦   ¦                   ¦   ¦   ¦           
+¦   ¦                   ¦   ¦   +---visitors
+¦   ¦                   ¦   ¦       ¦   access.d.ts
+¦   ¦                   ¦   ¦       ¦   async-await.d.ts
+¦   ¦                   ¦   ¦       ¦   block.d.ts
+¦   ¦                   ¦   ¦       ¦   break-continue.d.ts
+¦   ¦                   ¦   ¦       ¦   call.d.ts
+¦   ¦                   ¦   ¦       ¦   conditional.d.ts
+¦   ¦                   ¦   ¦       ¦   delete.d.ts
+¦   ¦                   ¦   ¦       ¦   enum.d.ts
+¦   ¦                   ¦   ¦       ¦   errors.d.ts
+¦   ¦                   ¦   ¦       ¦   expression-list.d.ts
+¦   ¦                   ¦   ¦       ¦   expression-statement.d.ts
+¦   ¦                   ¦   ¦       ¦   function.d.ts
+¦   ¦                   ¦   ¦       ¦   identifier.d.ts
+¦   ¦                   ¦   ¦       ¦   index.d.ts
+¦   ¦                   ¦   ¦       ¦   literal.d.ts
+¦   ¦                   ¦   ¦       ¦   namespace.d.ts
+¦   ¦                   ¦   ¦       ¦   optional-chaining.d.ts
+¦   ¦                   ¦   ¦       ¦   return.d.ts
+¦   ¦                   ¦   ¦       ¦   sourceFile.d.ts
+¦   ¦                   ¦   ¦       ¦   spread.d.ts
+¦   ¦                   ¦   ¦       ¦   switch.d.ts
+¦   ¦                   ¦   ¦       ¦   template.d.ts
+¦   ¦                   ¦   ¦       ¦   typeof.d.ts
+¦   ¦                   ¦   ¦       ¦   typescript.d.ts
+¦   ¦                   ¦   ¦       ¦   unary-expression.d.ts
+¦   ¦                   ¦   ¦       ¦   variable-declaration.d.ts
+¦   ¦                   ¦   ¦       ¦   void.d.ts
+¦   ¦                   ¦   ¦       ¦   
+¦   ¦                   ¦   ¦       +---binary-expression
+¦   ¦                   ¦   ¦       ¦       assignments.d.ts
+¦   ¦                   ¦   ¦       ¦       bit.d.ts
+¦   ¦                   ¦   ¦       ¦       compound.d.ts
+¦   ¦                   ¦   ¦       ¦       destructuring-assignments.d.ts
+¦   ¦                   ¦   ¦       ¦       index.d.ts
+¦   ¦                   ¦   ¦       ¦       
+¦   ¦                   ¦   ¦       +---class
+¦   ¦                   ¦   ¦       ¦   ¦   decorators.d.ts
+¦   ¦                   ¦   ¦       ¦   ¦   index.d.ts
+¦   ¦                   ¦   ¦       ¦   ¦   new.d.ts
+¦   ¦                   ¦   ¦       ¦   ¦   setup.d.ts
+¦   ¦                   ¦   ¦       ¦   ¦   utils.d.ts
+¦   ¦                   ¦   ¦       ¦   ¦   
+¦   ¦                   ¦   ¦       ¦   +---members
+¦   ¦                   ¦   ¦       ¦           accessors.d.ts
+¦   ¦                   ¦   ¦       ¦           constructor.d.ts
+¦   ¦                   ¦   ¦       ¦           fields.d.ts
+¦   ¦                   ¦   ¦       ¦           method.d.ts
+¦   ¦                   ¦   ¦       ¦           
+¦   ¦                   ¦   ¦       +---language-extensions
+¦   ¦                   ¦   ¦       ¦       call-extension.d.ts
+¦   ¦                   ¦   ¦       ¦       identifier.d.ts
+¦   ¦                   ¦   ¦       ¦       iterable.d.ts
+¦   ¦                   ¦   ¦       ¦       multi.d.ts
+¦   ¦                   ¦   ¦       ¦       operators.d.ts
+¦   ¦                   ¦   ¦       ¦       range.d.ts
+¦   ¦                   ¦   ¦       ¦       table.d.ts
+¦   ¦                   ¦   ¦       ¦       vararg.d.ts
+¦   ¦                   ¦   ¦       ¦       
+¦   ¦                   ¦   ¦       +---loops
+¦   ¦                   ¦   ¦       ¦       do-while.d.ts
+¦   ¦                   ¦   ¦       ¦       for-in.d.ts
+¦   ¦                   ¦   ¦       ¦       for-of.d.ts
+¦   ¦                   ¦   ¦       ¦       for.d.ts
+¦   ¦                   ¦   ¦       ¦       utils.d.ts
+¦   ¦                   ¦   ¦       ¦       
+¦   ¦                   ¦   ¦       +---modules
+¦   ¦                   ¦   ¦               export.d.ts
+¦   ¦                   ¦   ¦               import.d.ts
+¦   ¦                   ¦   ¦               
+¦   ¦                   ¦   +---transpilation
+¦   ¦                   ¦           bundle.d.ts
+¦   ¦                   ¦           diagnostics.d.ts
+¦   ¦                   ¦           index.d.ts
+¦   ¦                   ¦           output-collector.d.ts
+¦   ¦                   ¦           plugins.d.ts
+¦   ¦                   ¦           resolve.d.ts
+¦   ¦                   ¦           transformers.d.ts
+¦   ¦                   ¦           transpile.d.ts
+¦   ¦                   ¦           transpiler.d.ts
+¦   ¦                   ¦           utils.d.ts
+¦   ¦                   ¦           
+¦   ¦                   +---language-extensions
+¦   ¦                           index.d.ts
+¦   ¦                           
+¦   +---memorystream
+¦   ¦   ¦   .npmignore
+¦   ¦   ¦   Gruntfile.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           example.js
+¦   ¦           memorystream.test.js
+¦   ¦           
+¦   +---minimatch
+¦   ¦       LICENSE
+¦   ¦       minimatch.js
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---nice-try
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---src
+¦   ¦           index.js
+¦   ¦           
+¦   +---normalize-package-data
+¦   ¦   ¦   AUTHORS
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           extract_description.js
+¦   ¦           fixer.js
+¦   ¦           make_warning.js
+¦   ¦           normalize.js
+¦   ¦           safe_format.js
+¦   ¦           typos.json
+¦   ¦           warning_messages.json
+¦   ¦           
+¦   +---npm-run-all
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   ¦   +---common
+¦   ¦   ¦   ¦       bootstrap.js
+¦   ¦   ¦   ¦       parse-cli-args.js
+¦   ¦   ¦   ¦       version.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---npm-run-all
+¦   ¦   ¦   ¦       help.js
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       main.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---run-p
+¦   ¦   ¦   ¦       help.js
+¦   ¦   ¦   ¦       index.js
+¦   ¦   ¦   ¦       main.js
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---run-s
+¦   ¦   ¦           help.js
+¦   ¦   ¦           index.js
+¦   ¦   ¦           main.js
+¦   ¦   ¦           
+¦   ¦   +---docs
+¦   ¦   ¦       node-api.md
+¦   ¦   ¦       npm-run-all.md
+¦   ¦   ¦       run-p.md
+¦   ¦   ¦       run-s.md
+¦   ¦   ¦       
+¦   ¦   +---lib
+¦   ¦           create-header.js
+¦   ¦           create-prefix-transform-stream.js
+¦   ¦           index.js
+¦   ¦           match-tasks.js
+¦   ¦           npm-run-all-error.js
+¦   ¦           read-package-json.js
+¦   ¦           run-task.js
+¦   ¦           run-tasks.js
+¦   ¦           spawn-posix.js
+¦   ¦           spawn-win32.js
+¦   ¦           spawn.js
+¦   ¦           
+¦   +---npm-run-path
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---object-inspect
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package-support.json
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.markdown
+¦   ¦   ¦   test-core-js.js
+¦   ¦   ¦   util.inspect.js
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---example
+¦   ¦   ¦       all.js
+¦   ¦   ¦       circular.js
+¦   ¦   ¦       fn.js
+¦   ¦   ¦       inspect.js
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦       ¦   bigint.js
+¦   ¦       ¦   circular.js
+¦   ¦       ¦   deep.js
+¦   ¦       ¦   element.js
+¦   ¦       ¦   err.js
+¦   ¦       ¦   fakes.js
+¦   ¦       ¦   fn.js
+¦   ¦       ¦   has.js
+¦   ¦       ¦   holes.js
+¦   ¦       ¦   indent-option.js
+¦   ¦       ¦   inspect.js
+¦   ¦       ¦   lowbyte.js
+¦   ¦       ¦   number.js
+¦   ¦       ¦   quoteStyle.js
+¦   ¦       ¦   toStringTag.js
+¦   ¦       ¦   undef.js
+¦   ¦       ¦   values.js
+¦   ¦       ¦   
+¦   ¦       +---browser
+¦   ¦               dom.js
+¦   ¦               
+¦   +---object-keys
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .travis.yml
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   implementation.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   isArguments.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---object.assign
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   auto.js
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   hasSymbols.js
+¦   ¦   ¦   implementation.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   polyfill.js
+¦   ¦   ¦   README.md
+¦   ¦   ¦   shim.js
+¦   ¦   ¦   test.html
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---dist
+¦   ¦   ¦       browser.js
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           implementation.js
+¦   ¦           index.js
+¦   ¦           native.js
+¦   ¦           ses-compat.js
+¦   ¦           shimmed.js
+¦   ¦           tests.js
+¦   ¦           
+¦   +---once
+¦   ¦       LICENSE
+¦   ¦       once.js
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---p-filter
+¦   ¦       index.d.ts
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---p-finally
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---p-map
+¦   ¦       index.d.ts
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---parse-json
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---path-key
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---path-parse
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---path-type
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---picomatch
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           constants.js
+¦   ¦           parse.js
+¦   ¦           picomatch.js
+¦   ¦           scan.js
+¦   ¦           utils.js
+¦   ¦           
+¦   +---pidtree
+¦   ¦   ¦   index.js
+¦   ¦   ¦   license
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.md
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   ¦       pidtree.js
+¦   ¦   ¦       
+¦   ¦   +---lib
+¦   ¦           bin.js
+¦   ¦           get.js
+¦   ¦           pidtree.js
+¦   ¦           ps.js
+¦   ¦           wmic.js
+¦   ¦           
+¦   +---pify
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---pump
+¦   ¦       .travis.yml
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       test-browser.js
+¦   ¦       test-node.js
+¦   ¦       
+¦   +---read-pkg
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---regexp.prototype.flags
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   auto.js
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   implementation.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   polyfill.js
+¦   ¦   ¦   README.md
+¦   ¦   ¦   shim.js
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           implementation.js
+¦   ¦           index.js
+¦   ¦           shimmed.js
+¦   ¦           tests.js
+¦   ¦           
+¦   +---resolve
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   appveyor.yml
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   readme.markdown
+¦   ¦   ¦   SECURITY.md
+¦   ¦   ¦   
+¦   ¦   +---example
+¦   ¦   ¦       async.js
+¦   ¦   ¦       sync.js
+¦   ¦   ¦       
+¦   ¦   +---lib
+¦   ¦   ¦       async.js
+¦   ¦   ¦       caller.js
+¦   ¦   ¦       core.js
+¦   ¦   ¦       core.json
+¦   ¦   ¦       is-core.js
+¦   ¦   ¦       node-modules-paths.js
+¦   ¦   ¦       normalize-options.js
+¦   ¦   ¦       sync.js
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦       ¦   .eslintrc
+¦   ¦       ¦   core.js
+¦   ¦       ¦   dotdot.js
+¦   ¦       ¦   faulty_basedir.js
+¦   ¦       ¦   filter.js
+¦   ¦       ¦   filter_sync.js
+¦   ¦       ¦   mock.js
+¦   ¦       ¦   mock_sync.js
+¦   ¦       ¦   module_dir.js
+¦   ¦       ¦   node-modules-paths.js
+¦   ¦       ¦   node_path.js
+¦   ¦       ¦   nonstring.js
+¦   ¦       ¦   pathfilter.js
+¦   ¦       ¦   precedence.js
+¦   ¦       ¦   resolver.js
+¦   ¦       ¦   resolver_sync.js
+¦   ¦       ¦   shadowed_core.js
+¦   ¦       ¦   subdirs.js
+¦   ¦       ¦   symlinks.js
+¦   ¦       ¦   
+¦   ¦       +---dotdot
+¦   ¦       ¦   ¦   index.js
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---abc
+¦   ¦       ¦           index.js
+¦   ¦       ¦           
+¦   ¦       +---module_dir
+¦   ¦       ¦   +---xmodules
+¦   ¦       ¦   ¦   +---aaa
+¦   ¦       ¦   ¦           index.js
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---ymodules
+¦   ¦       ¦   ¦   +---aaa
+¦   ¦       ¦   ¦           index.js
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---zmodules
+¦   ¦       ¦       +---bbb
+¦   ¦       ¦               main.js
+¦   ¦       ¦               package.json
+¦   ¦       ¦               
+¦   ¦       +---node_path
+¦   ¦       ¦   +---x
+¦   ¦       ¦   ¦   +---aaa
+¦   ¦       ¦   ¦   ¦       index.js
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---ccc
+¦   ¦       ¦   ¦           index.js
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---y
+¦   ¦       ¦       +---bbb
+¦   ¦       ¦       ¦       index.js
+¦   ¦       ¦       ¦       
+¦   ¦       ¦       +---ccc
+¦   ¦       ¦               index.js
+¦   ¦       ¦               
+¦   ¦       +---pathfilter
+¦   ¦       ¦   +---deep_ref
+¦   ¦       ¦           main.js
+¦   ¦       ¦           
+¦   ¦       +---precedence
+¦   ¦       ¦   ¦   aaa.js
+¦   ¦       ¦   ¦   bbb.js
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---aaa
+¦   ¦       ¦   ¦       index.js
+¦   ¦       ¦   ¦       main.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---bbb
+¦   ¦       ¦           main.js
+¦   ¦       ¦           
+¦   ¦       +---resolver
+¦   ¦       ¦   ¦   cup.coffee
+¦   ¦       ¦   ¦   foo.js
+¦   ¦       ¦   ¦   mug.coffee
+¦   ¦       ¦   ¦   mug.js
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---baz
+¦   ¦       ¦   ¦       doom.js
+¦   ¦       ¦   ¦       package.json
+¦   ¦       ¦   ¦       quux.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---browser_field
+¦   ¦       ¦   ¦       a.js
+¦   ¦       ¦   ¦       b.js
+¦   ¦       ¦   ¦       package.json
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---dot_main
+¦   ¦       ¦   ¦       index.js
+¦   ¦       ¦   ¦       package.json
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---dot_slash_main
+¦   ¦       ¦   ¦       index.js
+¦   ¦       ¦   ¦       package.json
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---incorrect_main
+¦   ¦       ¦   ¦       index.js
+¦   ¦       ¦   ¦       package.json
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---invalid_main
+¦   ¦       ¦   ¦       package.json
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---multirepo
+¦   ¦       ¦   ¦   ¦   lerna.json
+¦   ¦       ¦   ¦   ¦   package.json
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---packages
+¦   ¦       ¦   ¦       +---package-a
+¦   ¦       ¦   ¦       ¦       index.js
+¦   ¦       ¦   ¦       ¦       package.json
+¦   ¦       ¦   ¦       ¦       
+¦   ¦       ¦   ¦       +---package-b
+¦   ¦       ¦   ¦               index.js
+¦   ¦       ¦   ¦               package.json
+¦   ¦       ¦   ¦               
+¦   ¦       ¦   +---nested_symlinks
+¦   ¦       ¦   ¦   +---mylib
+¦   ¦       ¦   ¦           async.js
+¦   ¦       ¦   ¦           package.json
+¦   ¦       ¦   ¦           sync.js
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---other_path
+¦   ¦       ¦   ¦   ¦   root.js
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---lib
+¦   ¦       ¦   ¦           other-lib.js
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---quux
+¦   ¦       ¦   ¦   +---foo
+¦   ¦       ¦   ¦           index.js
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---same_names
+¦   ¦       ¦   ¦   ¦   foo.js
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---foo
+¦   ¦       ¦   ¦           index.js
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---symlinked
+¦   ¦       ¦   ¦   +---package
+¦   ¦       ¦   ¦   ¦       bar.js
+¦   ¦       ¦   ¦   ¦       package.json
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---_
+¦   ¦       ¦   ¦       +---node_modules
+¦   ¦       ¦   ¦       ¦       foo.js
+¦   ¦       ¦   ¦       ¦       
+¦   ¦       ¦   ¦       +---symlink_target
+¦   ¦       ¦   ¦               .gitkeep
+¦   ¦       ¦   ¦               
+¦   ¦       ¦   +---without_basedir
+¦   ¦       ¦           main.js
+¦   ¦       ¦           
+¦   ¦       +---shadowed_core
+¦   ¦           +---node_modules
+¦   ¦               +---util
+¦   ¦                       index.js
+¦   ¦                       
+¦   +---safe-regex-test
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---semver
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   range.bnf
+¦   ¦   ¦   README.md
+¦   ¦   ¦   semver.js
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦           semver
+¦   ¦           
+¦   +---shebang-command
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---shebang-regex
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---shell-quote
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   parse.js
+¦   ¦   ¦   quote.js
+¦   ¦   ¦   README.md
+¦   ¦   ¦   security.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---example
+¦   ¦   ¦       env.js
+¦   ¦   ¦       op.js
+¦   ¦   ¦       parse.js
+¦   ¦   ¦       quote.js
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           comment.js
+¦   ¦           env.js
+¦   ¦           env_fn.js
+¦   ¦           op.js
+¦   ¦           parse.js
+¦   ¦           quote.js
+¦   ¦           set.js
+¦   ¦           
+¦   +---side-channel
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---signal-exit
+¦   ¦       CHANGELOG.md
+¦   ¦       index.js
+¦   ¦       LICENSE.txt
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       signals.js
+¦   ¦       
+¦   +---source-map
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   source-map.d.ts
+¦   ¦   ¦   source-map.js
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦   ¦       source-map.js
+¦   ¦   ¦       
+¦   ¦   +---lib
+¦   ¦           array-set.js
+¦   ¦           base64-vlq.js
+¦   ¦           base64.js
+¦   ¦           binary-search.js
+¦   ¦           mapping-list.js
+¦   ¦           mappings.wasm
+¦   ¦           read-wasm.js
+¦   ¦           source-map-consumer.js
+¦   ¦           source-map-generator.js
+¦   ¦           source-node.js
+¦   ¦           util.js
+¦   ¦           wasm.js
+¦   ¦           
+¦   +---spdx-correct
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---spdx-exceptions
+¦   ¦       index.json
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---spdx-expression-parse
+¦   ¦       AUTHORS
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       parse.js
+¦   ¦       README.md
+¦   ¦       scan.js
+¦   ¦       
+¦   +---spdx-license-ids
+¦   ¦       deprecated.json
+¦   ¦       index.json
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---string.prototype.padend
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   auto.js
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   implementation.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   polyfill.js
+¦   ¦   ¦   README.md
+¦   ¦   ¦   shim.js
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           .eslintrc
+¦   ¦           implementation.js
+¦   ¦           index.js
+¦   ¦           shimmed.js
+¦   ¦           tests.js
+¦   ¦           
+¦   +---string.prototype.trim
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   auto.js
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   implementation.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   polyfill.js
+¦   ¦   ¦   README.md
+¦   ¦   ¦   shim.js
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           implementation.js
+¦   ¦           index.js
+¦   ¦           shimmed.js
+¦   ¦           tests.js
+¦   ¦           
+¦   +---string.prototype.trimend
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   auto.js
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   implementation.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   polyfill.js
+¦   ¦   ¦   README.md
+¦   ¦   ¦   shim.js
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           implementation.js
+¦   ¦           index.js
+¦   ¦           shimmed.js
+¦   ¦           tests.js
+¦   ¦           
+¦   +---string.prototype.trimstart
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   auto.js
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   implementation.js
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   polyfill.js
+¦   ¦   ¦   README.md
+¦   ¦   ¦   shim.js
+¦   ¦   ¦   
+¦   ¦   +---test
+¦   ¦           implementation.js
+¦   ¦           index.js
+¦   ¦           shimmed.js
+¦   ¦           tests.js
+¦   ¦           
+¦   +---strip-bom
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---strip-eof
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---supports-color
+¦   ¦       browser.js
+¦   ¦       index.js
+¦   ¦       license
+¦   ¦       package.json
+¦   ¦       readme.md
+¦   ¦       
+¦   +---tapable
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   tapable.d.ts
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           AsyncParallelBailHook.js
+¦   ¦           AsyncParallelHook.js
+¦   ¦           AsyncSeriesBailHook.js
+¦   ¦           AsyncSeriesHook.js
+¦   ¦           AsyncSeriesLoopHook.js
+¦   ¦           AsyncSeriesWaterfallHook.js
+¦   ¦           Hook.js
+¦   ¦           HookCodeFactory.js
+¦   ¦           HookMap.js
+¦   ¦           index.js
+¦   ¦           MultiHook.js
+¦   ¦           SyncBailHook.js
+¦   ¦           SyncHook.js
+¦   ¦           SyncLoopHook.js
+¦   ¦           SyncWaterfallHook.js
+¦   ¦           util-browser.js
+¦   ¦           
+¦   +---tslib
+¦   ¦       CopyrightNotice.txt
+¦   ¦       LICENSE.txt
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       tslib.d.ts
+¦   ¦       tslib.es6.html
+¦   ¦       tslib.es6.js
+¦   ¦       tslib.html
+¦   ¦       tslib.js
+¦   ¦       
+¦   +---typed-array-length
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---typescript
+¦   ¦   ¦   LICENSE.txt
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   SECURITY.md
+¦   ¦   ¦   ThirdPartyNoticeText.txt
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦   ¦       tsc
+¦   ¦   ¦       tsserver
+¦   ¦   ¦       
+¦   ¦   +---lib
+¦   ¦       ¦   cancellationToken.js
+¦   ¦       ¦   lib.d.ts
+¦   ¦       ¦   lib.decorators.d.ts
+¦   ¦       ¦   lib.decorators.legacy.d.ts
+¦   ¦       ¦   lib.dom.asynciterable.d.ts
+¦   ¦       ¦   lib.dom.d.ts
+¦   ¦       ¦   lib.dom.iterable.d.ts
+¦   ¦       ¦   lib.es2015.collection.d.ts
+¦   ¦       ¦   lib.es2015.core.d.ts
+¦   ¦       ¦   lib.es2015.d.ts
+¦   ¦       ¦   lib.es2015.generator.d.ts
+¦   ¦       ¦   lib.es2015.iterable.d.ts
+¦   ¦       ¦   lib.es2015.promise.d.ts
+¦   ¦       ¦   lib.es2015.proxy.d.ts
+¦   ¦       ¦   lib.es2015.reflect.d.ts
+¦   ¦       ¦   lib.es2015.symbol.d.ts
+¦   ¦       ¦   lib.es2015.symbol.wellknown.d.ts
+¦   ¦       ¦   lib.es2016.array.include.d.ts
+¦   ¦       ¦   lib.es2016.d.ts
+¦   ¦       ¦   lib.es2016.full.d.ts
+¦   ¦       ¦   lib.es2016.intl.d.ts
+¦   ¦       ¦   lib.es2017.d.ts
+¦   ¦       ¦   lib.es2017.date.d.ts
+¦   ¦       ¦   lib.es2017.full.d.ts
+¦   ¦       ¦   lib.es2017.intl.d.ts
+¦   ¦       ¦   lib.es2017.object.d.ts
+¦   ¦       ¦   lib.es2017.sharedmemory.d.ts
+¦   ¦       ¦   lib.es2017.string.d.ts
+¦   ¦       ¦   lib.es2017.typedarrays.d.ts
+¦   ¦       ¦   lib.es2018.asyncgenerator.d.ts
+¦   ¦       ¦   lib.es2018.asynciterable.d.ts
+¦   ¦       ¦   lib.es2018.d.ts
+¦   ¦       ¦   lib.es2018.full.d.ts
+¦   ¦       ¦   lib.es2018.intl.d.ts
+¦   ¦       ¦   lib.es2018.promise.d.ts
+¦   ¦       ¦   lib.es2018.regexp.d.ts
+¦   ¦       ¦   lib.es2019.array.d.ts
+¦   ¦       ¦   lib.es2019.d.ts
+¦   ¦       ¦   lib.es2019.full.d.ts
+¦   ¦       ¦   lib.es2019.intl.d.ts
+¦   ¦       ¦   lib.es2019.object.d.ts
+¦   ¦       ¦   lib.es2019.string.d.ts
+¦   ¦       ¦   lib.es2019.symbol.d.ts
+¦   ¦       ¦   lib.es2020.bigint.d.ts
+¦   ¦       ¦   lib.es2020.d.ts
+¦   ¦       ¦   lib.es2020.date.d.ts
+¦   ¦       ¦   lib.es2020.full.d.ts
+¦   ¦       ¦   lib.es2020.intl.d.ts
+¦   ¦       ¦   lib.es2020.number.d.ts
+¦   ¦       ¦   lib.es2020.promise.d.ts
+¦   ¦       ¦   lib.es2020.sharedmemory.d.ts
+¦   ¦       ¦   lib.es2020.string.d.ts
+¦   ¦       ¦   lib.es2020.symbol.wellknown.d.ts
+¦   ¦       ¦   lib.es2021.d.ts
+¦   ¦       ¦   lib.es2021.full.d.ts
+¦   ¦       ¦   lib.es2021.intl.d.ts
+¦   ¦       ¦   lib.es2021.promise.d.ts
+¦   ¦       ¦   lib.es2021.string.d.ts
+¦   ¦       ¦   lib.es2021.weakref.d.ts
+¦   ¦       ¦   lib.es2022.array.d.ts
+¦   ¦       ¦   lib.es2022.d.ts
+¦   ¦       ¦   lib.es2022.error.d.ts
+¦   ¦       ¦   lib.es2022.full.d.ts
+¦   ¦       ¦   lib.es2022.intl.d.ts
+¦   ¦       ¦   lib.es2022.object.d.ts
+¦   ¦       ¦   lib.es2022.regexp.d.ts
+¦   ¦       ¦   lib.es2022.sharedmemory.d.ts
+¦   ¦       ¦   lib.es2022.string.d.ts
+¦   ¦       ¦   lib.es2023.array.d.ts
+¦   ¦       ¦   lib.es2023.collection.d.ts
+¦   ¦       ¦   lib.es2023.d.ts
+¦   ¦       ¦   lib.es2023.full.d.ts
+¦   ¦       ¦   lib.es2023.intl.d.ts
+¦   ¦       ¦   lib.es5.d.ts
+¦   ¦       ¦   lib.es6.d.ts
+¦   ¦       ¦   lib.esnext.array.d.ts
+¦   ¦       ¦   lib.esnext.collection.d.ts
+¦   ¦       ¦   lib.esnext.d.ts
+¦   ¦       ¦   lib.esnext.decorators.d.ts
+¦   ¦       ¦   lib.esnext.disposable.d.ts
+¦   ¦       ¦   lib.esnext.full.d.ts
+¦   ¦       ¦   lib.esnext.intl.d.ts
+¦   ¦       ¦   lib.esnext.object.d.ts
+¦   ¦       ¦   lib.esnext.promise.d.ts
+¦   ¦       ¦   lib.esnext.regexp.d.ts
+¦   ¦       ¦   lib.esnext.string.d.ts
+¦   ¦       ¦   lib.scripthost.d.ts
+¦   ¦       ¦   lib.webworker.asynciterable.d.ts
+¦   ¦       ¦   lib.webworker.d.ts
+¦   ¦       ¦   lib.webworker.importscripts.d.ts
+¦   ¦       ¦   lib.webworker.iterable.d.ts
+¦   ¦       ¦   tsc.js
+¦   ¦       ¦   tsserver.js
+¦   ¦       ¦   tsserverlibrary.d.ts
+¦   ¦       ¦   tsserverlibrary.js
+¦   ¦       ¦   typescript.d.ts
+¦   ¦       ¦   typescript.js
+¦   ¦       ¦   typesMap.json
+¦   ¦       ¦   typingsInstaller.js
+¦   ¦       ¦   watchGuard.js
+¦   ¦       ¦   
+¦   ¦       +---cs
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---de
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---es
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---fr
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---it
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---ja
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---ko
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---pl
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---pt-br
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---ru
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---tr
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---zh-cn
+¦   ¦       ¦       diagnosticMessages.generated.json
+¦   ¦       ¦       
+¦   ¦       +---zh-tw
+¦   ¦               diagnosticMessages.generated.json
+¦   ¦               
+¦   +---typescript-to-lua
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---dist
+¦   ¦       ¦   CompilerOptions.d.ts
+¦   ¦       ¦   CompilerOptions.js
+¦   ¦       ¦   index.d.ts
+¦   ¦       ¦   index.js
+¦   ¦       ¦   LuaAST.d.ts
+¦   ¦       ¦   LuaAST.js
+¦   ¦       ¦   LuaLib.d.ts
+¦   ¦       ¦   LuaLib.js
+¦   ¦       ¦   LuaPrinter.d.ts
+¦   ¦       ¦   LuaPrinter.js
+¦   ¦       ¦   measure-performance.d.ts
+¦   ¦       ¦   measure-performance.js
+¦   ¦       ¦   tstl.d.ts
+¦   ¦       ¦   tstl.js
+¦   ¦       ¦   utils.d.ts
+¦   ¦       ¦   utils.js
+¦   ¦       ¦   
+¦   ¦       +---cli
+¦   ¦       ¦       diagnostics.d.ts
+¦   ¦       ¦       diagnostics.js
+¦   ¦       ¦       information.d.ts
+¦   ¦       ¦       information.js
+¦   ¦       ¦       parse.d.ts
+¦   ¦       ¦       parse.js
+¦   ¦       ¦       report.d.ts
+¦   ¦       ¦       report.js
+¦   ¦       ¦       tsconfig.d.ts
+¦   ¦       ¦       tsconfig.js
+¦   ¦       ¦       
+¦   ¦       +---lualib
+¦   ¦       ¦   +---5.0
+¦   ¦       ¦   ¦       ArrayAt.lua
+¦   ¦       ¦   ¦       ArrayConcat.lua
+¦   ¦       ¦   ¦       ArrayEntries.lua
+¦   ¦       ¦   ¦       ArrayEvery.lua
+¦   ¦       ¦   ¦       ArrayFill.lua
+¦   ¦       ¦   ¦       ArrayFilter.lua
+¦   ¦       ¦   ¦       ArrayFind.lua
+¦   ¦       ¦   ¦       ArrayFindIndex.lua
+¦   ¦       ¦   ¦       ArrayFlat.lua
+¦   ¦       ¦   ¦       ArrayFlatMap.lua
+¦   ¦       ¦   ¦       ArrayForEach.lua
+¦   ¦       ¦   ¦       ArrayFrom.lua
+¦   ¦       ¦   ¦       ArrayIncludes.lua
+¦   ¦       ¦   ¦       ArrayIndexOf.lua
+¦   ¦       ¦   ¦       ArrayIsArray.lua
+¦   ¦       ¦   ¦       ArrayJoin.lua
+¦   ¦       ¦   ¦       ArrayMap.lua
+¦   ¦       ¦   ¦       ArrayPush.lua
+¦   ¦       ¦   ¦       ArrayPushArray.lua
+¦   ¦       ¦   ¦       ArrayReduce.lua
+¦   ¦       ¦   ¦       ArrayReduceRight.lua
+¦   ¦       ¦   ¦       ArrayReverse.lua
+¦   ¦       ¦   ¦       ArraySetLength.lua
+¦   ¦       ¦   ¦       ArraySlice.lua
+¦   ¦       ¦   ¦       ArraySome.lua
+¦   ¦       ¦   ¦       ArraySort.lua
+¦   ¦       ¦   ¦       ArraySplice.lua
+¦   ¦       ¦   ¦       ArrayToObject.lua
+¦   ¦       ¦   ¦       ArrayToReversed.lua
+¦   ¦       ¦   ¦       ArrayToSorted.lua
+¦   ¦       ¦   ¦       ArrayToSpliced.lua
+¦   ¦       ¦   ¦       ArrayUnshift.lua
+¦   ¦       ¦   ¦       ArrayWith.lua
+¦   ¦       ¦   ¦       Await.lua
+¦   ¦       ¦   ¦       Class.lua
+¦   ¦       ¦   ¦       ClassExtends.lua
+¦   ¦       ¦   ¦       CloneDescriptor.lua
+¦   ¦       ¦   ¦       CountVarargs.lua
+¦   ¦       ¦   ¦       Decorate.lua
+¦   ¦       ¦   ¦       DecorateLegacy.lua
+¦   ¦       ¦   ¦       DecorateParam.lua
+¦   ¦       ¦   ¦       DelegatedYield.lua
+¦   ¦       ¦   ¦       Delete.lua
+¦   ¦       ¦   ¦       DescriptorGet.lua
+¦   ¦       ¦   ¦       DescriptorSet.lua
+¦   ¦       ¦   ¦       Error.lua
+¦   ¦       ¦   ¦       FunctionBind.lua
+¦   ¦       ¦   ¦       Generator.lua
+¦   ¦       ¦   ¦       InstanceOf.lua
+¦   ¦       ¦   ¦       InstanceOfObject.lua
+¦   ¦       ¦   ¦       Iterator.lua
+¦   ¦       ¦   ¦       LuaIteratorSpread.lua
+¦   ¦       ¦   ¦       lualib_bundle.lua
+¦   ¦       ¦   ¦       lualib_module_info.json
+¦   ¦       ¦   ¦       Map.lua
+¦   ¦       ¦   ¦       MapGroupBy.lua
+¦   ¦       ¦   ¦       Match.lua
+¦   ¦       ¦   ¦       MathAtan2.lua
+¦   ¦       ¦   ¦       MathModf.lua
+¦   ¦       ¦   ¦       MathSign.lua
+¦   ¦       ¦   ¦       New.lua
+¦   ¦       ¦   ¦       Number.lua
+¦   ¦       ¦   ¦       NumberIsFinite.lua
+¦   ¦       ¦   ¦       NumberIsInteger.lua
+¦   ¦       ¦   ¦       NumberIsNaN.lua
+¦   ¦       ¦   ¦       NumberToFixed.lua
+¦   ¦       ¦   ¦       NumberToString.lua
+¦   ¦       ¦   ¦       ObjectAssign.lua
+¦   ¦       ¦   ¦       ObjectDefineProperty.lua
+¦   ¦       ¦   ¦       ObjectEntries.lua
+¦   ¦       ¦   ¦       ObjectFromEntries.lua
+¦   ¦       ¦   ¦       ObjectGetOwnPropertyDescriptor.lua
+¦   ¦       ¦   ¦       ObjectGetOwnPropertyDescriptors.lua
+¦   ¦       ¦   ¦       ObjectGroupBy.lua
+¦   ¦       ¦   ¦       ObjectKeys.lua
+¦   ¦       ¦   ¦       ObjectRest.lua
+¦   ¦       ¦   ¦       ObjectValues.lua
+¦   ¦       ¦   ¦       ParseFloat.lua
+¦   ¦       ¦   ¦       ParseInt.lua
+¦   ¦       ¦   ¦       Promise.lua
+¦   ¦       ¦   ¦       PromiseAll.lua
+¦   ¦       ¦   ¦       PromiseAllSettled.lua
+¦   ¦       ¦   ¦       PromiseAny.lua
+¦   ¦       ¦   ¦       PromiseRace.lua
+¦   ¦       ¦   ¦       Set.lua
+¦   ¦       ¦   ¦       SetDescriptor.lua
+¦   ¦       ¦   ¦       SourceMapTraceBack.lua
+¦   ¦       ¦   ¦       SparseArrayNew.lua
+¦   ¦       ¦   ¦       SparseArrayPush.lua
+¦   ¦       ¦   ¦       SparseArraySpread.lua
+¦   ¦       ¦   ¦       Spread.lua
+¦   ¦       ¦   ¦       StringAccess.lua
+¦   ¦       ¦   ¦       StringCharAt.lua
+¦   ¦       ¦   ¦       StringCharCodeAt.lua
+¦   ¦       ¦   ¦       StringEndsWith.lua
+¦   ¦       ¦   ¦       StringIncludes.lua
+¦   ¦       ¦   ¦       StringPadEnd.lua
+¦   ¦       ¦   ¦       StringPadStart.lua
+¦   ¦       ¦   ¦       StringReplace.lua
+¦   ¦       ¦   ¦       StringReplaceAll.lua
+¦   ¦       ¦   ¦       StringSlice.lua
+¦   ¦       ¦   ¦       StringSplit.lua
+¦   ¦       ¦   ¦       StringStartsWith.lua
+¦   ¦       ¦   ¦       StringSubstr.lua
+¦   ¦       ¦   ¦       StringSubstring.lua
+¦   ¦       ¦   ¦       StringTrim.lua
+¦   ¦       ¦   ¦       StringTrimEnd.lua
+¦   ¦       ¦   ¦       StringTrimStart.lua
+¦   ¦       ¦   ¦       Symbol.lua
+¦   ¦       ¦   ¦       SymbolRegistry.lua
+¦   ¦       ¦   ¦       TypeOf.lua
+¦   ¦       ¦   ¦       Unpack.lua
+¦   ¦       ¦   ¦       Using.lua
+¦   ¦       ¦   ¦       UsingAsync.lua
+¦   ¦       ¦   ¦       WeakMap.lua
+¦   ¦       ¦   ¦       WeakSet.lua
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---universal
+¦   ¦       ¦           ArrayAt.lua
+¦   ¦       ¦           ArrayConcat.lua
+¦   ¦       ¦           ArrayEntries.lua
+¦   ¦       ¦           ArrayEvery.lua
+¦   ¦       ¦           ArrayFill.lua
+¦   ¦       ¦           ArrayFilter.lua
+¦   ¦       ¦           ArrayFind.lua
+¦   ¦       ¦           ArrayFindIndex.lua
+¦   ¦       ¦           ArrayFlat.lua
+¦   ¦       ¦           ArrayFlatMap.lua
+¦   ¦       ¦           ArrayForEach.lua
+¦   ¦       ¦           ArrayFrom.lua
+¦   ¦       ¦           ArrayIncludes.lua
+¦   ¦       ¦           ArrayIndexOf.lua
+¦   ¦       ¦           ArrayIsArray.lua
+¦   ¦       ¦           ArrayJoin.lua
+¦   ¦       ¦           ArrayMap.lua
+¦   ¦       ¦           ArrayPush.lua
+¦   ¦       ¦           ArrayPushArray.lua
+¦   ¦       ¦           ArrayReduce.lua
+¦   ¦       ¦           ArrayReduceRight.lua
+¦   ¦       ¦           ArrayReverse.lua
+¦   ¦       ¦           ArraySetLength.lua
+¦   ¦       ¦           ArraySlice.lua
+¦   ¦       ¦           ArraySome.lua
+¦   ¦       ¦           ArraySort.lua
+¦   ¦       ¦           ArraySplice.lua
+¦   ¦       ¦           ArrayToObject.lua
+¦   ¦       ¦           ArrayToReversed.lua
+¦   ¦       ¦           ArrayToSorted.lua
+¦   ¦       ¦           ArrayToSpliced.lua
+¦   ¦       ¦           ArrayUnshift.lua
+¦   ¦       ¦           ArrayWith.lua
+¦   ¦       ¦           Await.lua
+¦   ¦       ¦           Class.lua
+¦   ¦       ¦           ClassExtends.lua
+¦   ¦       ¦           CloneDescriptor.lua
+¦   ¦       ¦           CountVarargs.lua
+¦   ¦       ¦           Decorate.lua
+¦   ¦       ¦           DecorateLegacy.lua
+¦   ¦       ¦           DecorateParam.lua
+¦   ¦       ¦           DelegatedYield.lua
+¦   ¦       ¦           Delete.lua
+¦   ¦       ¦           DescriptorGet.lua
+¦   ¦       ¦           DescriptorSet.lua
+¦   ¦       ¦           Error.lua
+¦   ¦       ¦           FunctionBind.lua
+¦   ¦       ¦           Generator.lua
+¦   ¦       ¦           InstanceOf.lua
+¦   ¦       ¦           InstanceOfObject.lua
+¦   ¦       ¦           Iterator.lua
+¦   ¦       ¦           LuaIteratorSpread.lua
+¦   ¦       ¦           lualib_bundle.lua
+¦   ¦       ¦           lualib_module_info.json
+¦   ¦       ¦           Map.lua
+¦   ¦       ¦           MapGroupBy.lua
+¦   ¦       ¦           Match.lua
+¦   ¦       ¦           MathAtan2.lua
+¦   ¦       ¦           MathModf.lua
+¦   ¦       ¦           MathSign.lua
+¦   ¦       ¦           New.lua
+¦   ¦       ¦           Number.lua
+¦   ¦       ¦           NumberIsFinite.lua
+¦   ¦       ¦           NumberIsInteger.lua
+¦   ¦       ¦           NumberIsNaN.lua
+¦   ¦       ¦           NumberToFixed.lua
+¦   ¦       ¦           NumberToString.lua
+¦   ¦       ¦           ObjectAssign.lua
+¦   ¦       ¦           ObjectDefineProperty.lua
+¦   ¦       ¦           ObjectEntries.lua
+¦   ¦       ¦           ObjectFromEntries.lua
+¦   ¦       ¦           ObjectGetOwnPropertyDescriptor.lua
+¦   ¦       ¦           ObjectGetOwnPropertyDescriptors.lua
+¦   ¦       ¦           ObjectGroupBy.lua
+¦   ¦       ¦           ObjectKeys.lua
+¦   ¦       ¦           ObjectRest.lua
+¦   ¦       ¦           ObjectValues.lua
+¦   ¦       ¦           ParseFloat.lua
+¦   ¦       ¦           ParseInt.lua
+¦   ¦       ¦           Promise.lua
+¦   ¦       ¦           PromiseAll.lua
+¦   ¦       ¦           PromiseAllSettled.lua
+¦   ¦       ¦           PromiseAny.lua
+¦   ¦       ¦           PromiseRace.lua
+¦   ¦       ¦           Set.lua
+¦   ¦       ¦           SetDescriptor.lua
+¦   ¦       ¦           SourceMapTraceBack.lua
+¦   ¦       ¦           SparseArrayNew.lua
+¦   ¦       ¦           SparseArrayPush.lua
+¦   ¦       ¦           SparseArraySpread.lua
+¦   ¦       ¦           Spread.lua
+¦   ¦       ¦           StringAccess.lua
+¦   ¦       ¦           StringCharAt.lua
+¦   ¦       ¦           StringCharCodeAt.lua
+¦   ¦       ¦           StringEndsWith.lua
+¦   ¦       ¦           StringIncludes.lua
+¦   ¦       ¦           StringPadEnd.lua
+¦   ¦       ¦           StringPadStart.lua
+¦   ¦       ¦           StringReplace.lua
+¦   ¦       ¦           StringReplaceAll.lua
+¦   ¦       ¦           StringSlice.lua
+¦   ¦       ¦           StringSplit.lua
+¦   ¦       ¦           StringStartsWith.lua
+¦   ¦       ¦           StringSubstr.lua
+¦   ¦       ¦           StringSubstring.lua
+¦   ¦       ¦           StringTrim.lua
+¦   ¦       ¦           StringTrimEnd.lua
+¦   ¦       ¦           StringTrimStart.lua
+¦   ¦       ¦           Symbol.lua
+¦   ¦       ¦           SymbolRegistry.lua
+¦   ¦       ¦           TypeOf.lua
+¦   ¦       ¦           Unpack.lua
+¦   ¦       ¦           Using.lua
+¦   ¦       ¦           UsingAsync.lua
+¦   ¦       ¦           WeakMap.lua
+¦   ¦       ¦           WeakSet.lua
+¦   ¦       ¦           
+¦   ¦       +---lualib-build
+¦   ¦       ¦       plugin.d.ts
+¦   ¦       ¦       plugin.js
+¦   ¦       ¦       util.d.ts
+¦   ¦       ¦       util.js
+¦   ¦       ¦       
+¦   ¦       +---transformation
+¦   ¦       ¦   ¦   index.d.ts
+¦   ¦       ¦   ¦   index.js
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---builtins
+¦   ¦       ¦   ¦       array.d.ts
+¦   ¦       ¦   ¦       array.js
+¦   ¦       ¦   ¦       console.d.ts
+¦   ¦       ¦   ¦       console.js
+¦   ¦       ¦   ¦       function.d.ts
+¦   ¦       ¦   ¦       function.js
+¦   ¦       ¦   ¦       global.d.ts
+¦   ¦       ¦   ¦       global.js
+¦   ¦       ¦   ¦       index.d.ts
+¦   ¦       ¦   ¦       index.js
+¦   ¦       ¦   ¦       map.d.ts
+¦   ¦       ¦   ¦       map.js
+¦   ¦       ¦   ¦       math.d.ts
+¦   ¦       ¦   ¦       math.js
+¦   ¦       ¦   ¦       number.d.ts
+¦   ¦       ¦   ¦       number.js
+¦   ¦       ¦   ¦       object.d.ts
+¦   ¦       ¦   ¦       object.js
+¦   ¦       ¦   ¦       promise.d.ts
+¦   ¦       ¦   ¦       promise.js
+¦   ¦       ¦   ¦       string.d.ts
+¦   ¦       ¦   ¦       string.js
+¦   ¦       ¦   ¦       symbol.d.ts
+¦   ¦       ¦   ¦       symbol.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---context
+¦   ¦       ¦   ¦       context.d.ts
+¦   ¦       ¦   ¦       context.js
+¦   ¦       ¦   ¦       index.d.ts
+¦   ¦       ¦   ¦       index.js
+¦   ¦       ¦   ¦       visitors.d.ts
+¦   ¦       ¦   ¦       visitors.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---pre-transformers
+¦   ¦       ¦   ¦       using-transformer.d.ts
+¦   ¦       ¦   ¦       using-transformer.js
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---utils
+¦   ¦       ¦   ¦   ¦   annotations.d.ts
+¦   ¦       ¦   ¦   ¦   annotations.js
+¦   ¦       ¦   ¦   ¦   assignment-validation.d.ts
+¦   ¦       ¦   ¦   ¦   assignment-validation.js
+¦   ¦       ¦   ¦   ¦   diagnostics.d.ts
+¦   ¦       ¦   ¦   ¦   diagnostics.js
+¦   ¦       ¦   ¦   ¦   export.d.ts
+¦   ¦       ¦   ¦   ¦   export.js
+¦   ¦       ¦   ¦   ¦   function-context.d.ts
+¦   ¦       ¦   ¦   ¦   function-context.js
+¦   ¦       ¦   ¦   ¦   language-extensions.d.ts
+¦   ¦       ¦   ¦   ¦   language-extensions.js
+¦   ¦       ¦   ¦   ¦   lua-ast.d.ts
+¦   ¦       ¦   ¦   ¦   lua-ast.js
+¦   ¦       ¦   ¦   ¦   lualib.d.ts
+¦   ¦       ¦   ¦   ¦   lualib.js
+¦   ¦       ¦   ¦   ¦   preceding-statements.d.ts
+¦   ¦       ¦   ¦   ¦   preceding-statements.js
+¦   ¦       ¦   ¦   ¦   safe-names.d.ts
+¦   ¦       ¦   ¦   ¦   safe-names.js
+¦   ¦       ¦   ¦   ¦   scope.d.ts
+¦   ¦       ¦   ¦   ¦   scope.js
+¦   ¦       ¦   ¦   ¦   symbols.d.ts
+¦   ¦       ¦   ¦   ¦   symbols.js
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---typescript
+¦   ¦       ¦   ¦           index.d.ts
+¦   ¦       ¦   ¦           index.js
+¦   ¦       ¦   ¦           nodes.d.ts
+¦   ¦       ¦   ¦           nodes.js
+¦   ¦       ¦   ¦           types.d.ts
+¦   ¦       ¦   ¦           types.js
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---visitors
+¦   ¦       ¦       ¦   access.d.ts
+¦   ¦       ¦       ¦   access.js
+¦   ¦       ¦       ¦   async-await.d.ts
+¦   ¦       ¦       ¦   async-await.js
+¦   ¦       ¦       ¦   block.d.ts
+¦   ¦       ¦       ¦   block.js
+¦   ¦       ¦       ¦   break-continue.d.ts
+¦   ¦       ¦       ¦   break-continue.js
+¦   ¦       ¦       ¦   call.d.ts
+¦   ¦       ¦       ¦   call.js
+¦   ¦       ¦       ¦   conditional.d.ts
+¦   ¦       ¦       ¦   conditional.js
+¦   ¦       ¦       ¦   delete.d.ts
+¦   ¦       ¦       ¦   delete.js
+¦   ¦       ¦       ¦   enum.d.ts
+¦   ¦       ¦       ¦   enum.js
+¦   ¦       ¦       ¦   errors.d.ts
+¦   ¦       ¦       ¦   errors.js
+¦   ¦       ¦       ¦   expression-list.d.ts
+¦   ¦       ¦       ¦   expression-list.js
+¦   ¦       ¦       ¦   expression-statement.d.ts
+¦   ¦       ¦       ¦   expression-statement.js
+¦   ¦       ¦       ¦   function.d.ts
+¦   ¦       ¦       ¦   function.js
+¦   ¦       ¦       ¦   identifier.d.ts
+¦   ¦       ¦       ¦   identifier.js
+¦   ¦       ¦       ¦   index.d.ts
+¦   ¦       ¦       ¦   index.js
+¦   ¦       ¦       ¦   literal.d.ts
+¦   ¦       ¦       ¦   literal.js
+¦   ¦       ¦       ¦   namespace.d.ts
+¦   ¦       ¦       ¦   namespace.js
+¦   ¦       ¦       ¦   optional-chaining.d.ts
+¦   ¦       ¦       ¦   optional-chaining.js
+¦   ¦       ¦       ¦   return.d.ts
+¦   ¦       ¦       ¦   return.js
+¦   ¦       ¦       ¦   sourceFile.d.ts
+¦   ¦       ¦       ¦   sourceFile.js
+¦   ¦       ¦       ¦   spread.d.ts
+¦   ¦       ¦       ¦   spread.js
+¦   ¦       ¦       ¦   switch.d.ts
+¦   ¦       ¦       ¦   switch.js
+¦   ¦       ¦       ¦   template.d.ts
+¦   ¦       ¦       ¦   template.js
+¦   ¦       ¦       ¦   typeof.d.ts
+¦   ¦       ¦       ¦   typeof.js
+¦   ¦       ¦       ¦   typescript.d.ts
+¦   ¦       ¦       ¦   typescript.js
+¦   ¦       ¦       ¦   unary-expression.d.ts
+¦   ¦       ¦       ¦   unary-expression.js
+¦   ¦       ¦       ¦   variable-declaration.d.ts
+¦   ¦       ¦       ¦   variable-declaration.js
+¦   ¦       ¦       ¦   void.d.ts
+¦   ¦       ¦       ¦   void.js
+¦   ¦       ¦       ¦   
+¦   ¦       ¦       +---binary-expression
+¦   ¦       ¦       ¦       assignments.d.ts
+¦   ¦       ¦       ¦       assignments.js
+¦   ¦       ¦       ¦       bit.d.ts
+¦   ¦       ¦       ¦       bit.js
+¦   ¦       ¦       ¦       compound.d.ts
+¦   ¦       ¦       ¦       compound.js
+¦   ¦       ¦       ¦       destructuring-assignments.d.ts
+¦   ¦       ¦       ¦       destructuring-assignments.js
+¦   ¦       ¦       ¦       index.d.ts
+¦   ¦       ¦       ¦       index.js
+¦   ¦       ¦       ¦       
+¦   ¦       ¦       +---class
+¦   ¦       ¦       ¦   ¦   decorators.d.ts
+¦   ¦       ¦       ¦   ¦   decorators.js
+¦   ¦       ¦       ¦   ¦   index.d.ts
+¦   ¦       ¦       ¦   ¦   index.js
+¦   ¦       ¦       ¦   ¦   new.d.ts
+¦   ¦       ¦       ¦   ¦   new.js
+¦   ¦       ¦       ¦   ¦   setup.d.ts
+¦   ¦       ¦       ¦   ¦   setup.js
+¦   ¦       ¦       ¦   ¦   utils.d.ts
+¦   ¦       ¦       ¦   ¦   utils.js
+¦   ¦       ¦       ¦   ¦   
+¦   ¦       ¦       ¦   +---members
+¦   ¦       ¦       ¦           accessors.d.ts
+¦   ¦       ¦       ¦           accessors.js
+¦   ¦       ¦       ¦           constructor.d.ts
+¦   ¦       ¦       ¦           constructor.js
+¦   ¦       ¦       ¦           fields.d.ts
+¦   ¦       ¦       ¦           fields.js
+¦   ¦       ¦       ¦           method.d.ts
+¦   ¦       ¦       ¦           method.js
+¦   ¦       ¦       ¦           
+¦   ¦       ¦       +---language-extensions
+¦   ¦       ¦       ¦       call-extension.d.ts
+¦   ¦       ¦       ¦       call-extension.js
+¦   ¦       ¦       ¦       identifier.d.ts
+¦   ¦       ¦       ¦       identifier.js
+¦   ¦       ¦       ¦       iterable.d.ts
+¦   ¦       ¦       ¦       iterable.js
+¦   ¦       ¦       ¦       multi.d.ts
+¦   ¦       ¦       ¦       multi.js
+¦   ¦       ¦       ¦       operators.d.ts
+¦   ¦       ¦       ¦       operators.js
+¦   ¦       ¦       ¦       range.d.ts
+¦   ¦       ¦       ¦       range.js
+¦   ¦       ¦       ¦       table.d.ts
+¦   ¦       ¦       ¦       table.js
+¦   ¦       ¦       ¦       vararg.d.ts
+¦   ¦       ¦       ¦       vararg.js
+¦   ¦       ¦       ¦       
+¦   ¦       ¦       +---loops
+¦   ¦       ¦       ¦       do-while.d.ts
+¦   ¦       ¦       ¦       do-while.js
+¦   ¦       ¦       ¦       for-in.d.ts
+¦   ¦       ¦       ¦       for-in.js
+¦   ¦       ¦       ¦       for-of.d.ts
+¦   ¦       ¦       ¦       for-of.js
+¦   ¦       ¦       ¦       for.d.ts
+¦   ¦       ¦       ¦       for.js
+¦   ¦       ¦       ¦       utils.d.ts
+¦   ¦       ¦       ¦       utils.js
+¦   ¦       ¦       ¦       
+¦   ¦       ¦       +---modules
+¦   ¦       ¦               export.d.ts
+¦   ¦       ¦               export.js
+¦   ¦       ¦               import.d.ts
+¦   ¦       ¦               import.js
+¦   ¦       ¦               
+¦   ¦       +---transpilation
+¦   ¦               bundle.d.ts
+¦   ¦               bundle.js
+¦   ¦               diagnostics.d.ts
+¦   ¦               diagnostics.js
+¦   ¦               find-lua-requires.d.ts
+¦   ¦               find-lua-requires.js
+¦   ¦               index.d.ts
+¦   ¦               index.js
+¦   ¦               output-collector.d.ts
+¦   ¦               output-collector.js
+¦   ¦               plugins.d.ts
+¦   ¦               plugins.js
+¦   ¦               resolve.d.ts
+¦   ¦               resolve.js
+¦   ¦               transformers.d.ts
+¦   ¦               transformers.js
+¦   ¦               transpile.d.ts
+¦   ¦               transpile.js
+¦   ¦               transpiler.d.ts
+¦   ¦               transpiler.js
+¦   ¦               utils.d.ts
+¦   ¦               utils.js
+¦   ¦               
+¦   +---unbox-primitive
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---universalify
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---validate-npm-package-license
+¦   ¦       index.js
+¦   ¦       LICENSE
+¦   ¦       package.json
+¦   ¦       README.md
+¦   ¦       
+¦   +---vdf-extra
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---lib
+¦   ¦           extra-values.js
+¦   ¦           index.d.ts
+¦   ¦           index.js
+¦   ¦           parse.js
+¦   ¦           stringify.js
+¦   ¦           
+¦   +---which
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   which.js
+¦   ¦   ¦   
+¦   ¦   +---bin
+¦   ¦           which
+¦   ¦           
+¦   +---which-boxed-primitive
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintignore
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---which-typed-array
+¦   ¦   ¦   .editorconfig
+¦   ¦   ¦   .eslintrc
+¦   ¦   ¦   .nycrc
+¦   ¦   ¦   CHANGELOG.md
+¦   ¦   ¦   index.js
+¦   ¦   ¦   LICENSE
+¦   ¦   ¦   package.json
+¦   ¦   ¦   README.md
+¦   ¦   ¦   
+¦   ¦   +---.github
+¦   ¦   ¦       FUNDING.yml
+¦   ¦   ¦       
+¦   ¦   +---test
+¦   ¦           index.js
+¦   ¦           
+¦   +---wrappy
+¦           LICENSE
+¦           package.json
+¦           README.md
+¦           wrappy.js
+¦           
++---rturbotest
+¦   ¦   .editorconfig
+¦   ¦   .gitignore
+¦   ¦   LICENSE
+¦   ¦   package-lock.json
+¦   ¦   package.json
+¦   ¦   README.md
+¦   ¦   
+¦   +---.github
+¦   ¦   +---workflows
+¦   ¦           ci.yml
+¦   ¦           
+¦   +---.vscode
+¦   ¦       settings.json
+¦   ¦       tasks.json
+¦   ¦       
+¦   +---content
+¦   ¦   +---maps
+¦   ¦   ¦       7_39d.vmap
+¦   ¦   ¦       
+¦   ¦   +---materials
+¦   ¦   ¦   +---overviews
+¦   ¦   ¦           7_39d.tga
+¦   ¦   ¦           7_39d.txt
+¦   ¦   ¦           7_39d.vmat
+¦   ¦   ¦           
+¦   ¦   +---panorama
+¦   ¦       +---images
+¦   ¦       ¦   +---custom_game
+¦   ¦       ¦           tstl.png
+¦   ¦       ¦           
+¦   ¦       +---layout
+¦   ¦       ¦   +---custom_game
+¦   ¦       ¦           custom_ui_manifest.xml
+¦   ¦       ¦           hud.xml
+¦   ¦       ¦           
+¦   ¦       +---styles
+¦   ¦           +---custom_game
+¦   ¦                   hud.css
+¦   ¦                   
+¦   +---game
+¦   ¦   +---resource
+¦   ¦   ¦   +---overviews
+¦   ¦   ¦           7_39d.txt
+¦   ¦   ¦           
+¦   ¦   +---scripts
+¦   ¦       ¦   custom_net_tables.txt
+¦   ¦       ¦   
+¦   ¦       +---npc
+¦   ¦           ¦   npc_abilities_custom.txt
+¦   ¦           ¦   
+¦   ¦           +---heroes
+¦   ¦                   meepo.kv
+¦   ¦                   
+¦   +---scripts
+¦   ¦       install.js
+¦   ¦       launch.js
+¦   ¦       utils.js
+¦   ¦       
+¦   +---src
+¦       +---common
+¦       ¦       custom_net_tables.d.ts
+¦       ¦       events.d.ts
+¦       ¦       game_events.d.ts
+¦       ¦       general.d.ts
+¦       ¦       
+¦       +---panorama
+¦       ¦       hud.ts
+¦       ¦       manifest.ts
+¦       ¦       tsconfig.json
+¦       ¦       
+¦       +---vscripts
+¦           ¦   addon_game_mode.ts
+¦           ¦   GameMode.ts
+¦           ¦   mmr_manager.ts
+¦           ¦   tsconfig.json
+¦           ¦   
+¦           +---abilities
+¦           ¦   +---heroes
+¦           ¦       +---meepo
+¦           ¦               earthbind_ts_example.ts
+¦           ¦               
+¦           +---lib
+¦           ¦       dota_ts_adapter.ts
+¦           ¦       timers.d.ts
+¦           ¦       timers.lua
+¦           ¦       tstl-utils.ts
+¦           ¦       
+¦           +---modifiers
+¦                   modifier_panic.ts
+¦                   
++---scripts
+¦       install.js
+¦       launch.js
+¦       utils.js
+¦       
++---src
+    +---common
+    ¦       custom_net_tables.d.ts
+    ¦       events.d.ts
+    ¦       game_events.d.ts
+    ¦       general.d.ts
+    ¦       
+    +---panorama
+    ¦       events.ts
+    ¦       hud.ts
+    ¦       manifest.ts
+    ¦       post_game.ts
+    ¦       tsconfig.json
+    ¦       
+    +---vscripts
+        ¦   addon_game_mode.ts
+        ¦   DoubleDown.ts
+        ¦   GameMode.ts
+        ¦   MMRFlow.ts
+        ¦   mmr_manager.ts
+        ¦   ResultOnHeroDeath.ts
+        ¦   tsconfig.json
+        ¦   TurboRules.ts
+        ¦   
+        +---abilities
+        ¦   +---heroes
+        ¦       +---meepo
+        ¦               earthbind_ts_example.ts
+        ¦               
+        +---lib
+        ¦       dota_ts_adapter.ts
+        ¦       timers.d.ts
+        ¦       timers.lua
+        ¦       tstl-utils.ts
+        ¦       
+        +---modifiers
+                modifier_panic.ts
+                
