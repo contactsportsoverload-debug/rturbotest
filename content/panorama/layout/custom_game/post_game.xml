@@ -25,9 +25,9 @@
 
       <!-- Header: icon + title -->
       <Panel id="Header" style="flow-children:right; horizontal-align:center; margin-bottom:8px;">
-        <!-- Use the same icon as your HUD if available; placeholder path below. -->
+        <!-- Swapped to immortal.png (mmr.png does not exist in this project). -->
         <Image id="MMRIcon"
-               src="file://{resources}/images/custom_game/mmr.png"
+               src="file://{resources}/images/custom_game/immortal.png"
                scaling="stretch-to-fit-preserve-aspect"
                style="width:28px; height:28px; wash-color:#fff; margin-right:8px;" />
         <Label id="Title" text="Match Summary"
