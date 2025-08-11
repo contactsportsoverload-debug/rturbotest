@@ -91,6 +91,11 @@ function tryFetchAndRender(pid: PlayerID): boolean {
 }
 
 function init(): void {
+  // Hide Valve’s default endgame UI so our EndScreen is visible.
+  GameUI.SetDefaultUIEnabled(DotaDefaultUIElement_t.DOTA_DEFAULT_UI_ENDGAME, false);
+  GameUI.SetDefaultUIEnabled(DotaDefaultUIElement_t.DOTA_DEFAULT_UI_ENDGAME_CHAT, false);
+  GameUI.SetDefaultUIEnabled(DotaDefaultUIElement_t.DOTA_DEFAULT_UI_FIGHT_RECAP, false);
+
   const pid = Players.GetLocalPlayer();
   let attempt = 0;
 

@@ -5,7 +5,7 @@ export const TURBO_SETTINGS = {
   heroSelectionTime: 20, // Lobby: seconds to pick a hero
   strategyTime: 0,       // After pick, before load-in
   showcaseTime: 0,       // Pre-intro showcase
-  preGameTime: 300,       // PRE_GAME length (was ~90s)
+  preGameTime: 60,       // PRE_GAME length (was ~90s)
   respawnTimeScale: 0.5, // Gameplay: halve respawn times
 };
 
