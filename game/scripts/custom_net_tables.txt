@@ -3,4 +3,10 @@
     "player_stats"
     {
     }
+
+    // Holds post-game results for each player by PlayerID (as string keys).
+    // Example keys: "old", "new", "name", "team", "doubledown"
+    "postgame"
+    {
+    }
 }
