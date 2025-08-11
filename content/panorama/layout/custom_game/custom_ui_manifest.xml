@@ -1,6 +1,7 @@
 <!--
   custom_ui_manifest.xml
   Purpose: Declare which Panorama layouts/scripts your custom game loads.
+  Note: Post-game UI is now integrated into HUD, so we only load HUD here.
 -->
 <root>
   <!-- Global scripts for custom UI -->
@@ -8,13 +9,8 @@
     <include src="file://{resources}/scripts/custom_game/manifest.js" />
   </scripts>
 
-  <!-- In-game HUD -->
+  <!-- In-game HUD (now also shows the integrated PostGame panel) -->
   <CustomUIElement
     type="Hud"
     layoutfile="file://{resources}/layout/custom_game/hud.xml" />
-
-  <!-- Post-game End Screen -->
-  <CustomUIElement
-    type="EndScreen"
-    layoutfile="file://{resources}/layout/custom_game/post_game.xml" />
 </root>
