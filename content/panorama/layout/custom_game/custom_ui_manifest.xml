@@ -1,29 +1,20 @@
 <!--
   custom_ui_manifest.xml
   Purpose: Declare which Panorama layouts/scripts your custom game loads.
-  Notes:
-  - <scripts> runs early and is good for global JS bootstrapping (e.g., manifest.js).
-  - <CustomUIElement type="Hud"> is the in-match HUD overlay.
-  - <CustomUIElement type="EndScreen"> shows after the match ends (post-game screen).
 -->
 <root>
-    <!-- Global scripts loaded for all custom UI (keep lightweight). -->
-    <scripts>
-        <!-- manifest.js: central place to require/initialize shared JS. -->
-        <include src="file://{resources}/scripts/custom_game/manifest.js" />
-    </scripts>
+  <!-- Global scripts for custom UI -->
+  <scripts>
+    <include src="file://{resources}/scripts/custom_game/manifest.js" />
+  </scripts>
 
-    <!-- Container for all custom UI elements declared for this addon. -->
-    <Panel>
-        <!-- In-game HUD (shown during gameplay). -->
-        <CustomUIElement
-            type="Hud"
-            layoutfile="file://{resources}/layout/custom_game/hud.xml" />
+  <!-- In-game HUD -->
+  <CustomUIElement
+    type="Hud"
+    layoutfile="file://{resources}/layout/custom_game/hud.xml" />
 
-        <!-- Post-game End Screen (shown after the engine resolves a winner).
-             Layout and scripts live under layout/custom_game/post_game.xml (and its JS). -->
-        <CustomUIElement
-            type="EndScreen"
-            layoutfile="file://{resources}/layout/custom_game/post_game.xml" />
-    </Panel>
+  <!-- Post-game End Screen -->
+  <CustomUIElement
+    type="EndScreen"
+    layoutfile="file://{resources}/layout/custom_game/post_game.xml" />
 </root>
