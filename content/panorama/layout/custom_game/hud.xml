@@ -5,8 +5,7 @@
   This version:
   - Keeps the always-on "mmr + icon" badge (bottom-right area).
   - Keeps the left-edge "Double Down" panel (#DoubleDown).
-  - Adds a dedicated overlay panel with id="tempendmmr" (hidden by default).
-    You can show/hide this from your HUD script during end-of-game.
+  - TEMP end-of-game overlay has been COMMENTED OUT per request.
 -->
 <root>
     <scripts>
@@ -54,9 +53,7 @@
         <!-- ===== /MMR badge ===== -->
 
         <!-- ===== Temporary end-of-game overlay (HUD-based) =====
-             - Hidden by default.
-             - Toggle visibility from your HUD script when the match ends.
-             - This is distinct from the EndScreen post-game page. -->
+             COMMENTED OUT — kept for future reference.
         <Panel id="tempendmmr"
                hittest="true"
                visible="false"
@@ -70,7 +67,7 @@
                        style="font-size:16px; color:#9aa3ab; horizontal-align:center;" />
             </Panel>
         </Panel>
-        <!-- ===== /Temporary end-of-game overlay ===== -->
+        ===== /Temporary end-of-game overlay ===== -->
 
         <!--
         ========================================================================
