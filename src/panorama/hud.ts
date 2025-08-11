@@ -1,9 +1,8 @@
 // hud.ts
-// Purpose: HUD logic.
-// - Disables Valve endgame UI so our EndScreen can show
-// - Double Down panel: logs + notifies server, then hides
-// - "mmr + icon": always-on badge updated from server "mmr_current"
-// - Temp end overlay support (safe if panel is commented out in XML)
+// Purpose: HUD logic + integrated PostGame panel controller.
+// Notes:
+// - No '$' shadowing — we use byId()
+// - Local types only (no collisions with other files)
 
 $.Msg("Hud panorama loaded");
 
@@ -16,64 +15,58 @@ try {
   $.Msg("[HUD] Failed to disable some default UI:", e);
 }
 
+/** ===== Utilities ===== */
+function byId(id: string): Panel | null {
+  return $.GetContextPanel().FindChildTraverse(id);
+}
+function setText(id: string, txt: string): void {
+  const p = byId(id) as LabelPanel | null;
+  if (p) p.text = txt;
+}
+function setVisible(id: string, vis: boolean): void {
+  const p = byId(id);
+  if (p) p.visible = vis;
+}
+function teamName(team?: DOTATeam_t): string {
+  if (team === DOTATeam_t.DOTA_TEAM_GOODGUYS) return "Radiant";
+  if (team === DOTATeam_t.DOTA_TEAM_BADGUYS) return "Dire";
+  return "";
+}
+function colorizeDelta(delta: number): void {
+  const p = byId("Delta") as LabelPanel | null;
+  if (!p) return;
+  const color = delta > 0 ? "#7fe07f" : delta < 0 ? "#ff7f7f" : "#9aa3ab";
+  (p.style as any).color = color;
+}
+/** ===== /Utilities ===== */
+
 /** ===== Double Down panel ===== */
 function OnDoubleDownClicked(): void {
   $.Msg("[DOUBLE DOWN] button pressed");
-  // Notify server that this player opted into double down
   GameEvents.SendCustomGameEventToServer("double_down_clicked", {});
-  // Extra-safe: disable the button to avoid double-fires before delete happens
-  const btn = $("#DDAction") as Panel | undefined;
-  if (btn) btn.enabled = false;
-  const dd = $("#DoubleDown") as Panel | undefined;
+  const btn = byId("DDAction") as Panel | null;
+  if (btn) (btn as any).enabled = false;
+  const dd = byId("DoubleDown");
   if (dd) dd.DeleteAsync(0);
 }
 
 function OnDoubleDownCloseClicked(): void {
   $.Msg("[DOUBLE DOWN] button not pressed");
-  const dd = $("#DoubleDown") as Panel | undefined;
+  const dd = byId("DoubleDown");
   if (dd) dd.DeleteAsync(0);
 }
 /** ===== /Double Down ===== */
 
-/** ===== (Old) Example Panel logic (kept; not referenced now) ===== */
-function OnCloseButtonClicked(): void {
-  $.Msg("Example close button clicked");
-  const examplePanel = $("#ExamplePanel") as Panel | undefined;
-  if (examplePanel) examplePanel.DeleteAsync(0);
-  GameEvents.SendCustomGameEventToServer("ui_panel_closed", {});
-}
-/** ===== /Old Example ===== */
-
-/** ===== Utilities kept from template ===== */
-function toArray<T>(obj: Record<number, T>): T[] {
-  const result: T[] = [];
-  let key = 1;
-  while ((obj as any)[key]) {
-    result.push((obj as any)[key]);
-    key++;
-  }
-  return result;
-}
-
-async function sleep(time: number): Promise<void> {
-  return new Promise((resolve) => $.Schedule(time, resolve));
-}
-/** ===== /Utilities ===== */
-
-/** ===== "mmr + icon" — Always-on MMR badge =====
- * - SetMMRBadge(n): updates #MMRLabel (created in hud.xml).
- * - Subscribe to "mmr_current" for real server payloads: { mmr: number }.
- * - Cache the first received mmr as startMMR (used by temp end overlay).
- */
+/** ===== Always-on MMR badge ===== */
 let startMMR: number | undefined;
 
 function SetMMRBadge(mmr: number): void {
-  const label = $("#MMRLabel") as LabelPanel | undefined;
+  const label = byId("MMRLabel") as LabelPanel | null;
   if (label) {
     label.text = `MMR: ${mmr}`;
-    return;
+  } else {
+    $.Schedule(0.05, () => SetMMRBadge(mmr));
   }
-  $.Schedule(0.05, () => SetMMRBadge(mmr));
 }
 
 GameEvents.Subscribe("mmr_current", (data: { mmr?: number }) => {
@@ -84,71 +77,141 @@ GameEvents.Subscribe("mmr_current", (data: { mmr?: number }) => {
     SetMMRBadge(n);
   }
 });
-/** ===== /mmr + icon ===== */
+/** ===== /MMR badge ===== */
 
-/** ===== Temporary end-of-game overlay (HUD-based) =====
- * Shows #tempendmmr and writes summary into #TempStatus when final numbers arrive.
- * Safe even if the panel is commented out in XML.
- */
-function ShowTempEndOverlay(oldVal: number | undefined, newVal: number): void {
-  const overlay = $("#tempendmmr") as Panel | undefined;
-  if (!overlay) {
-    $.Schedule(0.05, () => ShowTempEndOverlay(oldVal, newVal));
-    return;
-  }
-  const effectiveOld =
-    typeof oldVal === "number" ? oldVal : typeof startMMR === "number" ? startMMR : undefined;
-
-  const delta = typeof effectiveOld === "number" ? newVal - effectiveOld : undefined;
-
-  const status = $("#TempStatus") as LabelPanel | undefined;
-  if (status) {
-    if (typeof effectiveOld === "number" && typeof delta === "number") {
-      const sign = delta > 0 ? "+" : delta < 0 ? "" : "±";
-      status.text = `Final MMR: ${effectiveOld} → ${newVal} (${sign}${delta === 0 ? 0 : delta})`;
-    } else {
-      status.text = `Final MMR: ${newVal}`;
-    }
-  }
-
-  overlay.visible = true;
-
-  // Optional: hide DoubleDown panel once overlay is shown
-  const dd = $("#DoubleDown") as Panel | undefined;
-  if (dd) dd.visible = false;
+/** ===== Integrated PostGame panel ===== */
+type PGBool = boolean | 0 | 1; // local alias to avoid global collisions
+interface PostgameKV {
+  old?: number;
+  new?: number;
+  name?: string;
+  team?: DOTATeam_t;
+  doubledown?: PGBool;
 }
 
-/** Listen for final numbers from server */
-GameEvents.Subscribe("mmr_final", (data: { old?: number; new?: number }) => {
-  const oldVal = typeof data?.old === "number" ? (data!.old as number) : startMMR;
-  const newVal = Number(data?.new);
-  if (!isNaN(newVal)) {
-    $.Msg("[MMR] HUD received mmr_final:", oldVal, "->", newVal);
-    ShowTempEndOverlay(oldVal, newVal);
-  } else {
-    $.Msg("[MMR] mmr_final payload missing 'new' value");
-  }
-});
-/** ===== /Temporary end-of-game overlay ===== */
+function toBool(v: PGBool | undefined): boolean {
+  return v === true || v === 1;
+}
 
-/** ===== Example event subscription (typed to satisfy NetworkedData<T>) ===== */
+function normalizeKV(v: CustomNetTableDeclarations["postgame"][string]): PostgameKV {
+  return {
+    old: v.old,
+    new: v.new,
+    name: v.name,
+    team: v.team,
+    doubledown: v.doubledown as PGBool | undefined,
+  };
+}
+
+function showPostGame(): void {
+  const root = byId("PostGameRoot");
+  if (root) {
+    root.visible = true;
+    (root.style as any).zIndex = "1000";
+  }
+}
+
+function renderPostGame(kv: PostgameKV, pid: PlayerID): void {
+  const name = kv.name && kv.name.length > 0 ? kv.name : Players.GetPlayerName(pid) || "Player";
+  const oldVal = typeof kv.old === "number" ? kv.old : startMMR;
+  const newVal = typeof kv.new === "number" ? kv.new : undefined;
+
+  setText("PlayerName", name);
+  setText("TeamName", teamName(kv.team));
+
+  if (typeof oldVal === "number") setText("OldMMR", String(oldVal));
+  if (typeof newVal === "number") setText("NewMMR", String(newVal));
+
+  if (typeof oldVal === "number" && typeof newVal === "number") {
+    const delta = newVal - oldVal;
+    const sign = delta > 0 ? "+" : delta < 0 ? "" : "±";
+    setText("Delta", `${sign}${delta === 0 ? 0 : delta}`);
+    colorizeDelta(delta);
+  } else {
+    setText("Delta", "");
+  }
+
+  setVisible("DoubleDownFlag", toBool(kv.doubledown));
+  setText("Status", "Final results loaded.");
+  showPostGame();
+}
+
+function tryFetchAndRenderPostGame(pid: PlayerID): boolean {
+  const raw = CustomNetTables.GetTableValue("postgame", String(pid)) as
+    | CustomNetTableDeclarations["postgame"][string]
+    | undefined;
+  if (!raw) return false;
+  renderPostGame(normalizeKV(raw), pid);
+  return true;
+}
+
+function initPostGamePoll(): void {
+  const pid = Players.GetLocalPlayer();
+  let attempt = 0;
+
+  const tick = () => {
+    if (tryFetchAndRenderPostGame(pid)) return;
+    attempt++;
+    if (attempt <= 40) {
+      if (attempt === 1) setText("Status", "Waiting for results…");
+      $.Schedule(0.25, tick); // ~10s total
+    } else {
+      setText("Status", "Waiting for results… (timeout)");
+    }
+  };
+  tick();
+
+  CustomNetTables.SubscribeNetTableListener("postgame", (_table, key, value) => {
+    if (key === String(pid) && value) {
+      renderPostGame(normalizeKV(value as CustomNetTableDeclarations["postgame"][string]), pid);
+    }
+  });
+}
+
+// Buttons in integrated PostGame panel
+function OnPlayAgain(): void {
+  Game.EmitSound("ui.button_click");
+  GameEvents.SendCustomGameEventToServer("rturbo_play_again", {});
+  setText("Status", "Requesting a new match…");
+}
+function OnExit(): void {
+  Game.EmitSound("ui.button_click");
+  GameEvents.SendCustomGameEventToServer("rturbo_exit", {});
+  setText("Status", "Exiting…");
+}
+
+// Expose handlers used by hud.xml buttons
+($.GetContextPanel() as any).OnDoubleDownClicked = OnDoubleDownClicked;
+($.GetContextPanel() as any).OnDoubleDownCloseClicked = OnDoubleDownCloseClicked;
+($.GetContextPanel() as any).OnPlayAgain = OnPlayAgain;
+($.GetContextPanel() as any).OnExit = OnExit;
+
+// Kick off PostGame polling
+initPostGamePoll();
+/** ===== /Integrated PostGame panel ===== */
+
+/** ===== Example event subscription (typed) ===== */
 type ExamplePayload = {
   myNumber: number;
   myString: string;
   myBoolean: boolean;
   myArrayOfNumbers: number[];
 };
-
+function toArray<T>(obj: Record<number, T>): T[] {
+  const result: T[] = [];
+  let key = 1;
+  while ((obj as any)[key]) {
+    result.push((obj as any)[key]);
+    key++;
+  }
+  return result;
+}
 GameEvents.Subscribe("example_event", (data: NetworkedData<ExamplePayload>) => {
   const myNumber = data.myNumber;
   const myString = data.myString;
-  const myBoolean = data.myBoolean; // After sending to client this is now type 0 | 1!
-  const myArrayObject = data.myArrayOfNumbers; // After sending this is now an object!
-  const myArray = toArray(myArrayObject); // Turn it back into an array ourselves.
+  const myBoolean = data.myBoolean; // becomes 0|1 when networked
+  const myArrayObject = data.myArrayOfNumbers; // becomes object when networked
+  const myArray = toArray(myArrayObject);
   $.Msg("Received example event", myNumber, myString, myBoolean, myArrayObject, myArray);
 });
 /** ===== /Example subscription ===== */
-
-// Expose handlers used by hud.xml buttons
-($.GetContextPanel() as any).OnDoubleDownClicked = OnDoubleDownClicked;
-($.GetContextPanel() as any).OnDoubleDownCloseClicked = OnDoubleDownCloseClicked;
