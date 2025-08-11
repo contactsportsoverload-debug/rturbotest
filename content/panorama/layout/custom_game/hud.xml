@@ -1,28 +1,21 @@
 <!--
   hud.xml 
-  HUD layout file (integrated post-game panel).
-  - Always-on "mmr + icon" badge
-  - Left-edge Double Down panel
-  - Integrated PostGame panel (hidden by default; shown via hud.ts)
+  Minimal HUD: Double Down panel + MMR badge.
 -->
 <root>
     <scripts>
-        <!-- Compiled scripts loaded for this HUD -->
+        <!-- Compiled script for this HUD -->
         <include src="file://{resources}/scripts/custom_game/hud.js" />
     </scripts>
 
     <styles>
-        <!-- Valve base styles -->
         <include src="s2r://panorama/styles/dotastyles.css" />
-        <!-- Our custom styles for Double Down + MMR badge -->
         <include src="file://{resources}/styles/custom_game/hud.css" />
     </styles>
 
     <snippets></snippets>
 
-    <!-- Root HUD container; doesn't intercept mouse -->
     <Panel hittest="false" class="MainHud">
-
         <!-- ===== Double Down panel (left edge) ===== -->
         <Panel id="DoubleDown">
             <Button id="DDClose" onactivate="OnDoubleDownCloseClicked()">
@@ -42,82 +35,5 @@
             <Image id="MMRIcon" src="file://{resources}/images/custom_game/immortal.png" />
         </Panel>
         <!-- ===== /MMR badge ===== -->
-
-        <!-- ===== Integrated Post-Game panel (hidden until shown by hud.ts) ===== -->
-        <Panel id="PostGameRoot"
-               hittest="true"
-               visible="false"
-               style="width:100%; height:100%; flow-children:none; background-color:#000a;">
-          <Panel id="Card"
-                 style="width:720px; flow-children:down; horizontal-align:center; vertical-align:center;
-                        padding:24px; border-radius:16px; background-color:#1b1f24ee;">
-            <Panel id="Header" style="flow-children:right; horizontal-align:center; margin-bottom:8px;">
-              <Image id="MMRIconPG"
-                     src="file://{resources}/images/custom_game/immortal.png"
-                     scaling="stretch-to-fit-preserve-aspect"
-                     style="width:28px; height:28px; wash-color:#fff; margin-right:8px;" />
-              <Label id="Title" text="Match Summary"
-                     style="font-size:28px; color:#fff; font-weight:bold;" />
-            </Panel>
-
-            <Panel id="PlayerRow" style="flow-children:right; horizontal-align:center; margin:4px 0 12px 0;">
-              <Label id="PlayerName"
-                     text="Player"
-                     style="font-size:20px; color:#ccc; margin-right:8px;" />
-              <Label id="TeamName"
-                     text=""
-                     style="font-size:16px; color:#8aa; opacity:0.8;" />
-            </Panel>
-
-            <Panel id="MMRRow" style="flow-children:right; horizontal-align:center; margin-bottom:12px;">
-              <Label id="OldMMR" text="—" style="font-size:40px; color:#aaa; font-weight:semi-bold;" />
-              <Label id="Arrow"  text="  →  " style="font-size:36px; color:#888; margin:0 6px;" />
-              <Label id="NewMMR" text="—" style="font-size:48px; color:#fff; font-weight:bold;" />
-              <Label id="Delta"  text=""
-                     style="font-size:24px; margin-left:10px; color:#7fe07f;" />
-            </Panel>
-
-            <Panel id="FlagsRow" style="flow-children:right; horizontal-align:center; margin-bottom:16px;">
-              <Label id="DoubleDownFlag"
-                     text="Doubled Down"
-                     visible="false"
-                     style="font-size:16px; color:#ffd479; background-color:#31280f; padding:4px 8px; border-radius:8px;" />
-            </Panel>
-
-            <Panel id="Actions" style="flow-children:right; horizontal-align:center;">
-              <Button id="PlayAgainButton" onactivate="OnPlayAgain()"
-                      style="margin-right:8px; padding:8px 16px; border-radius:12px;">
-                <Label text="Play Again" style="font-size:18px;" />
-              </Button>
-              <Button id="ExitButton" onactivate="OnExit()"
-                      style="padding:8px 16px; border-radius:12px;">
-                <Label text="Exit" style="font-size:18px;" />
-              </Button>
-            </Panel>
-
-            <Label id="Status"
-                   text=""
-                   style="horizontal-align:center; margin-top:12px; font-size:14px; color:#9aa3ab;" />
-            <Label id="SmallPrint"
-                   text="Values will update automatically once results are ready."
-                   style="horizontal-align:center; margin-top:6px; font-size:12px; color:#7a8490; opacity:0.8;" />
-          </Panel>
-        </Panel>
-        <!-- ===== /Integrated Post-Game panel ===== -->
-
-        <!-- ===== Temporary end-of-game overlay (HUD-based) — COMMENTED OUT
-        <Panel id="tempendmmr" hittest="true" visible="false"
-               style="width:100%; height:100%; flow-children:none; background-color:#000a;">
-          <Panel style="horizontal-align:center; vertical-align:center; padding:24px;
-                        background-color:#1b1f24ee; border-radius:16px; flow-children:down;">
-            <Label text="Temporary End Screen (HUD)"
-                   style="font-size:26px; color:#fff; font-weight:bold; margin-bottom:8px;" />
-            <Label id="TempStatus"
-                   text="Awaiting final MMR…"
-                   style="font-size:16px; color:#9aa3ab; horizontal-align:center;" />
-          </Panel>
-        </Panel>
-        ===== /Temporary end-of-game overlay ===== -->
-
     </Panel>
 </root>
